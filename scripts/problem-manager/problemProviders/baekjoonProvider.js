@@ -3,6 +3,7 @@ const baekjoonProvider = {
 
   baseFolder: "Baekjoon",
 
+  siteUrl: "https://www.acmicpc.net/",
   problemUrl: (problemId) => `https://www.acmicpc.net/problem/${problemId}`,
 
   async fetchInfo(problemId) {

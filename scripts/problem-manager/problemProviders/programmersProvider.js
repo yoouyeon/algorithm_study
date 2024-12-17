@@ -3,6 +3,7 @@ const programmersProvider = {
 
   baseFolder: "Programmers",
 
+  siteUrl: "https://school.programmers.co.kr/",
   problemUrl: (problemId) =>
     `https://school.programmers.co.kr/learn/courses/30/lessons/${problemId}`,
 
