@@ -1,15 +1,28 @@
-# majwaeteul?
+# 👍 알고리즘 공부 기록
 
-맞왜틀? 알고리즘 공부 기록
+## 📚 문제
 
-## Baekjoon Online Judge (Solved.ac)
+- [백준](./Baekjoon) - https://www.acmicpc.net/
+- [프로그래머스](./Programmers) - https://programmers.co.kr/
 
-https://www.acmicpc.net/
+## 📂 폴더 구조
 
-[![Solved.ac
-프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=yoou)](https://solved.ac/yoou)
-[![Solved.ac grass](http://mazandi.herokuapp.com/api?handle=yoou)](https://solved.ac/yoou)
-
-## Programmers
-
-https://school.programmers.co.kr/learn/challenges
+```
+📦algorithm_study
+ ┣ 📂.vscode
+ ┃ ┗ 📜majwaeteul.code-snippets - 백준 자바스크립트 입출력 스니펫
+ ┣ 📂Baekjoon - 난이도별 백준 문제 풀이 코드 모음
+ ┃ ┣ 📂Bronze1
+ ┃ ┣ 📂Bronze2
+ ┃ ┣ 📂...
+ ┃ ┗ 📜README.md
+ ┣ 📂Programmers - 난이도별 프로그래머스 문제 풀이 코드 모음
+ ┃ ┣ 📂Level1
+ ┃ ┣ 📂Level2
+ ┃ ┣ 📂...
+ ┃ ┗ 📜README.md
+ ┣ 📂scripts - 스크립트 모음
+ ┃ ┗ 📂problem-manager - 풀이 코드 파일 생성 스크립트
+ ┣ 📜README.md
+ ┗ 📜package.json
+```
