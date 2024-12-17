@@ -28,7 +28,7 @@ const programmersProvider = {
     const [_, problemTitle] = match;
     const problemId = url.split("/").at(-1);
 
-    return { problemId, problemTitle };
+    return { problemId, problemTitle, problemLevel: "Unknown" };
   },
 };
 

@@ -1,6 +1,5 @@
 import fs from "fs";
 import path from "path";
-import getBaekjoonLevel from "./getBaekjoonLevel.js";
 import problemProviders from "./problemProviders/index.js";
 
 async function createProblemFile({

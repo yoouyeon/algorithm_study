@@ -10,7 +10,8 @@ async function fetchProblemInfo(url) {
 
   try {
     console.log(`🔍 ${problemProvider.name} 문제 정보를 가져오는 중...`);
-    const { problemId, problemTitle } = await problemProvider.extractInfo(url);
+    const { problemId, problemTitle, problemLevel } =
+      await problemProvider.extractInfo(url);
     console.log(
       `✅ 문제 정보를 성공적으로 가져왔습니다. (${problemId}번: ${problemTitle})`
     );
@@ -19,7 +20,7 @@ async function fetchProblemInfo(url) {
       siteKey,
       problemId,
       problemTitle,
-      problemLevel: "Unknown",
+      problemLevel,
     };
   } catch (error) {
     throw new Error(
