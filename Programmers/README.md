@@ -40,3 +40,4 @@
 | 121683 | 외톨이 알파벳.cpp | [121683_외톨이_알파벳.cpp](Unrated/121683_외톨이_알파벳.cpp) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/121683) |
 | 121683 | 외톨이 알파벳 | [121683_외톨이_알파벳.js](Unrated/121683_외톨이_알파벳.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/121683) |
 | 150370 | 개인정보 수집 유효기간 | [150370_개인정보_수집_유효기간.js](Level1/150370_개인정보_수집_유효기간.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/150370) |
+| 258711 | 도넛과 막대 그래프 | [258711_도넛과_막대_그래프.js](258711_도넛과_막대_그래프.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/258711) |
