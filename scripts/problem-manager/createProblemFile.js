@@ -21,12 +21,21 @@ async function createProblemFile({
 
   const problemFilePath = path.join(
     problemFolder,
-    `${problemId}_${problemTitle}.js`
+    `${problemId}_${problemTitle.replace(/\s+/g, "_")}.js`
   );
+
+  if (fs.existsSync(problemFilePath)) {
+    throw new Error(
+      `❌ 이미 존재하는 파일입니다. : ${path.relative(
+        process.cwd(),
+        problemFilePath
+      )}`
+    );
+  }
 
   const content = `/* 
 ⭐️ 문제 정보 ⭐️
-문제 : ${problemId} - ${problemTitle.replace(/_/g, " ")}
+문제 : ${problemId} - ${problemTitle}
 레벨 : ${problemLevel}
 링크 : ${problemUrl}
 */
