@@ -37,7 +37,7 @@ async function createProblemFile({
 ⭐️ 문제 정보 ⭐️
 문제 : ${problemId} - ${problemTitle}
 레벨 : ${problemLevel}
-링크 : ${problemUrl}
+링크 : ${problemUrl(problemId)}
 */
 `;
 

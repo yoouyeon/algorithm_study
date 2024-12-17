@@ -13,7 +13,7 @@ async function fetchProblemInfo(url) {
     const { problemId, problemTitle, problemLevel } =
       await problemProvider.extractInfo(url);
     console.log(
-      `✅ 문제 정보를 성공적으로 가져왔습니다. (${problemId}번: ${problemTitle})`
+      `✅ 문제 정보를 성공적으로 가져왔습니다. (💡 ${problemProvider.name} ${problemId} - ${problemTitle})`
     );
 
     return {
