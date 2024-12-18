@@ -21,7 +21,7 @@ async function createProblemFile({
 
   const problemFilePath = path.join(
     problemFolder,
-    `${problemId}_${problemTitle.replace(/\s+/g, "_")}.js`
+    `${problemId}_${problemTitle.replace(/\//g, "").replace(/\s+/g, "_")}.js`
   );
 
   if (fs.existsSync(problemFilePath)) {
