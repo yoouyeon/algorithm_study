@@ -1,5 +1,6 @@
 import createProblemFile from "./createProblemFile.js";
 import fetchProblemInfo from "./fetchProblemInfo.js";
+import generateReadme from "./generateReadme.js";
 
 async function main() {
   const problemUrl = process.argv[2];
@@ -11,6 +12,7 @@ async function main() {
   try {
     const problemInfo = await fetchProblemInfo(problemUrl);
     await createProblemFile(problemInfo);
+    generateReadme(problemInfo.siteKey);
   } catch (error) {
     console.error(error.message);
     process.exit(1);

@@ -2,8 +2,6 @@
   "type": "module",
   "scripts": {
     "create": "node scripts/problem-manager/index.js",
-    "readme": "node scripts/generate-readme/index.js",
-    "create baekjoon": "node scripts/problem-manager/index.js $@ && node scripts/generate-readme/index.js baekjoon",
-    "create programmers": "node scripts/problem-manager/index.js $@ && node scripts/generate-readme/index.js programmers"
+    "readme": "node scripts/generate-readme/index.js"
   }
 }
