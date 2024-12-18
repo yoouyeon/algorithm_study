@@ -7,6 +7,7 @@
 | 문제 번호 | 문제 이름 | 풀이 코드 | 문제 링크 |
 | --------- | --------- | --------- | --------- |
 | 1845 | 폰켓몬 | [1845_폰켓몬.js](Level1/1845_폰켓몬.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/1845) |
+| 12909 | 올바른 괄호 | [12909_올바른_괄호.js](Level2/12909_올바른_괄호.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12909) |
 | 12939 | 최댓값과 최솟값 | [12939_최댓값과_최솟값.js](Level2/12939_최댓값과_최솟값.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12939) |
 | 12987 | 숫자 게임 | [12987_숫자_게임.js](Level3/12987_숫자_게임.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12987) |
 | 17677 | [1차] 뉴스 클러스터링 | [17677_[1차]_뉴스_클러스터링.js](Level2/17677_[1차]_뉴스_클러스터링.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17677) |
