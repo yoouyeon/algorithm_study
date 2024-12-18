@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import problemProviders from "./problemProviders/index.js";
+import problemProviders from "./problemProvider.js";
 
 const fileExtensions = [".js", ".cpp"];
 
@@ -79,4 +79,18 @@ function scanFiles(dir) {
   return files;
 }
 
-export default generateReadme;
+function main() {
+  const siteKey = process.argv[2];
+  if (!problemProviders[siteKey]) {
+    console.error(
+      `❌ 사이트키가 올바르지 않습니다. (${Object.keys(problemProviders).join(
+        ", "
+      )})`
+    );
+    process.exit(1);
+  }
+
+  generateReadme(siteKey);
+}
+
+main();
