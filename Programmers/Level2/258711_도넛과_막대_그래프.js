@@ -1,7 +1,7 @@
 /* 
 ⭐️ 문제 정보 ⭐️
 문제 : 258711 - 도넛과 막대 그래프
-레벨 : Unknown
+레벨 : Level 2
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/258711
 */
 
