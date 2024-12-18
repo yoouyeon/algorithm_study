@@ -30,17 +30,17 @@ npm run create https://www.acmicpc.net/problem/1000
 #### 실행법
 
 ```bash
-npm run generate-readme <site-key>
+npm run readme <site-key>
 ```
 
 #### 예시
 
 ```bash
-npm run generate-readme baekjoon
+npm run readme baekjoon
 ```
 
 ```bash
-npm run generate-readme programmers
+npm run readme programmers
 ```
 
 #### 동작
