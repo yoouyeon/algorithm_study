@@ -10,6 +10,7 @@
 | 12909 | 올바른 괄호 | [12909_올바른_괄호.js](Level2/12909_올바른_괄호.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12909) |
 | 12924 | 숫자의 표현 | [12924_숫자의_표현.js](Level2/12924_숫자의_표현.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12924) |
 | 12939 | 최댓값과 최솟값 | [12939_최댓값과_최솟값.js](Level2/12939_최댓값과_최솟값.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12939) |
+| 12941 | 최솟값 만들기 | [12941_최솟값_만들기.js](12941_최솟값_만들기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12941) |
 | 12987 | 숫자 게임 | [12987_숫자_게임.js](Level3/12987_숫자_게임.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12987) |
 | 17677 | [1차] 뉴스 클러스터링 | [17677_[1차]_뉴스_클러스터링.js](Level2/17677_[1차]_뉴스_클러스터링.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17677) |
 | 17678 | [1차] 셔틀버스 | [17678_[1차]_셔틀버스.js](Level3/17678_[1차]_셔틀버스.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17678) |
