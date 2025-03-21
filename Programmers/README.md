@@ -10,13 +10,14 @@
 | 12909 | 올바른 괄호 | [12909_올바른_괄호.js](Level2/12909_올바른_괄호.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12909) |
 | 12924 | 숫자의 표현 | [12924_숫자의_표현.js](Level2/12924_숫자의_표현.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12924) |
 | 12939 | 최댓값과 최솟값 | [12939_최댓값과_최솟값.js](Level2/12939_최댓값과_최솟값.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12939) |
-| 12941 | 최솟값 만들기 | [12941_최솟값_만들기.js](12941_최솟값_만들기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12941) |
+| 12941 | 최솟값 만들기 | [12941_최솟값_만들기.js](Level2/12941_최솟값_만들기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12941) |
 | 12987 | 숫자 게임 | [12987_숫자_게임.js](Level3/12987_숫자_게임.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12987) |
 | 17677 | [1차] 뉴스 클러스터링 | [17677_[1차]_뉴스_클러스터링.js](Level2/17677_[1차]_뉴스_클러스터링.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17677) |
 | 17678 | [1차] 셔틀버스 | [17678_[1차]_셔틀버스.js](Level3/17678_[1차]_셔틀버스.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17678) |
 | 17680 | [1차] 캐시 | [17680_[1차]_캐시.js](Level2/17680_[1차]_캐시.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17680) |
 | 17686 | [3차] 파일명 정렬 | [17686_[3차]_파일명_정렬.js](Level2/17686_[3차]_파일명_정렬.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17686) |
 | 17687 | n진수 게임 | [17687_n진수_게임.js](Level2/17687_n진수_게임.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17687) |
+| 42584 | 주식가격 | [42584_주식가격.js](Level2/42584_주식가격.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42584) |
 | 42888 | 오픈채팅방 | [42888_오픈채팅방.js](Level2/42888_오픈채팅방.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42888) |
 | 42889 | 실패율 | [42889_실패율.js](Level1/42889_실패율.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42889) |
 | 49993 | 스킬트리 | [49993_스킬트리.js](Level2/49993_스킬트리.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/49993) |
