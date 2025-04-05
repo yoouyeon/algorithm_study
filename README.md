@@ -1,9 +1,12 @@
 # 👍 알고리즘 공부 기록
 
-## 📚 문제
+[![Leetcode Stats](https://leetcard.jacoblin.cool/yoouyeon?theme=light,dark&ext=heatmap)](https://leetcode.com/yoouyeon)
+
+## 📚 문제 플랫폼
 
 - [백준](./Baekjoon) - https://www.acmicpc.net/
 - [프로그래머스](./Programmers) - https://programmers.co.kr/
+- [LeetCode](https://leetcode.com/)
 
 ## 📂 폴더 구조
 
