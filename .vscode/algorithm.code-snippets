@@ -22,5 +22,22 @@
       ""
     ],
     "description": "Receive Input from Standard Input"
+  },
+  "study-comment-format": {
+    "scope": "javascript, typescript",
+    "prefix": "study-comment-format",
+    "body": [
+      "// [${1}] ${2}",
+      "",
+      "/**",
+      " * [Idea]",
+      " *",
+      " * [Time Complexity]",
+      " *",
+      " * [Space Complexity]",
+      " *",
+      " */"
+    ],
+    "description": "study comment format"
   }
 }
