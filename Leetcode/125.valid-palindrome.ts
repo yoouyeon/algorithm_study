@@ -17,7 +17,7 @@
  *
  */
 function isPalindrome1(s: string): boolean {
-  // releace: 소문자가 아니고 숫자가 아닌 것을 모두 ''으로 치환(제거)한다.
+  // replace: 소문자가 아니고 숫자가 아닌 것을 모두 ''으로 치환(제거)한다.
   const cleaned = s.toLowerCase().replace(/[^a-z0-9]/g, "");
   // string에는 reverse 내장함수가 없으므로, string -> array -> reverse -> string (join) 과정으로 뒤집는다.
   const reversed = cleaned.split("").reverse().join("");
@@ -35,7 +35,7 @@ function isPalindrome1(s: string): boolean {
  * 3. 알파벳이 같다면 다음 문자를 비교하기 위해 포인터를 옮긴다.
  *
  * [Time Complexity]
- * 동일하게 O(n)이지만 Solution 1에 비해 s를 1번만 순회한다
+ * Solution 1과 동일하게 O(n)이지만 s를 1번만 순회한다
  *
  * [Space Complexity]
  * left, right 포인터를 저장할 상수 크기의 메모리가 필요하므로 공간 복잡도는 O(1)이다.
