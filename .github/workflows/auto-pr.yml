@@ -1,0 +1,67 @@
+name: Create PR from upload to main
+
+on:
+  push:
+    branches: [upload] # upload → main PR 생성/갱신
+    paths:
+      - "Baekjoon/**"
+      - "Leetcode/**"
+      - "Programmers/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: pr-from-upload
+  cancel-in-progress: false
+
+env:
+  BASE_BRANCH: main
+  HEAD_BRANCH: upload
+  ASSISTANT_GITHUB_TOKEN: ${{ secrets.ASSISTANT_GITHUB_TOKEN }}
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Seoul
+    steps:
+      - name: Checkout (shallow)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Get today's date
+        run: echo "TODAY=$(date +'%Y-%m-%d')" >> "$GITHUB_ENV"
+
+      - name: Check for existing PR
+        id: find-pr
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const headRef = `${owner}:${process.env.HEAD_BRANCH}`;
+            const baseRef = process.env.BASE_BRANCH;
+
+            const prs = await github.rest.pulls.list({
+              owner,
+              repo,
+              state: 'open',
+              head: headRef,
+              base: baseRef,
+              per_page: 1,
+            });
+
+            core.setOutput('exists', (prs.data.length > 0).toString());
+
+      - name: Create PR
+        if: steps.find-pr.outputs.exists != 'true'
+        env:
+          GH_TOKEN: ${{ env.ASSISTANT_GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --head ${{ env.HEAD_BRANCH }} \
+            --base ${{ env.BASE_BRANCH }} \
+            --title "${TODAY} 문제 풀었어요" \
+            --body "오늘도 멋져요 👍✨"
