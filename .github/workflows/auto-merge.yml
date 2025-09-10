@@ -1,0 +1,32 @@
+name: ready-to-merge label check
+
+on:
+  pull_request_target:
+    types: [labeled]
+
+permissions:
+  checks: write
+
+jobs:
+  label-check:
+    if: github.event.label.name == 'ready-to-merge'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mark as completed
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const sha = context.payload.pull_request.head.sha;
+
+            await github.rest.checks.create({
+              owner, 
+              repo, 
+              name: "ready-to-merge",
+              head_sha: sha,
+              status: "completed"
+              output: {
+                title: '머지 준비 완료',
+                summary: '머지 준비 라벨을 확인했습니다.',
+              },
+            })
