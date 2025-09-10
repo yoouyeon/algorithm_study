@@ -2,7 +2,7 @@ name: PR Agent (Claude)
 
 on:
   pull_request:
-    branches: [upload]
+    branches: [main]
     types: [opened, reopened, ready_for_review]
   issue_comment:
 
