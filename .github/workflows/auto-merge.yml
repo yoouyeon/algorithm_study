@@ -24,5 +24,6 @@ jobs:
               repo, 
               name: "ready-to-merge",
               head_sha: sha,
+              conclusion: "success",
               status: "completed"
             })
