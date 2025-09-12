@@ -44,12 +44,3 @@ Always provide concrete refactored code snippets, not abstract advice.
 """
 # enable to apply suggestion (maybe premium feature)
 apply_suggestions_checkbox=false
-
-[custom_labels]
-enable_custom_labels=true
-[custom_labels."leetcode"]
-description = "Use when the PR contains changes in the Leetcode directory"
-[custom_labels."programmers"]
-description = "Use when the PR contains changes in the Programmers directory"
-
-[github]
