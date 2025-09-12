@@ -27,3 +27,12 @@ jobs:
               conclusion: "success",
               status: "completed"
             })
+
+      - name: Merge PR
+        env:
+          GH_TOKEN: ${{ secrets.ASSISTANT_GITHUB_TOKEN }}
+        # check 조건이 더 늘어날 상황을 대비해서 auto 옵션을 추가함
+        run: |
+          gh pr merge ${{ github.event.pull_request.number }} \
+            --auto \
+            --rebase
