@@ -45,6 +45,11 @@ jobs:
               status: "completed"
             })
 
+      - name: Checkout (shallow)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
       - name: Merge PR
         env:
           GH_TOKEN: ${{ secrets.ASSISTANT_GITHUB_TOKEN }}
