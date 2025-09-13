@@ -27,7 +27,7 @@ jobs:
 
       - name: Sync upload to main
         run: |
-          git fetch origin main upload
+          git fetch origin main --prune
           # main을 기준으로 로컬 upload 브랜치를 재생성 (있으면 덮어씌우기)
           git switch -C upload origin/main
           git push --force-with-lease origin upload
