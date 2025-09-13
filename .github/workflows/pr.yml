@@ -54,6 +54,12 @@ jobs:
 
             core.setOutput('exists', (prs.data.length > 0).toString());
 
+      - name: Checkout (shallow)
+        if: steps.find-pr.outputs.exists != 'true'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
       - name: Today(KST)
         if: steps.find-pr.outputs.exists != 'true'
         run: echo "TODAY=$(date +'%Y-%m-%d')" >> "$GITHUB_ENV"
