@@ -28,7 +28,7 @@ enable_review_labels_effort=false
 enable_intro_text=false
 
 [pr_description] # /describe
-publish_labels=true
+publish_labels=false
 publish_description_as_comment=false
 publish_description_as_comment_persistent=false
 enable_pr_diagram=false
