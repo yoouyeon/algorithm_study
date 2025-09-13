@@ -9,7 +9,7 @@ on:
       - "Leetcode/**"
       - "Programmers/**"
   pull_request:
-    types: [opened, reopened, ready_for_review, synchronize, labeled]
+    types: [opened, reopened, ready_for_review, synchronize]
     branches: [main]
   issue_comment:
 
@@ -105,43 +105,3 @@ jobs:
         with:
           repo-token: ${{ secrets.ASSISTANT_GITHUB_TOKEN }}
           sync-labels: true
-
-  auto-merge-check:
-    name: Ready check & Merge
-    if: >
-      ${{
-        github.event_name == 'pull_request' &&
-        github.event.action == 'labeled' &&
-        github.event.label.name == 'ready-to-merge' &&
-        github.event.pull_request.draft == false
-      }}
-    runs-on: ubuntu-latest
-    permissions:
-      checks: write
-      pull-requests: write
-      contents: write
-    steps:
-      - name: Ready Check
-        uses: actions/github-script@v8
-        with:
-          script: |
-            const { owner, repo } = context.repo;
-            const sha = context.payload.pull_request.head.sha;
-
-            await github.rest.checks.create({
-              owner, 
-              repo, 
-              name: "ready-to-merge",
-              head_sha: sha,
-              conclusion: "success",
-              status: "completed"
-            })
-
-      - name: Merge PR
-        env:
-          GH_TOKEN: ${{ secrets.ASSISTANT_GITHUB_TOKEN }}
-        # check 조건이 더 늘어날 상황을 대비해서 auto 옵션을 추가함
-        run: |
-          gh pr merge ${{ github.event.pull_request.number }} \
-          --auto \
-          --rebase

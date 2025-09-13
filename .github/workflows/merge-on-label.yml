@@ -1,0 +1,55 @@
+name: Merge on Ready label
+
+on:
+  pull_request:
+    types: [labeled]
+
+concurrency:
+  group: merge-on-label=${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
+permissions:
+  checks: write
+  pull-requests: write
+  contents: write
+
+jobs:
+  auto-merge-check:
+    name: Ready check & Merge
+    if: >
+      ${{
+        github.event_name == 'pull_request' &&
+        github.event.action == 'labeled' &&
+        github.event.label.name == 'ready-to-merge' &&
+        github.event.pull_request.draft == false
+      }}
+    runs-on: ubuntu-latest
+    permissions:
+      checks: write
+      pull-requests: write
+      contents: write
+    steps:
+      - name: Ready Check
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const sha = context.payload.pull_request.head.sha;
+
+            await github.rest.checks.create({
+              owner, 
+              repo, 
+              name: "ready-to-merge",
+              head_sha: sha,
+              conclusion: "success",
+              status: "completed"
+            })
+
+      - name: Merge PR
+        env:
+          GH_TOKEN: ${{ secrets.ASSISTANT_GITHUB_TOKEN }}
+        # check 조건이 더 늘어날 상황을 대비해서 auto 옵션을 추가함
+        run: |
+          gh pr merge ${{ github.event.pull_request.number }} \
+          --auto \
+          --rebase
