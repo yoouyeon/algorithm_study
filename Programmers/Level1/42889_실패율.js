@@ -30,8 +30,8 @@ function solution2(N, stages) {
 
   // fails 정렬하기
   const answer = Object.entries(fails)
-    .sort(([_a, a], [_b, b]) => b - a)
-    .map(([idx, value]) => Number(idx));
+    .sort(([_, failRate1], [__, failRate2]) => failRate2 - failRate1)
+    .map(([stageNum]) => Number(stageNum));
 
   return answer;
 }
