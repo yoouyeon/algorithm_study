@@ -13,27 +13,17 @@ function isValidPos(pos) {
 // 명령어에 따라 업데이트 된 위치를 반환하는 함수
 function move(dir, pos) {
   const { x, y } = pos;
-  let npos;
-  switch (dir) {
-    case "U":
-      nPos = { x, y: y - 1 };
-      if (isValidPos(nPos)) return nPos;
-      return null;
-    case "D":
-      nPos = { x, y: y + 1 };
-      if (isValidPos(nPos)) return nPos;
-      return null;
-    case "R":
-      nPos = { x: x + 1, y };
-      if (isValidPos(nPos)) return nPos;
-      return null;
-    case "L":
-      nPos = { x: x - 1, y };
-      if (isValidPos(nPos)) return nPos;
-      return null;
-    default:
-      return null;
-  }
+
+  const result = {
+    U: { x, y: y - 1 },
+    D: { x, y: y + 1 },
+    R: { x: x + 1, y },
+    L: { x: x - 1, y },
+  };
+
+  const newPos = result[dir];
+  if (isValidPos(newPos)) return newPos;
+  return null;
 }
 
 function solution(dirs) {
