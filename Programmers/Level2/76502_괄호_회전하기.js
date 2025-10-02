@@ -9,13 +9,14 @@
 function solution2(s) {
   let answer = 0;
   const n = s.length;
+  const rotated = s + s; // 문자열을 두 번 이어붙이기
 
   for (let start = 0; start < n; start++) {
     const stack = [];
     let isValid = true;
     for (let offset = 0; offset < n; offset++) {
       // 회전하기
-      const c = s[(start + offset) % n];
+      const c = rotated[start + offset];
 
       // 여는 괄호인 경우 push
       if (c === "(" || c === "[" || c === "{") {
