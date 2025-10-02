@@ -12,6 +12,7 @@
 | 12939 | 최댓값과 최솟값 | [12939_최댓값과_최솟값.js](Level2/12939_최댓값과_최솟값.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12939) |
 | 12941 | 최솟값 만들기 | [12941_최솟값_만들기.js](Level2/12941_최솟값_만들기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12941) |
 | 12949 | 행렬의 곱셈 | [12949_행렬의_곱셈.js](Level2/12949_행렬의_곱셈.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12949) |
+| 12973 | 짝지어 제거하기 | [12973_짝지어_제거하기.js](Level2/12973_짝지어_제거하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12973) |
 | 12987 | 숫자 게임 | [12987_숫자_게임.js](Level3/12987_숫자_게임.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12987) |
 | 17677 | [1차] 뉴스 클러스터링 | [17677_[1차]_뉴스_클러스터링.js](Level2/17677_[1차]_뉴스_클러스터링.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17677) |
 | 17678 | [1차] 셔틀버스 | [17678_[1차]_셔틀버스.js](Level3/17678_[1차]_셔틀버스.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17678) |
