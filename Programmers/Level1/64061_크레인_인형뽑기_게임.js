@@ -1,4 +1,60 @@
+/* 
+⭐️ 문제 정보 ⭐️
+문제 : 64061 - 크레인 인형뽑기 게임
+레벨 : Level 1
+링크 : https://school.programmers.co.kr/learn/courses/30/lessons/64061
+*/
+
+// ANCHOR 2025.10.03 풀이
 function solution(board, moves) {
+  const boardSize = board.length;
+  const topIdxs = new Array(board.length);
+  const basket = [];
+  let answer = 0;
+
+  // 게임 판 각 열의 top 인덱스를 저장하기
+  for (let col = 0; col < boardSize; col++) {
+    for (let row = 0; row < boardSize; row++) {
+      if (board[row][col] === 0) continue;
+      topIdxs[col] = row;
+      break;
+    }
+    if (topIdxs[col] === undefined) topIdxs[col] = boardSize;
+  }
+
+  // 크레인 움직이기
+  for (const move of moves) {
+    const moveIdx = move - 1;
+    const topIdx = topIdxs[moveIdx];
+
+    if (topIdx === boardSize) {
+      // 인형이 없는 경우. 아무일도 일어나지 않는다.
+      continue;
+    }
+    const top = board[topIdx][moveIdx];
+    if (basket.length === 0) {
+      basket.push(top);
+    } else {
+      const basketTop = basket[basket.length - 1];
+      if (top === basketTop) {
+        // 같으면 터진다
+        basket.pop();
+        answer += 2;
+      } else {
+        // 다르면 그냥 넣는다.
+        basket.push(top);
+      }
+    }
+
+    // topIdx 업데이트해주기
+    topIdxs[moveIdx] = topIdx + 1;
+  }
+
+  return answer;
+}
+
+// ANCHOR 2024.02.26 풀이
+function solution1(board, moves) {
   let count = 0;
   const basket = [];
   // 크레인을 움직일 보드 생성
