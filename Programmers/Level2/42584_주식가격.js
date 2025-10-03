@@ -5,6 +5,39 @@
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/42584
 */
 
+// ANCHOR 2025.10.03 풀이
+function solution2(prices) {
+  const answer = new Array(prices.length);
+  const stack = [];
+
+  for (let idx = 0; idx < prices.length; idx++) {
+    const price = prices[idx];
+
+    // stack이 비어있거나 top의 price가 현재 가격보다 높지 않다면 push
+    if (stack.length === 0 || stack[stack.length - 1].price <= price) {
+      stack.push({ idx, price });
+      continue;
+    }
+
+    let top = stack[stack.length - 1];
+    while (top && top.price > price) {
+      stack.pop();
+      answer[top.idx] = idx - top.idx;
+      top = stack[stack.length - 1];
+    }
+    stack.push({ idx, price });
+  }
+
+  while (stack.length !== 0) {
+    const top = stack.pop();
+    answer[top.idx] = prices.length - top.idx - 1;
+  }
+
+  return answer;
+}
+
+// ANCHOR 2025.03.21 풀이
+
 // 브루트포스 - O(N^2)
 function solution_brute_force(prices) {
   const answer = Array(prices.length).fill(0);
