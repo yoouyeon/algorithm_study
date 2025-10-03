@@ -8,6 +8,7 @@
 | --------- | --------- | --------- | --------- |
 | 1845 | 폰켓몬 | [1845_폰켓몬.js](Level1/1845_폰켓몬.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/1845) |
 | 12909 | 올바른 괄호 | [12909_올바른_괄호.js](Level2/12909_올바른_괄호.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12909) |
+| 12910 | 나누어 떨어지는 숫자 배열 | [12910_나누어_떨어지는_숫자_배열.js](Level1/12910_나누어_떨어지는_숫자_배열.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12910) |
 | 12924 | 숫자의 표현 | [12924_숫자의_표현.js](Level2/12924_숫자의_표현.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12924) |
 | 12939 | 최댓값과 최솟값 | [12939_최댓값과_최솟값.js](Level2/12939_최댓값과_최솟값.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12939) |
 | 12941 | 최솟값 만들기 | [12941_최솟값_만들기.js](Level2/12941_최솟값_만들기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12941) |
