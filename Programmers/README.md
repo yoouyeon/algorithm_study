@@ -43,6 +43,7 @@
 | 76502 | 괄호 회전하기 | [76502_괄호_회전하기.js](Level2/76502_괄호_회전하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/76502) |
 | 77484 | 로또의 최고 순위와 최저 순위 | [77484_로또의_최고_순위와_최저_순위.js](Level1/77484_로또의_최고_순위와_최저_순위.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/77484) |
 | 77885 | 2개 이하로 다른 비트 | [77885_2개_이하로_다른_비트.js](Level2/77885_2개_이하로_다른_비트.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/77885) |
+| 81303 | 표 편집 | [81303_표_편집.js](Level3/81303_표_편집.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/81303) |
 | 87390 | n^2 배열 자르기 | [87390_n^2_배열_자르기.js](Level2/87390_n^2_배열_자르기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/87390) |
 | 92334 | 신고 결과 받기 | [92334_신고_결과_받기.js](Level1/92334_신고_결과_받기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/92334) |
 | 92341 | 주차 요금 계산 | [92341_주차_요금_계산.js](Level2/92341_주차_요금_계산.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/92341) |
