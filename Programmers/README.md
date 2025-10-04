@@ -53,6 +53,7 @@
 | 118669 | 등산코스 정하기 | [118669_등산코스_정하기.js](118669_등산코스_정하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/118669) |
 | 120817 | 배열의 평균값 | [120817_배열의_평균값.js](Level0/120817_배열의_평균값.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/120817) |
 | 120821 | 배열 뒤집기 | [120821_배열_뒤집기.js](Level0/120821_배열_뒤집기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/120821) |
+| 120853 | 컨트롤 제트 | [120853_컨트롤_제트.js](Level0/120853_컨트롤_제트.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/120853) |
 | 121683 | 외톨이 알파벳.cpp | [121683_외톨이_알파벳.cpp](Unrated/121683_외톨이_알파벳.cpp) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/121683) |
 | 121683 | 외톨이 알파벳 | [121683_외톨이_알파벳.js](Unrated/121683_외톨이_알파벳.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/121683) |
 | 150370 | 개인정보 수집 유효기간 | [150370_개인정보_수집_유효기간.js](Level1/150370_개인정보_수집_유효기간.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/150370) |
