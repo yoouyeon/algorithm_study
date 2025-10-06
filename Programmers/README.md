@@ -21,6 +21,7 @@
 | 17680 | [1차] 캐시 | [17680_[1차]_캐시.js](Level2/17680_[1차]_캐시.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17680) |
 | 17686 | [3차] 파일명 정렬 | [17686_[3차]_파일명_정렬.js](Level2/17686_[3차]_파일명_정렬.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17686) |
 | 17687 | n진수 게임 | [17687_n진수_게임.js](Level2/17687_n진수_게임.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17687) |
+| 42583 | 다리를 지나는 트럭 | [42583_다리를_지나는_트럭.js](Level2/42583_다리를_지나는_트럭.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42583) |
 | 42584 | 주식가격 | [42584_주식가격.js](Level2/42584_주식가격.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42584) |
 | 42586 | 기능개발 | [42586_기능개발.js](Level2/42586_기능개발.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42586) |
 | 42840 | 모의고사 | [42840_모의고사.js](Level1/42840_모의고사.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42840) |
