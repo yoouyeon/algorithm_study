@@ -1,6 +1,53 @@
+/* 
+⭐️ 문제 정보 ⭐️
+문제 : 42888 - 오픈채팅방
+레벨 : Level 2
+링크 : https://school.programmers.co.kr/learn/courses/30/lessons/42888
+*/
+
+// ANCHOR 2025.10.06 풀이
+function solution2(record) {
+  const nicknameMap = new Map(); // key: 유저 아이디, value: 현재 닉네임
+
+  // 닉네임 결정
+  for (const r of record) {
+    const [op, userId, nickname] = r.split(" ");
+    switch (op) {
+      case "Enter":
+        nicknameMap.set(userId, nickname);
+        break;
+      case "Leave":
+        break;
+      case "Change":
+        nicknameMap.set(userId, nickname);
+        break;
+      default:
+    }
+  }
+
+  // 메시지 만들기
+  const answer = [];
+  for (const r of record) {
+    const [op, userId, nickname] = r.split(" ");
+    switch (op) {
+      case "Enter":
+        answer.push(`${nicknameMap.get(userId)}님이 들어왔습니다.`);
+        break;
+      case "Leave":
+        answer.push(`${nicknameMap.get(userId)}님이 나갔습니다.`);
+        break;
+      case "Change":
+        break;
+      default:
+    }
+  }
+  return answer;
+}
+
+// ANCHOR 2024.02.26 풀아
 const userMap = new Map();
 
-function solution(record) {
+function solution1(record) {
   let answer = [];
   const recordList = [];
 
