@@ -22,6 +22,7 @@
 | 17686 | [3차] 파일명 정렬 | [17686_[3차]_파일명_정렬.js](Level2/17686_[3차]_파일명_정렬.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17686) |
 | 17687 | n진수 게임 | [17687_n진수_게임.js](Level2/17687_n진수_게임.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17687) |
 | 42576 | 완주하지 못한 선수 | [42576_완주하지_못한_선수.js](Level1/42576_완주하지_못한_선수.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42576) |
+| 42578 | 의상 | [42578_의상.js](Level2/42578_의상.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42578) |
 | 42579 | 베스트앨범 | [42579_베스트앨범.js](Level3/42579_베스트앨범.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42579) |
 | 42583 | 다리를 지나는 트럭 | [42583_다리를_지나는_트럭.js](Level2/42583_다리를_지나는_트럭.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42583) |
 | 42584 | 주식가격 | [42584_주식가격.js](Level2/42584_주식가격.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42584) |
@@ -44,7 +45,7 @@
 | 68645 | 삼각 달팽이 | [68645_삼각_달팽이.js](Level2/68645_삼각_달팽이.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/68645) |
 | 68936 | 쿼드압축 후 개수 세기 | [68936_쿼드압축_후_개수_세기.js](Level2/68936_쿼드압축_후_개수_세기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/68936) |
 | 70129 | 이진 변환 반복하기 | [70129_이진_변환_반복하기.js](Level2/70129_이진_변환_반복하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/70129) |
-| 72411 | 메뉴 리뉴얼 | [72411_메뉴_리뉴얼.js](Level2/72411_메뉴_리뉴얼.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/72411) |
+| 72411 | 메뉴 리뉴얼 | [72411_메뉴_리뉴얼.js](Level2/72411_메뉴_리뉴얼.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/72411) |
 | 76502 | 괄호 회전하기 | [76502_괄호_회전하기.js](Level2/76502_괄호_회전하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/76502) |
 | 77484 | 로또의 최고 순위와 최저 순위 | [77484_로또의_최고_순위와_최저_순위.js](Level1/77484_로또의_최고_순위와_최저_순위.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/77484) |
 | 77885 | 2개 이하로 다른 비트 | [77885_2개_이하로_다른_비트.js](Level2/77885_2개_이하로_다른_비트.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/77885) |
