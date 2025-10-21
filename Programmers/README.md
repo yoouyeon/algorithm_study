@@ -52,6 +52,7 @@
 | 72411 | 메뉴 리뉴얼 | [72411_메뉴_리뉴얼.js](Level2/72411_메뉴_리뉴얼.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/72411) |
 | 76502 | 괄호 회전하기 | [76502_괄호_회전하기.js](Level2/76502_괄호_회전하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/76502) |
 | 77484 | 로또의 최고 순위와 최저 순위 | [77484_로또의_최고_순위와_최저_순위.js](Level1/77484_로또의_최고_순위와_최저_순위.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/77484) |
+| 77486 | 다단계 칫솔 판매 | [77486_다단계_칫솔_판매.js](Level3/77486_다단계_칫솔_판매.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/77486) |
 | 77885 | 2개 이하로 다른 비트 | [77885_2개_이하로_다른_비트.js](Level2/77885_2개_이하로_다른_비트.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/77885) |
 | 81303 | 표 편집 | [81303_표_편집.js](Level3/81303_표_편집.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/81303) |
 | 87390 | n^2 배열 자르기 | [87390_n^2_배열_자르기.js](Level2/87390_n^2_배열_자르기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/87390) |
