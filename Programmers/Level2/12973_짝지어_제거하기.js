@@ -5,11 +5,31 @@
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12973
 */
 
+// ANCHOR 2025.12.01 풀이
+function solution2(s) {
+  const stack = [];
+  for (const c of s) {
+    if (stack.length === 0) {
+      stack.push(c);
+      continue;
+    }
+    const top = stack[stack.length - 1];
+    if (c === top) {
+      stack.pop();
+    } else {
+      stack.push(c);
+    }
+  }
+
+  return stack.length === 0 ? 1 : 0;
+}
+
+// ANCHOR 2025.10.02 풀이
 function isEmpty(stack) {
   return stack.length === 0;
 }
 
-function solution(s) {
+function solution1(s) {
   const stack = [];
 
   // 초기화
