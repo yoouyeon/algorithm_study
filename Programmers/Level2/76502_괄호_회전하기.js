@@ -5,7 +5,36 @@
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/76502
 */
 
-//ANCHOR 2025.10.02 풀이
+// ANCHOR 2025.12.01 풀이
+function solution3(s) {
+  let answer = 0;
+  const sList = [...s, ...s];
+  for (let start = 0; start < s.length; start++) {
+    const stack = [];
+    let isValid = true;
+    for (let offset = 0; offset < s.length; offset++) {
+      const c = sList[start + offset];
+      if (c === "(" || c === "[" || c === "{") {
+        stack.push(c);
+      } else {
+        const top = stack.pop();
+        if (!top) {
+          isValid = false;
+          break;
+        }
+        if (top === "(" && c === ")") continue;
+        if (top === "[" && c === "]") continue;
+        if (top === "{" && c === "}") continue;
+        isValid = false;
+        break;
+      }
+    }
+    if (isValid && stack.length === 0) answer++;
+  }
+  return answer;
+}
+
+// ANCHOR 2025.10.02 풀이
 function solution2(s) {
   let answer = 0;
   const n = s.length;
