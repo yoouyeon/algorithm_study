@@ -11,6 +11,66 @@
  * - 이중 연결 리스트로 구현해서 해결 완료
  */
 
+// ANCHOR - 2025.12.03 풀이
+
+function solution3(n, k, cmd) {
+  const row = Array.from({ length: n }, (_, idx) => ({
+    prev: idx === 0 ? null : idx - 1,
+    isDeleted: false,
+    next: idx === n - 1 ? null : idx + 1,
+  }));
+
+  const deleted = [];
+  let cur = k;
+  for (let idx = 0; idx < cmd.length; idx++) {
+    const [op, argstr] = cmd[idx].split(" ");
+    const arg = Number(argstr);
+    switch (op) {
+      case "U":
+        for (let cnt = 0; cnt < arg; cnt++) {
+          cur = row[cur].prev;
+        }
+        break;
+      case "D":
+        for (let cnt = 0; cnt < arg; cnt++) {
+          cur = row[cur].next;
+        }
+        break;
+      case "C":
+        // 현재 선택된 행을 삭제
+        row[cur].isDeleted = true;
+        deleted.push(cur);
+        // 현재 선택된 행이 가장 마지막 행인 경우 현재 행을 그 위 행으로
+        if (row[cur].next === null) {
+          cur = row[cur].prev;
+          if (cur) row[cur].next = null;
+        } else {
+          // 그 외에는 아래 행 선택
+          if (row[cur].prev !== null) row[row[cur].prev].next = row[cur].next;
+          row[row[cur].next].prev = row[cur].prev;
+          cur = row[cur].next;
+        }
+        break;
+      case "Z":
+        // 최근에 삭제된 것 복구
+        const deletedIdx = deleted.pop();
+        if (deletedIdx === undefined) break;
+        if (row[deletedIdx].prev !== null)
+          row[row[deletedIdx].prev].next = deletedIdx;
+        if (row[deletedIdx].next !== null)
+          row[row[deletedIdx].next].prev = deletedIdx;
+        row[deletedIdx].isDeleted = false;
+        break;
+    }
+  }
+
+  const answer = row.reduce(
+    (acc, { isDeleted }) => (acc += isDeleted ? "X" : "O"),
+    ""
+  );
+  return answer;
+}
+
 // ANCHOR - 2025.10.04 풀이 - 이중 연결 리스트
 function solution2(n, k, cmd) {
   // 각 노드가 가리키는 prev와 next를 저장하는 배열 (이중 연결 리스트)
