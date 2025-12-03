@@ -43,7 +43,7 @@ function solution3(n, k, cmd) {
         // 현재 선택된 행이 가장 마지막 행인 경우 현재 행을 그 위 행으로
         if (row[cur].next === null) {
           cur = row[cur].prev;
-          if (cur) row[cur].next = null;
+          if (cur !== null) row[cur].next = null;
         } else {
           // 그 외에는 아래 행 선택
           if (row[cur].prev !== null) row[row[cur].prev].next = row[cur].next;
