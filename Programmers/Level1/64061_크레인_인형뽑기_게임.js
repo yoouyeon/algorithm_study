@@ -5,8 +5,33 @@
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/64061
 */
 
+// ANCHOR 2025.12.03 풀이
+function solution3(board, moves) {
+  const boardStack = Array.from({ length: board.length }, () => new Array());
+  board.reverse().forEach((row) => {
+    for (let idx = 0; idx < row.length; idx++) {
+      row[idx] && boardStack[idx].push(row[idx]);
+    }
+  });
+
+  const basket = [];
+  let answer = 0;
+  for (let idx = 0; idx < moves.length; idx++) {
+    const target = boardStack[moves[idx] - 1].pop();
+    if (!target) continue;
+    if (basket.length > 0 && target === basket[basket.length - 1]) {
+      basket.pop();
+      answer += 2;
+    } else {
+      basket.push(target);
+    }
+  }
+
+  return answer;
+}
+
 // ANCHOR 2025.10.03 풀이
-function solution(board, moves) {
+function solution2(board, moves) {
   const boardSize = board.length;
   const topIdxs = new Array(board.length);
   const basket = [];
