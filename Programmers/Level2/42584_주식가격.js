@@ -5,6 +5,27 @@
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/42584
 */
 
+// ANCHOR 2025.12.03 풀이
+function solution3(prices) {
+  const stack = [];
+  const answer = Array(prices.length).fill(0);
+
+  for (let idx = 0; idx < prices.length; idx++) {
+    while (stack.length > 0 && prices[stack[stack.length - 1]] > prices[idx]) {
+      const top = stack.pop();
+      answer[top] = idx - top;
+    }
+    stack.push(idx);
+  }
+
+  while (stack.length > 0) {
+    const top = stack.pop();
+    answer[top] = prices.length - top - 1;
+  }
+
+  return answer;
+}
+
 // ANCHOR 2025.10.03 풀이
 function solution2(prices) {
   const answer = new Array(prices.length);
