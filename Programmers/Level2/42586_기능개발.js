@@ -5,7 +5,36 @@
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/42586
 */
 
-function solution(progresses, speeds) {
+// ANCHOR - 2025.12.04 풀이
+function solution2(progresses, speeds) {
+  let answer = [];
+  let currentDay = 1;
+  let deployCount = 0;
+
+  while (deployCount < progresses.length) {
+    let completedCount = deployCount;
+    // 작업
+    while (completedCount < progresses.length) {
+      if (
+        progresses[completedCount] + speeds[completedCount] * currentDay <
+        100
+      )
+        break;
+      completedCount++;
+    }
+    // 배포
+    if (deployCount !== completedCount) {
+      answer.push(completedCount - deployCount);
+      deployCount = completedCount;
+    }
+    currentDay++;
+  }
+
+  return answer;
+}
+
+// ANCHOR - 2025.10.05 풀이
+function solution1(progresses, speeds) {
   let answer = [];
   let front = 0; // 현 시점 배포되어야 하는 작업
   let day = 0;
