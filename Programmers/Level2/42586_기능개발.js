@@ -5,6 +5,35 @@
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/42586
 */
 
+// ANCHOR - 2025.12.04 풀이 (리뷰 참고)
+// https://github.com/yoouyeon/algorithm_study/pull/16#issuecomment-3610881111
+function solution2_1(progresses, speeds) {
+  // 각 작업이 완료되기까지 필요한 일 수 계산
+  const daysNeeded = progresses.map((progress, index) =>
+    Math.ceil((100 - progress) / speeds[index])
+  );
+  const answer = [];
+  let maxDay = daysNeeded[0];
+  let count = 1;
+
+  for (let idx = 1; idx < daysNeeded.length; idx++) {
+    if (daysNeeded[idx] <= maxDay) {
+      // 현재 작업이 앞선 작업보다 빨리 끝난다면 함께 배포
+      count++;
+    } else {
+      // 새로운 배포 그룹 시작
+      answer.push(count);
+      maxDay = daysNeeded[idx];
+      count = 1;
+    }
+  }
+
+  // 마지막 그룹 추가
+  answer.push(count);
+
+  return answer;
+}
+
 // ANCHOR - 2025.12.04 풀이
 function solution2(progresses, speeds) {
   let answer = [];
