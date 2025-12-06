@@ -17,7 +17,6 @@ function solution(phone_book) {
 
   for (const number of phone_book) {
     if (numberSet.has(number)) {
-      console.log(number);
       return false;
     }
   }
