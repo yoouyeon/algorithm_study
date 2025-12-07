@@ -5,6 +5,27 @@
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/42888
 */
 
+// ANCHOR - 2025.12.07 풀이
+function solution(record) {
+  const userMap = new Map();
+  for (let idx = 0; idx < record.length; idx++) {
+    const [type, uid, name] = record[idx].split(" ");
+    if (type === "Enter" || type === "Change") {
+      userMap.set(uid, name);
+    }
+  }
+
+  const answer = [];
+  for (let idx = 0; idx < record.length; idx++) {
+    const [type, uid, _] = record[idx].split(" ");
+    if (type === "Enter") answer.push(`${userMap.get(uid)}님이 들어왔습니다.`);
+    else if (type === "Leave")
+      answer.push(`${userMap.get(uid)}님이 나갔습니다.`);
+  }
+
+  return answer;
+}
+
 // ANCHOR 2025.10.06 풀이
 function solution2(record) {
   const nicknameMap = new Map(); // key: 유저 아이디, value: 현재 닉네임
