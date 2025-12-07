@@ -5,6 +5,53 @@
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/131127
 */
 
+// ANCHOR - 2025.12.07 풀이
+function solution(want, number, discount) {
+  // 원하는 제품 정보 Map 초기화
+  const wantMap = new Map();
+  for (let idx = 0; idx < want.length; idx++) {
+    wantMap.set(want[idx], number[idx]);
+  }
+
+  // 슬라이딩 윈도우에 필요한 변수들 정의
+  let answer = 0;
+
+  // 첫번째 윈도우 처리
+  for (let day = 0; day <= 9; day++) {
+    const product = discount[day];
+    if (wantMap.has(product)) {
+      wantMap.set(product, wantMap.get(product) - 1);
+    }
+  }
+
+  if ([...wantMap.values()].every((num) => num <= 0)) {
+    answer += 1;
+  }
+
+  // 슬라이딩 윈도우
+  for (let idx = 0; idx < discount.length - 10; idx++) {
+    // 앞의 것 빼기
+    const first = discount[idx];
+    if (wantMap.has(first)) {
+      wantMap.set(first, wantMap.get(first) + 1);
+    }
+
+    // 뒤의 것 추가하기
+    const last = discount[idx + 10];
+    if (wantMap.has(last)) {
+      wantMap.set(last, wantMap.get(last) - 1);
+    }
+
+    // 가입 가능 여부 확인
+    if ([...wantMap.values()].every((num) => num <= 0)) {
+      answer++;
+    }
+  }
+
+  return answer;
+}
+
+// ANCHOR - 2025.10.06 풀이
 function isAnswer(wantMap) {
   // wantMap의 모든 제품 수량이 0보다 작은지 (답이 되는지) 확인하기
   return [...wantMap.values()].every((value) => value <= 0);
