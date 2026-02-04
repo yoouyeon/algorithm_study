@@ -42,6 +42,7 @@
 | 42888 | 오픈채팅방 | [42888_오픈채팅방.js](Level2/42888_오픈채팅방.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42888) |
 | 42889 | 실패율 | [42889_실패율.js](Level1/42889_실패율.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42889) |
 | 43162 | 네트워크 | [43162_네트워크.js](Level3/43162_네트워크.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/43162) |
+| 49189 | 가장 먼 노드 | [49189_가장_먼_노드.js](Level3/49189_가장_먼_노드.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/49189) |
 | 49993 | 스킬트리 | [49993_스킬트리.js](Level2/49993_스킬트리.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/49993) |
 | 49994 | 방문 길이 | [49994_방문_길이.js](Level2/49994_방문_길이.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/49994) |
 | 60057 | 문자열 압축 | [60057_문자열_압축.js](Level2/60057_문자열_압축.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/60057) |
