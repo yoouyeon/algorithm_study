@@ -38,6 +38,7 @@
 | 42583 | 다리를 지나는 트럭 | [42583_다리를_지나는_트럭.js](Level2/42583_다리를_지나는_트럭.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42583) |
 | 42584 | 주식가격 | [42584_주식가격.js](Level2/42584_주식가격.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42584) |
 | 42586 | 기능개발 | [42586_기능개발.js](Level2/42586_기능개발.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42586) |
+| 42628 | 이중우선순위큐 | [42628_이중우선순위큐.js](Level3/42628_이중우선순위큐.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42628) |
 | 42840 | 모의고사 | [42840_모의고사.js](Level1/42840_모의고사.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42840) |
 | 42888 | 오픈채팅방 | [42888_오픈채팅방.js](Level2/42888_오픈채팅방.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42888) |
 | 42889 | 실패율 | [42889_실패율.js](Level1/42889_실패율.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42889) |
