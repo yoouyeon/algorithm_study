@@ -60,6 +60,7 @@
 | 68936 | 쿼드압축 후 개수 세기 | [68936_쿼드압축_후_개수_세기.js](Level2/68936_쿼드압축_후_개수_세기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/68936) |
 | 70129 | 이진 변환 반복하기 | [70129_이진_변환_반복하기.js](Level2/70129_이진_변환_반복하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/70129) |
 | 72411 | 메뉴 리뉴얼 | [72411_메뉴_리뉴얼.js](Level2/72411_메뉴_리뉴얼.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/72411) |
+| 72416 | 매출 하락 최소화 | [72416_매출_하락_최소화.js](Level4/72416_매출_하락_최소화.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/72416) |
 | 76502 | 괄호 회전하기 | [76502_괄호_회전하기.js](Level2/76502_괄호_회전하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/76502) |
 | 77484 | 로또의 최고 순위와 최저 순위 | [77484_로또의_최고_순위와_최저_순위.js](Level1/77484_로또의_최고_순위와_최저_순위.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/77484) |
 | 77486 | 다단계 칫솔 판매 | [77486_다단계_칫솔_판매.js](Level3/77486_다단계_칫솔_판매.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/77486) |
