@@ -1,6 +1,0 @@
-leetcode:
-  - changed-files:
-      - any-glob-to-any-file: Leetcode/**
-programmers:
-  - changed-files:
-      - any-glob-to-any-file: Programmers/**
