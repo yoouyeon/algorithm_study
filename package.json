@@ -1,7 +1,0 @@
-{
-  "type": "module",
-  "scripts": {
-    "create": "node scripts/problem-manager/index.js",
-    "readme": "node scripts/generate-readme/index.js"
-  }
-}

@@ -1,0 +1,23 @@
+{
+  "name": "algorithm-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for algorithm problem info",
+  "type": "module",
+  "bin": {
+    "algorithm-mcp-server": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
