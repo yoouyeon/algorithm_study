@@ -16,6 +16,7 @@
 | 21 | Merge Two Sorted Lists | [21_merge-two-sorted-lists.ts](Easy/21_merge-two-sorted-lists.ts) | [🔗](https://leetcode.com/problems/merge-two-sorted-lists) |
 | 26 | Remove Duplicates from Sorted Array | [26_remove-duplicates-from-sorted-array.ts](Easy/26_remove-duplicates-from-sorted-array.ts) | [🔗](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
 | 27 | Remove Element | [27_remove-element.ts](Easy/27_remove-element.ts) | [🔗](https://leetcode.com/problems/remove-element/) |
+| 35 | Search Insert Position | [35_search-insert-position.ts](Easy/35_search-insert-position.ts) | [🔗](https://leetcode.com/problems/search-insert-position/) |
 | 39 | Combination Sum | [39_combination-sum.ts](Medium/39_combination-sum.ts) | [🔗](https://leetcode.com/problems/combination-sum/) |
 | 42 | Trapping Rain Water | [42_trapping-rain-water.ts](Hard/42_trapping-rain-water.ts) | [🔗](https://leetcode.com/problems/trapping-rain-water/) |
 | 45 | Jump Game II | [45_jump-game-ii.ts](Medium/45_jump-game-ii.ts) | [🔗](https://leetcode.com/problems/jump-game-ii/) |
