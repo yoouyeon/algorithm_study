@@ -5,8 +5,29 @@
 링크 : https://leetcode.com/problems/valid-palindrome/
 */
 
-// [125] Valid Palindrome
+// ANCHOR 2026.02.22 풀이
+function isPalindrome3(s: string): boolean {
+  function isAlphanumeric(str) {
+      return /^[A-Za-z0-9]+$/.test(str);
+  }
 
+  let left = 0;
+  let right = s.length - 1;
+
+  while (left < right) {
+      while ((left < right) && !isAlphanumeric(s[left])) left++;
+      while ((left < right) && !isAlphanumeric(s[right])) right--;
+      if (s[left].toLowerCase() !== s[right].toLowerCase()) {
+          return false;
+      }
+      left++;
+      right--;
+  }
+
+  return true;
+};
+
+// ANCHOR 2025.04.14 풀이
 /**
  * Solution 1. 문자열 직접 만들어서 비교하기
  *
