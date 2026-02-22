@@ -7,8 +7,11 @@
 
 // ANCHOR 2026.02.22 풀이
 function isPalindrome3(s: string): boolean {
-  function isAlphanumeric(str) {
-      return /^[A-Za-z0-9]+$/.test(str);
+  function isAlphanumeric(c: string): boolean {
+    const code = c.charCodeAt(0);
+    return (code >= 48 && code <= 57)  // 0-9
+        || (code >= 65 && code <= 90)  // A-Z
+        || (code >= 97 && code <= 122); // a-z
   }
 
   let left = 0;
