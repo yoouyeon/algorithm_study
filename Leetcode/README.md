@@ -8,6 +8,7 @@
 | --------- | --------- | --------- | --------- |
 | 1 | Two Sum | [1_two-sum.ts](Easy/1_two-sum.ts) | [🔗](https://leetcode.com/problems/two-sum) |
 | 3 | Longest Substring Without Repeating Characters | [3_longest-substring-without-repeating-characters.ts](Medium/3_longest-substring-without-repeating-characters.ts) | [🔗](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
+| 5 | Longest Palindromic Substring | [5_longest-palindromic-substring.ts](Medium/5_longest-palindromic-substring.ts) | [🔗](https://leetcode.com/problems/longest-palindromic-substring) |
 | 6 | Zigzag Conversion | [6_zigzag-conversion.ts](Medium/6_zigzag-conversion.ts) | [🔗](https://leetcode.com/problems/zigzag-conversion/) |
 | 11 | Container With Most Water | [11_container-with-most-water.ts](Medium/11_container-with-most-water.ts) | [🔗](https://leetcode.com/problems/container-with-most-water/) |
 | 12 | Integer to Roman | [12_integer-to-roman.ts](Medium/12_integer-to-roman.ts) | [🔗](https://leetcode.com/problems/integer-to-roman/) |
