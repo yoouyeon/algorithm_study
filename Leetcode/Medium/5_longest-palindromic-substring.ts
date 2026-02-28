@@ -7,14 +7,16 @@
 
 // ANCHOR 2026.02.28 풀이
 
+/**
+ * 시간복잡도: O(n²) — 중심 O(n) × 확장 O(n)
+ * 공간복잡도: O(n) — answer 문자열 저장
+ */
 function longestPalindrome1(s: string): string {
   let answer = '';
 
   function expand(mid1, mid2) {
     let left = mid1,
       right = mid2;
-
-    if (s[left] !== s[right]) return;
 
     while (left >= 0 && right < s.length && s[left] === s[right]) {
       left--;
@@ -25,6 +27,19 @@ function longestPalindrome1(s: string): string {
     left++;
     right--;
     // 더 긴 팰린드롬일때만 업데이트한다.
+    /**
+     * NOTE: 문자열을 생성하는 대신 인덱스와 길이만 저장하는 방법도 있다.
+     *
+     * let start = 0, maxLen = 1;
+     * // expand 내부
+     * if (right - left + 1 > maxLen) {
+     *  maxLen = right - left + 1;
+     *  start = left;
+     * }
+     *
+     * // 마지막에
+     * return s.substring(start, start + maxLen);
+     */
     if (answer.length < right - left + 1) {
       answer = s.substring(left, right + 1);
     }
