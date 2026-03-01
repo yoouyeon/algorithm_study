@@ -21,7 +21,7 @@ function almostPalindromic(s: string): number {
     return [left, right];
   }
 
-  for (let idx = 0; idx < 2 * len; idx++) {
+  for (let idx = 0; idx < 2 * len - 1; idx++) {
     // 1. 완벽한 팰린드롬 찾기 → [left, right]은 불일치 지점
     const [left, right] = expand(Math.floor(idx / 2), Math.floor((idx + 1) / 2));
     // 2. 왼쪽 제거 시도
