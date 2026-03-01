@@ -59,3 +59,4 @@
 | 1923 | Sentence Similarity III | [1923_sentence-similarity-iii.ts](Medium/1923_sentence-similarity-iii.ts) | [🔗](https://leetcode.com/problems/sentence-similarity-iii) |
 | 2300 | Successful Pairs of Spells and Potions | [2300_successful-pairs-of-spells-and-potions.ts](Medium/2300_successful-pairs-of-spells-and-potions.ts) | [🔗](https://leetcode.com/problems/successful-pairs-of-spells-and-potions) |
 | 2406 | Divide Intervals Into Minimum Number of Groups | [2406_divide-intervals-into-minimum-number-of-groups.ts](Medium/2406_divide-intervals-into-minimum-number-of-groups.ts) | [🔗](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups) |
+| 3844 | Longest Almost-Palindromic Substring | [3844_longest-almost-palindromic-substring.ts](Medium/3844_longest-almost-palindromic-substring.ts) | [🔗](https://leetcode.com/problems/longest-almost-palindromic-substring) |
