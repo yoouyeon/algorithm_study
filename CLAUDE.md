@@ -292,7 +292,7 @@ ANCHOR {YYYY.MM.DD} 풀이
 
 - 백준: `docs/baekjoon/{problemId}.md`
 - 프로그래머스: `docs/programmers/{problemId}.md`
-- 리트코드: `docs/leetcode/{slug}.md`
+- 리트코드: `docs/leetcode/{problemId}.md`
 
 #### 템플릿
 
