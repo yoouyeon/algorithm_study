@@ -14,6 +14,7 @@
 | 12 | Integer to Roman | [12_integer-to-roman.ts](Medium/12_integer-to-roman.ts) | [🔗](https://leetcode.com/problems/integer-to-roman/) |
 | 15 | 3Sum | [15_3-sum.ts](Medium/15_3-sum.ts) | [🔗](https://leetcode.com/problems/3sum/) |
 | 16 | 3Sum Closest | [16_3sum-closest.ts](Medium/16_3sum-closest.ts) | [🔗](https://leetcode.com/problems/3sum-closest) |
+| 18 | 4Sum | [18_4sum.ts](Medium/18_4sum.ts) | [🔗](https://leetcode.com/problems/4sum) |
 | 20 | Valid Parentheses | [20_valid-parentheses.ts](Easy/20_valid-parentheses.ts) | [🔗](https://leetcode.com/problems/valid-parentheses/) |
 | 21 | Merge Two Sorted Lists | [21_merge-two-sorted-lists.ts](Easy/21_merge-two-sorted-lists.ts) | [🔗](https://leetcode.com/problems/merge-two-sorted-lists) |
 | 26 | Remove Duplicates from Sorted Array | [26_remove-duplicates-from-sorted-array.ts](Easy/26_remove-duplicates-from-sorted-array.ts) | [🔗](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
