@@ -6,7 +6,21 @@
 */
 
 // ANCHOR 2026.03.02 풀이
+// FEEDBACK
+// 이진탐색 종료 후 left가 유효한지 별도로 체크하는 부분을 right 초기값 조정으로 깔끔하게 없앨 수 있다.
+// for (const spell of spells) {
+//   let left = 0, right = potions.length; // right를 length로 설정
 
+//   while (left < right) {
+//     const mid = Math.floor((left + right) / 2);
+//     if (spell * potions[mid] >= success) right = mid;
+//     else left = mid + 1;
+//   }
+
+//   answer.push(potions.length - left); // 항상 유효 (0 포함)
+// }
+// right = potions.length로 설정하면 "조건을 만족하는 원소가 없을 때 left가 potions.length"가 되어 potions.length
+// - left = 0이 자연스럽게 나온다.
 function successfulPairs(spells: number[], potions: number[], success: number): number[] {
   const answer: number[] = [];
   // spells를 고정시켜두고, 더해서 success 이상이 되는 potion을 찾는 문제.
