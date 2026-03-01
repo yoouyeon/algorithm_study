@@ -6,7 +6,21 @@
 */
 
 // ANCHOR 2026.03.01 풀이
+// FEEDBACK
+// 조기 종료 조건을 넣으면 더 효율적이다. (최솟값이 이미 초과인 경우, 최댓값이 부족한 경우)
+// for (let a = 0; a <= nums.length - 4; a++) {
+//   if (a !== 0 && nums[a] === nums[a - 1]) continue;
+//   if (nums[a] + nums[a+1] + nums[a+2] + nums[a+3] > target) break;  // 최솟값이 이미 초과
+//   if (nums[a] + nums[nums.length-3] + nums[nums.length-2] + nums[nums.length-1] < target) continue;  //
+// 최댓값이 부족
 
+//   for (let b = a + 1; b <= nums.length - 3; b++) {
+//     if (b !== a + 1 && nums[b] === nums[b - 1]) continue;
+//     if (nums[a] + nums[b] + nums[b+1] + nums[b+2] > target) break;  // 조기 종료
+//     if (nums[a] + nums[b] + nums[nums.length-2] + nums[nums.length-1] < target) continue;  // 스킵
+//     // ... 투 포인터
+//   }
+// }
 function fourSum1(nums: number[], target: number): number[][] {
   const answer: number[][] = [];
 
