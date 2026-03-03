@@ -56,6 +56,7 @@
 | 1071 | Greatest Common Divisor of Strings | [1071_greatest-common-divisor-of-strings.ts](Easy/1071_greatest-common-divisor-of-strings.ts) | [🔗](https://leetcode.com/problems/greatest-common-divisor-of-strings/) |
 | 1431 | Kids With the Greatest Number of Candies | [1431_kids-with-the-greatest-number-of-candies.ts](Easy/1431_kids-with-the-greatest-number-of-candies.ts) | [🔗](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) |
 | 1768 | Merge Strings Alternately | [1768_merge-strings-alternately.ts](Easy/1768_merge-strings-alternately.ts) | [🔗](https://leetcode.com/problems/merge-strings-alternately/) |
+| 1918 | Maximum Score of a Good Subarray | [1918_maximum-score-of-a-good-subarray.ts](Hard/1918_maximum-score-of-a-good-subarray.ts) | [🔗](https://leetcode.com/problems/maximum-score-of-a-good-subarray) |
 | 1923 | Sentence Similarity III | [1923_sentence-similarity-iii.ts](Medium/1923_sentence-similarity-iii.ts) | [🔗](https://leetcode.com/problems/sentence-similarity-iii) |
 | 2300 | Successful Pairs of Spells and Potions | [2300_successful-pairs-of-spells-and-potions.ts](Medium/2300_successful-pairs-of-spells-and-potions.ts) | [🔗](https://leetcode.com/problems/successful-pairs-of-spells-and-potions) |
 | 2406 | Divide Intervals Into Minimum Number of Groups | [2406_divide-intervals-into-minimum-number-of-groups.ts](Medium/2406_divide-intervals-into-minimum-number-of-groups.ts) | [🔗](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups) |
