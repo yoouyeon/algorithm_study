@@ -70,6 +70,7 @@ server.registerTool("get_leetcode_problem", {
         title
         difficulty
       }
+    }
   `;
     const res = await fetch("https://leetcode.com/graphql", {
         method: "POST",
