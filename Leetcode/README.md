@@ -61,5 +61,6 @@
 | 1923 | Sentence Similarity III | [1923_sentence-similarity-iii.ts](Medium/1923_sentence-similarity-iii.ts) | [🔗](https://leetcode.com/problems/sentence-similarity-iii) |
 | 2300 | Successful Pairs of Spells and Potions | [2300_successful-pairs-of-spells-and-potions.ts](Medium/2300_successful-pairs-of-spells-and-potions.ts) | [🔗](https://leetcode.com/problems/successful-pairs-of-spells-and-potions) |
 | 2406 | Divide Intervals Into Minimum Number of Groups | [2406_divide-intervals-into-minimum-number-of-groups.ts](Medium/2406_divide-intervals-into-minimum-number-of-groups.ts) | [🔗](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups) |
+| 2466 | Count Ways To Build Good Strings | [2466_count-ways-to-build-good-strings.ts](Medium/2466_count-ways-to-build-good-strings.ts) | [🔗](https://leetcode.com/problems/count-ways-to-build-good-strings) |
 | 3406 | Find All Possible Stable Binary Arrays I | [3406_find-all-possible-stable-binary-arrays-i.ts](Medium/3406_find-all-possible-stable-binary-arrays-i.ts) | [🔗](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i) |
 | 3844 | Longest Almost-Palindromic Substring | [3844_longest-almost-palindromic-substring.ts](Medium/3844_longest-almost-palindromic-substring.ts) | [🔗](https://leetcode.com/problems/longest-almost-palindromic-substring) |
