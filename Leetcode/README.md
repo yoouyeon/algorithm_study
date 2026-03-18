@@ -37,6 +37,7 @@
 | 128 | Longest Consecutive Sequence | [128_longest-consecutive-sequence.ts](Medium/128_longest-consecutive-sequence.ts) | [🔗](https://leetcode.com/problems/longest-consecutive-sequence/) |
 | 134 | Gas Station | [134_gas-station.ts](Medium/134_gas-station.ts) | [🔗](https://leetcode.com/problems/gas-station/) |
 | 135 | Candy | [135_candy.ts](Hard/135_candy.ts) | [🔗](https://leetcode.com/problems/candy/) |
+| 141 | Linked List Cycle | [141_linked-list-cycle.ts](Easy/141_linked-list-cycle.ts) | [🔗](https://leetcode.com/problems/linked-list-cycle) |
 | 151 | Reverse Words in a String | [151_reverse-words-in-a-string.py](Medium/151_reverse-words-in-a-string.py) | [🔗](https://leetcode.com/problems/reverse-words-in-a-string/) |
 | 169 | Majority Element | [169_majority-element.ts](Easy/169_majority-element.ts) | [🔗](https://leetcode.com/problems/majority-element/) |
 | 189 | Rotate Array | [189_rotate-array.ts](Medium/189_rotate-array.ts) | [🔗](https://leetcode.com/problems/rotate-array/) |
