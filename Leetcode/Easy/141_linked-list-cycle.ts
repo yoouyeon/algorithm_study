@@ -31,3 +31,18 @@ function hasCycle1(head: ListNode | null): boolean {
 
   return false;
 }
+
+// 플로이드의 토끼와 거북이 알고리즘 (Floyd's Tortoise and Hare Algorithm)
+function hasCycle(head: ListNode | null): boolean {
+  let slow = head;
+  let fast = head;
+
+  while (slow !== null && fast !== null && fast.next !== null) {
+    slow = slow.next;
+    fast = fast.next.next; // 2칸씩 이동
+
+    if (slow === fast) return true;
+  }
+
+  return false;
+}
