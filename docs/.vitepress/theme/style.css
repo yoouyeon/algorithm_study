@@ -1,0 +1,4 @@
+/* 다크모드에서 그림 색 변경을 위한 클래스 */
+.dark .invert {
+  filter: invert(1);
+}
