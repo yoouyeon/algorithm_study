@@ -50,6 +50,7 @@
 | 217 | Contains Duplicate | [217_contains-duplicate.ts](Easy/217_contains-duplicate.ts) | [🔗](https://leetcode.com/problems/contains-duplicate/) |
 | 238 | Product of Array Except Self | [238_product-of-array-except-self.ts](Medium/238_product-of-array-except-self.ts) | [🔗](https://leetcode.com/problems/product-of-array-except-self/) |
 | 242 | Valid Anagram | [242_valid-anagram.ts](Easy/242_valid-anagram.ts) | [🔗](https://leetcode.com/problems/valid-anagram/) |
+| 268 | Missing Number | [268_missing-number.ts](Easy/268_missing-number.ts) | [🔗](https://leetcode.com/problems/missing-number) |
 | 274 | H-Index | [274_h-index.ts](Medium/274_h-index.ts) | [🔗](https://leetcode.com/problems/h-index/) |
 | 347 | Top K Frequent Elements | [347_top-k-frequent-elements.ts](Medium/347_top-k-frequent-elements.ts) | [🔗](https://leetcode.com/problems/top-k-frequent-elements/) |
 | 380 | Insert Delete GetRandom O(1) | [380_insert-delete-get-random-o-1.ts](Medium/380_insert-delete-get-random-o-1.ts) | [🔗](https://leetcode.com/problems/insert-delete-getrandom-o1/) |
