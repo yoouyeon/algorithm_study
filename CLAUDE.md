@@ -211,7 +211,16 @@ gh pr create \
 
 ## PR 머지
 
-사용자가 PR 머지를 요청하면 rebase 방식으로 머지한다.
+사용자가 PR 머지를 요청하면 아래 순서로 진행한다.
+
+1. rebase 방식으로 PR을 머지한다.
+2. `main` 브랜치로 이동한다.
+3. `git pull`로 main 브랜치를 최신 상태로 업데이트한다.
+4. 원격에서 삭제된 브랜치를 로컬에서도 제거한다.
+
+```bash
+git fetch --prune && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D
+```
 
 ## 가이드 제공
 
