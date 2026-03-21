@@ -55,6 +55,7 @@
 | 274 | H-Index | [274_h-index.ts](Medium/274_h-index.ts) | [🔗](https://leetcode.com/problems/h-index/) |
 | 290 | Word Pattern | [290_word-pattern.ts](Easy/290_word-pattern.ts) | [🔗](https://leetcode.com/problems/word-pattern) |
 | 347 | Top K Frequent Elements | [347_top-k-frequent-elements.ts](Medium/347_top-k-frequent-elements.ts) | [🔗](https://leetcode.com/problems/top-k-frequent-elements/) |
+| 349 | Intersection of Two Arrays | [349_intersection-of-two-arrays.ts](Easy/349_intersection-of-two-arrays.ts) | [🔗](https://leetcode.com/problems/intersection-of-two-arrays) |
 | 380 | Insert Delete GetRandom O(1) | [380_insert-delete-get-random-o-1.ts](Medium/380_insert-delete-get-random-o-1.ts) | [🔗](https://leetcode.com/problems/insert-delete-getrandom-o1/) |
 | 392 | Is Subsequence | [392_is-subsequence.ts](Easy/392_is-subsequence.ts) | [🔗](https://leetcode.com/problems/is-subsequence/) |
 | 567 | Permutation in String | [567_permutation-in-string.ts](Medium/567_permutation-in-string.ts) | [🔗](https://leetcode.com/problems/permutation-in-string/) |
