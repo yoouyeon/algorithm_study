@@ -10,14 +10,13 @@ function wordPattern(pattern: string, s: string): boolean {
   const pToW = new Map();
   const wToP = new Map();
 
-  const patternArray = pattern.split('');
-  const sArray = s.split(' ');
+  const words = s.split(' ');
 
-  if (patternArray.length !== sArray.length) return false;
+  if (pattern.length !== words.length) return false;
 
-  for (let idx = 0; idx < patternArray.length; idx++) {
-    const p = patternArray[idx];
-    const w = sArray[idx];
+  for (let idx = 0; idx < pattern.length; idx++) {
+    const p = pattern[idx];
+    const w = words[idx];
 
     if (pToW.has(p) && pToW.get(p) !== w) return false;
     if (wToP.has(w) && wToP.get(w) !== p) return false;
