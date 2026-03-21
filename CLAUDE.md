@@ -219,7 +219,7 @@ gh pr create \
 4. 원격에서 삭제된 브랜치를 로컬에서도 제거한다.
 
 ```bash
-git fetch --prune && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D
+git fetch --prune && LC_ALL=C git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D
 ```
 
 ## 가이드 제공
