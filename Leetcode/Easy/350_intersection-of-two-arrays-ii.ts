@@ -23,10 +23,8 @@ function intersect(nums1: number[], nums2: number[]): number[] {
     if (nums1[ptr1] < nums2[ptr2]) ptr1++;
     else if (nums1[ptr1] > nums2[ptr2]) ptr2++;
     else {
-      while (ptr1 < nums1.length && ptr2 < nums2.length && nums1[ptr1] === nums2[ptr2]) {
-        ret.push(nums1[ptr1]);
-        (ptr1++, ptr2++);
-      }
+      ret.push(nums1[ptr1]);
+      (ptr1++, ptr2++);
     }
   }
 
