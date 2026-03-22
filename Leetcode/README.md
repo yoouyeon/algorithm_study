@@ -59,6 +59,7 @@
 | 350 | Intersection of Two Arrays II | [350_intersection-of-two-arrays-ii.ts](Easy/350_intersection-of-two-arrays-ii.ts) | [🔗](https://leetcode.com/problems/intersection-of-two-arrays-ii) |
 | 380 | Insert Delete GetRandom O(1) | [380_insert-delete-get-random-o-1.ts](Medium/380_insert-delete-get-random-o-1.ts) | [🔗](https://leetcode.com/problems/insert-delete-getrandom-o1/) |
 | 387 | First Unique Character in a String | [387_first-unique-character-in-a-string.ts](Easy/387_first-unique-character-in-a-string.ts) | [🔗](https://leetcode.com/problems/first-unique-character-in-a-string) |
+| 389 | Find the Difference | [389_find-the-difference.ts](Easy/389_find-the-difference.ts) | [🔗](https://leetcode.com/problems/find-the-difference) |
 | 392 | Is Subsequence | [392_is-subsequence.ts](Easy/392_is-subsequence.ts) | [🔗](https://leetcode.com/problems/is-subsequence/) |
 | 567 | Permutation in String | [567_permutation-in-string.ts](Medium/567_permutation-in-string.ts) | [🔗](https://leetcode.com/problems/permutation-in-string/) |
 | 605 | Can Place Flowers | [605_can-place-flowers.ts](Easy/605_can-place-flowers.ts) | [🔗](https://leetcode.com/problems/can-place-flowers/) |
