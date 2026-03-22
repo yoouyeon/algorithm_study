@@ -81,8 +81,17 @@ today=$(date +%Y-%m-%d)
 
 그리고 아래 ANCHOR 주석을 추가한다. 시작 시간(`HH:MM`)은 풀이 소요 시간 계산을 위해 임시로 기록한다.
 
-```
-ANCHOR {YYYY.MM.DD} {HH:MM} 풀이
+완성된 파일 헤더 예시 (문제 메타정보는 `/* */`, ANCHOR는 `//` 주석으로 분리):
+
+```ts
+/*
+⭐️ 문제 정보 ⭐️
+문제 : 387 - First Unique Character in a String
+레벨 : Easy
+링크 : https://leetcode.com/problems/first-unique-character-in-a-string
+*/
+
+// ANCHOR 2026.03.22 14:26 풀이
 ```
 
 이미 파일이 존재하는 경우 기존 파일 상단 헤더 아래에 새 풀이 날짜로 ANCHOR 주석을 추가한다.
