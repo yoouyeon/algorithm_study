@@ -5,6 +5,36 @@
 링크 : https://leetcode.com/problems/longest-consecutive-sequence/
 */
 
+// ANCHOR 2026.03.23 풀이 (15분 소요)
+// 문제 파일 생성 전에 미리 풀엇습니다... 한 15분 걸린듯.
+function longestConsecutive2(nums: number[]): number {
+  if (nums.length === 1) return 1;
+
+  const numSet = new Set(nums);
+
+  let result = 0;
+  for (const num of numSet) {
+    if (!numSet.has(num - 1)) {
+      let selectedNum = num;
+      let length = 1;
+      while (numSet.has(selectedNum + 1)) {
+        selectedNum++;
+        length++;
+      }
+
+      result = Math.max(result, length);
+    }
+  }
+
+  return result;
+}
+
+/**
+nums = [100,4,200,1,3,2]
+
+100 -> 다음숫자 찾기 (+1/-1) 없으면 -> 지워도 괜찮다.
+*/
+
 // [128] Longest Consecutive Sequence
 
 /**
@@ -24,7 +54,7 @@
  * Set을 생성하기 위해 추가로 필요한 공간
  */
 
-function longestConsecutive(nums: number[]): number {
+function longestConsecutive1(nums: number[]): number {
   const numSet = new Set<number>(nums);
   let longest = 0;
 
