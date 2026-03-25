@@ -67,6 +67,7 @@
 | 567 | Permutation in String | [567_permutation-in-string.ts](Medium/567_permutation-in-string.ts) | [🔗](https://leetcode.com/problems/permutation-in-string/) |
 | 605 | Can Place Flowers | [605_can-place-flowers.ts](Easy/605_can-place-flowers.ts) | [🔗](https://leetcode.com/problems/can-place-flowers/) |
 | 713 | Subarray Product Less Than K | [713_subarray-product-less-than-k.ts](Medium/713_subarray-product-less-than-k.ts) | [🔗](https://leetcode.com/problems/subarray-product-less-than-k/) |
+| 739 | Daily Temperatures | [739_daily-temperatures.ts](Medium/739_daily-temperatures.ts) | [🔗](https://leetcode.com/problems/daily-temperatures/) |
 | 1071 | Greatest Common Divisor of Strings | [1071_greatest-common-divisor-of-strings.ts](Easy/1071_greatest-common-divisor-of-strings.ts) | [🔗](https://leetcode.com/problems/greatest-common-divisor-of-strings/) |
 | 1133 | Last Substring in Lexicographical Order | [1133_last-substring-in-lexicographical-order.ts](Hard/1133_last-substring-in-lexicographical-order.ts) | [🔗](https://leetcode.com/problems/last-substring-in-lexicographical-order/) |
 | 1431 | Kids With the Greatest Number of Candies | [1431_kids-with-the-greatest-number-of-candies.ts](Easy/1431_kids-with-the-greatest-number-of-candies.ts) | [🔗](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) |
