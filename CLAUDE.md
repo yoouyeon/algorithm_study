@@ -115,10 +115,6 @@ today=$(date +%Y-%m-%d)
 | 1 | Two Sum | [1.two-sum.ts](Easy/1.two-sum.ts) | [🔗](https://leetcode.com/problems/two-sum/) |
 ```
 
-### 5. Cursor 열기
-
-`cursor .` 명령어로 현재 디렉토리를 Cursor에서 연다.
-
 ## 풀이 완료 후 플로우
 
 사용자가 풀이를 완료했음을 알리면 아래 순서로 진행한다.
