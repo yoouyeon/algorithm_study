@@ -64,6 +64,7 @@
 | 409 | Longest Palindrome | [409_longest-palindrome.ts](Easy/409_longest-palindrome.ts) | [🔗](https://leetcode.com/problems/longest-palindrome) | [392_is-subsequence.ts](Easy/392_is-subsequence.ts) | [🔗](https://leetcode.com/problems/is-subsequence/) |
 | 448 | Find All Numbers Disappeared in an Array | [448_find-all-numbers-disappeared-in-an-array.ts](Easy/448_find-all-numbers-disappeared-in-an-array.ts) | [🔗](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) |
 | 496 | Next Greater Element I | [496_next-greater-element-i.ts](Easy/496_next-greater-element-i.ts) | [🔗](https://leetcode.com/problems/next-greater-element-i) |
+| 500 | Keyboard Row | [500_keyboard-row.ts](Easy/500_keyboard-row.ts) | [🔗](https://leetcode.com/problems/keyboard-row) |
 | 567 | Permutation in String | [567_permutation-in-string.ts](Medium/567_permutation-in-string.ts) | [🔗](https://leetcode.com/problems/permutation-in-string/) |
 | 605 | Can Place Flowers | [605_can-place-flowers.ts](Easy/605_can-place-flowers.ts) | [🔗](https://leetcode.com/problems/can-place-flowers/) |
 | 713 | Subarray Product Less Than K | [713_subarray-product-less-than-k.ts](Medium/713_subarray-product-less-than-k.ts) | [🔗](https://leetcode.com/problems/subarray-product-less-than-k/) |
