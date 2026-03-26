@@ -67,6 +67,7 @@
 | 500 | Keyboard Row | [500_keyboard-row.ts](Easy/500_keyboard-row.ts) | [🔗](https://leetcode.com/problems/keyboard-row) |
 | 567 | Permutation in String | [567_permutation-in-string.ts](Medium/567_permutation-in-string.ts) | [🔗](https://leetcode.com/problems/permutation-in-string/) |
 | 575 | Distribute Candies | [575_distribute-candies.ts](Easy/575_distribute-candies.ts) | [🔗](https://leetcode.com/problems/distribute-candies) |
+| 594 | Longest Harmonious Subsequence | [594_longest-harmonious-subsequence.ts](Easy/594_longest-harmonious-subsequence.ts) | [🔗](https://leetcode.com/problems/longest-harmonious-subsequence) |
 | 605 | Can Place Flowers | [605_can-place-flowers.ts](Easy/605_can-place-flowers.ts) | [🔗](https://leetcode.com/problems/can-place-flowers/) |
 | 713 | Subarray Product Less Than K | [713_subarray-product-less-than-k.ts](Medium/713_subarray-product-less-than-k.ts) | [🔗](https://leetcode.com/problems/subarray-product-less-than-k/) |
 | 739 | Daily Temperatures | [739_daily-temperatures.ts](Medium/739_daily-temperatures.ts) | [🔗](https://leetcode.com/problems/daily-temperatures/) |
