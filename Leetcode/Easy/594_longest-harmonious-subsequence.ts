@@ -42,7 +42,7 @@
     // 2. 인접한 숫자들끼리 개수 더하면서 최대 갯수 구해주기
     // 정렬을 해줄 필요가 없었음. map을 순회하면서 그 key에 +1한 값이 map에 있으면 max를 계산하는 방법이 있었음.
     let max = 0;
-    for (const [key, value] of map) {
+    for (const key of map.keys()) {
       if (map.has(key + 1)) max = Math.max(max, map.get(key) + map.get(key + 1));
     }
 
