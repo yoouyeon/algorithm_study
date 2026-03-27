@@ -19,6 +19,7 @@
 | 21 | Merge Two Sorted Lists | [21_merge-two-sorted-lists.ts](Easy/21_merge-two-sorted-lists.ts) | [🔗](https://leetcode.com/problems/merge-two-sorted-lists) |
 | 26 | Remove Duplicates from Sorted Array | [26_remove-duplicates-from-sorted-array.ts](Easy/26_remove-duplicates-from-sorted-array.ts) | [🔗](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
 | 27 | Remove Element | [27_remove-element.ts](Easy/27_remove-element.ts) | [🔗](https://leetcode.com/problems/remove-element/) |
+| 28 | Find the Index of the First Occurrence in a String | [28_find-the-index-of-the-first-occurrence-in-a-string.ts](Easy/28_find-the-index-of-the-first-occurrence-in-a-string.ts) | [🔗](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) |
 | 35 | Search Insert Position | [35_search-insert-position.ts](Easy/35_search-insert-position.ts) | [🔗](https://leetcode.com/problems/search-insert-position/) |
 | 39 | Combination Sum | [39_combination-sum.ts](Medium/39_combination-sum.ts) | [🔗](https://leetcode.com/problems/combination-sum/) |
 | 42 | Trapping Rain Water | [42_trapping-rain-water.ts](Hard/42_trapping-rain-water.ts) | [🔗](https://leetcode.com/problems/trapping-rain-water/) |
