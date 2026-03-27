@@ -55,6 +55,7 @@
 | 242 | Valid Anagram | [242_valid-anagram.ts](Easy/242_valid-anagram.ts) | [🔗](https://leetcode.com/problems/valid-anagram/) |
 | 268 | Missing Number | [268_missing-number.ts](Easy/268_missing-number.ts) | [🔗](https://leetcode.com/problems/missing-number) |
 | 274 | H-Index | [274_h-index.ts](Medium/274_h-index.ts) | [🔗](https://leetcode.com/problems/h-index/) |
+| 283 | Move Zeroes | [283_move-zeroes.ts](Easy/283_move-zeroes.ts) | [🔗](https://leetcode.com/problems/move-zeroes) |
 | 290 | Word Pattern | [290_word-pattern.ts](Easy/290_word-pattern.ts) | [🔗](https://leetcode.com/problems/word-pattern) |
 | 347 | Top K Frequent Elements | [347_top-k-frequent-elements.ts](Medium/347_top-k-frequent-elements.ts) | [🔗](https://leetcode.com/problems/top-k-frequent-elements/) |
 | 349 | Intersection of Two Arrays | [349_intersection-of-two-arrays.ts](Easy/349_intersection-of-two-arrays.ts) | [🔗](https://leetcode.com/problems/intersection-of-two-arrays) |
