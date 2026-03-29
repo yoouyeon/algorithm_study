@@ -2,7 +2,7 @@
 name: prep
 description: 알고리즘 문제 풀이를 준비한다. 브랜치 확인 → 문제 정보 수집 → 파일 생성 → README 업데이트
 argument-hint: "<url> [language]"
-allowed-tools: mcp__algorithm__get_leetcode_problem, mcp__algorithm__get_backjoon_problem
+allowed-tools: Bash(bash .claude/skills/prep/scripts/*), mcp__algorithm__get_leetcode_problem, mcp__algorithm__get_backjoon_problem
 ---
 
 $ARGUMENTS를 파싱하여 url과 풀이 언어를 추출한다.
