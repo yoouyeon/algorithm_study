@@ -11,6 +11,18 @@
 - [프로그래머스](./Programmers) - https://programmers.co.kr/
 - [LeetCode](./Leetcode) - https://leetcode.com/
 
+## 🤖 문제 풀이 프로세스
+
+Claude Code를 활용한 풀이 흐름입니다.
+
+| 단계 | 커맨드 | 설명 |
+|------|--------|------|
+| 1 | `/prep <url>` | 브랜치 생성, 파일 준비 |
+| 2 | _(풀이)_ | 직접 코드 작성 |
+| 3 | `/done` | 커밋 + 피드백 |
+| 4 | `/docs` | 풀이 문서 생성 |
+| 5 | `/pr` / `/merge` | PR 생성 및 머지 |
+
 ## 📂 폴더 구조
 
 ```
@@ -32,7 +44,9 @@
  ┃ ┣ 📂Medium
  ┃ ┣ 📂Hard
  ┃ ┗ 📜README.md
+ ┣ 📂docs - VitePress 풀이 위키
  ┣ 📂mcp-server - Claude Code MCP 서버
+ ┣ 📂.claude - Claude Code skills
  ┣ 📜README.md
  ┗ 📜package.json
 ```
