@@ -17,7 +17,6 @@
 | 리트코드 | TypeScript |
 
 사용자가 링크 뒤에 언어를 명시한 경우 해당 언어를 사용한다.
-예: `https://leetcode.com/problems/two-sum/ py` → `1_two-sum.py`
 
 ## 파일 헤더 형식
 
@@ -35,19 +34,6 @@
 // ANCHOR {YYYY.MM.DD} {HH:MM} 풀이
 ```
 
-### 예시
-
-```ts
-/*
-⭐️ 문제 정보 ⭐️
-문제 : 387 - First Unique Character in a String
-레벨 : Easy
-링크 : https://leetcode.com/problems/first-unique-character-in-a-string
-*/
-
-// ANCHOR 2026.03.22 14:26 풀이
-```
-
 ## README 테이블 형식
 
 각 플랫폼 디렉토리의 `README.md` 문제 목록 테이블에 추가한다.
@@ -57,10 +43,3 @@
 | {problemId} | {제목} | [{파일명}]({하위 디렉토리}/{파일명}) | [🔗]({문제 링크}) |
 ```
 
-### 예시
-
-```md
-| 1234 | 최단경로 | [1234_최단경로.js](Gold5/1234_최단경로.js) | [🔗](https://www.acmicpc.net/problem/1234) |
-| 42586 | 기능개발 | [42586_기능개발.js](Level2/42586_기능개발.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42586) |
-| 1 | Two Sum | [1_two-sum.ts](Easy/1_two-sum.ts) | [🔗](https://leetcode.com/problems/two-sum/) |
-```
