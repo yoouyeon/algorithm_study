@@ -19,3 +19,13 @@ function solution(n) {
 
   return f[n] % MOD;
 }
+
+/**
+ * 배열 전체를 저장할 필요 없이 변수 2개만으로 O(1) 공간으로 줄일 수 있습니다:
+ *
+ * let [a, b] = [0, 1];
+ * for (let i = 2; i <= n; i++) {
+ *   [a, b] = [b, (a + b) % MOD];
+ * }
+ * return b % MOD;
+ */
