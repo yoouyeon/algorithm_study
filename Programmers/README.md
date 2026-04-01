@@ -10,6 +10,7 @@
 | --------- | --------- | --------- | --------- |
 | 1844 | 게임 맵 최단거리 | [1844_게임_맵_최단거리.js](Level2/1844_게임_맵_최단거리.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/1844) |
 | 1845 | 폰켓몬 | [1845_폰켓몬.js](Level1/1845_폰켓몬.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/1845) |
+| 12900 | 2 x n 타일링 | [12900_2_x_n_타일링.js](Level2/12900_2_x_n_타일링.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12900) |
 | 12906 | 같은 숫자는 싫어 | [12906_같은_숫자는_싫어.js](Level1/12906_같은_숫자는_싫어.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12906) |
 | 12909 | 올바른 괄호 | [12909_올바른_괄호.js](Level2/12909_올바른_괄호.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12909) |
 | 12910 | 나누어 떨어지는 숫자 배열 | [12910_나누어_떨어지는_숫자_배열.js](Level1/12910_나누어_떨어지는_숫자_배열.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12910) |
