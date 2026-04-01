@@ -1,9 +1,29 @@
-/* 
+/*
 ⭐️ 문제 정보 ⭐️
 문제 : 42576 - 완주하지 못한 선수
 레벨 : Level 1
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/42576
 */
+
+// ANCHOR 2026.04.01 풀이 (7분 소요)
+function solution(participant, completion) {
+  // 참여자 map 초기화하기
+  // completion 돌면서 미완주자 걸러내기
+
+  const map = new Map();
+  for (const p of participant) {
+    map.set(p, (map.get(p) ?? 0) + 1);
+  }
+
+  for (const c of completion) {
+    map.set(c, (map.get(c) ?? 0) - 1);
+  }
+
+  for (const [name, count] of map) {
+    if (count !== 0) return name;
+  }
+  return ''; // 반드시 답이 있음
+}
 
 // ANCHOR - 2025.12.04 풀이
 function solution2(participant, completion) {
@@ -27,7 +47,7 @@ function solution2(participant, completion) {
     if (count > 0) return name;
   }
 
-  return ""; // NEVER
+  return ''; // NEVER
 }
 
 // ANCHOR - 2025.10.06 풀이
@@ -51,5 +71,5 @@ function solution1(participant, completion) {
     }
   }
 
-  return ""; // 모든 사람이 완주했을 경우 (문제 조건상 발생하지 않음)
+  return ''; // 모든 사람이 완주했을 경우 (문제 조건상 발생하지 않음)
 }
