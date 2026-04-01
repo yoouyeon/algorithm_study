@@ -19,6 +19,7 @@
 | 12939 | 최댓값과 최솟값 | [12939_최댓값과_최솟값.js](Level2/12939_최댓값과_최솟값.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12939) |
 | 12940 | 최대공약수와 최소공배수 | [12940_최대공약수와_최소공배수.js](Level1/12940_최대공약수와_최소공배수.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12940) |
 | 12941 | 최솟값 만들기 | [12941_최솟값_만들기.js](Level2/12941_최솟값_만들기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12941) |
+| 12945 | 피보나치 수 | [12945_피보나치_수.js](Level2/12945_피보나치_수.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12945) |
 | 12949 | 행렬의 곱셈 | [12949_행렬의_곱셈.js](Level2/12949_행렬의_곱셈.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12949) |
 | 12953 | N개의 최소공배수 | [12953_N개의_최소공배수.js](Level1/12953_N개의_최소공배수.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12953) |
 | 12973 | 짝지어 제거하기 | [12973_짝지어_제거하기.js](Level2/12973_짝지어_제거하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12973) |
