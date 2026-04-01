@@ -1,9 +1,36 @@
-/* 
+/*
 ⭐️ 문제 정보 ⭐️
 문제 : 42840 - 모의고사
 레벨 : Level 1
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/42840
 */
+
+// ANCHOR 2026.04.01 풀이 (12분 소요)
+function solution(answers) {
+  // 각 정답이 각 패턴에 얼마나 맞는지를 확인하기
+  const patterns = [
+    [1, 2, 3, 4, 5],
+    [2, 1, 2, 3, 2, 4, 2, 5],
+    [3, 3, 1, 1, 2, 2, 4, 4, 5, 5],
+  ];
+
+  let answer = [];
+  let max = 0;
+  for (let idx = 0; idx < patterns.length; idx++) {
+    const pattern = patterns[idx];
+    let count = 0;
+    for (let i = 0; i < answers.length; i++) {
+      if (answers[i] === pattern[i % pattern.length]) count++;
+    }
+    if (max < count) {
+      answer = [idx + 1];
+      max = count;
+    } else if (max === count) {
+      answer.push(idx + 1);
+    }
+  }
+  return answer.sort((a, b) => a - b);
+}
 
 function solution(answers) {
   const scores = [0, 0, 0]; // 수포자들의 점수를 저장하는 배열
