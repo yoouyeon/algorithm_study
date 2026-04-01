@@ -29,6 +29,7 @@ function solution(answers) {
       answer.push(idx + 1);
     }
   }
+  // 오름차순으로 정렬하라는 조건이 있긴 했는데, 이 풀이에서는 오름차순으로 답을 넣기 때문에 정렬이 불필요하긴 하다. (없는게 더 나음)
   return answer.sort((a, b) => a - b);
 }
 
