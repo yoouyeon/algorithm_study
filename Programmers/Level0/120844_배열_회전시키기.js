@@ -14,4 +14,10 @@ function solution(numbers, direction) {
     return rotateNumbers.slice(numbers.length - 1, numbers.length * 2 - 1);
   }
   return rotateNumbers.slice(1, numbers.length + 1);
+  // 피드백 : 중간배열을 쓰지 않는 쪽이 좀 더 명시적이다. (공간복잡도도 더 낫다)
+  // if (direction === 'right') {
+  // if (direction === 'right') {
+  //   return [numbers[numbers.length - 1]].concat(numbers.slice(0, -1));
+  // }
+  // return numbers.slice(1).concat(numbers[0]);
 }
