@@ -14,6 +14,7 @@
 | 12906 | 같은 숫자는 싫어 | [12906_같은_숫자는_싫어.js](Level1/12906_같은_숫자는_싫어.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12906) |
 | 12909 | 올바른 괄호 | [12909_올바른_괄호.js](Level2/12909_올바른_괄호.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12909) |
 | 12910 | 나누어 떨어지는 숫자 배열 | [12910_나누어_떨어지는_숫자_배열.js](Level1/12910_나누어_떨어지는_숫자_배열.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12910) |
+| 12915 | 문자열 내 마음대로 정렬하기 | [12915_문자열_내_마음대로_정렬하기.js](Level1/12915_문자열_내_마음대로_정렬하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12915) |
 | 12921 | 소수 찾기 | [12921_소수_찾기.js](Level1/12921_소수_찾기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12921) |
 | 12924 | 숫자의 표현 | [12924_숫자의_표현.js](Level2/12924_숫자의_표현.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12924) |
 | 12928 | 약수의 합 | [12928_약수의_합.js](Level1/12928_약수의_합.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12928) |
