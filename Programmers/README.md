@@ -82,6 +82,7 @@
 | 118669 | 등산코스 정하기 | [118669_등산코스_정하기.js](118669_등산코스_정하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/118669) |
 | 120817 | 배열의 평균값 | [120817_배열의_평균값.js](Level0/120817_배열의_평균값.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/120817) |
 | 120821 | 배열 뒤집기 | [120821_배열_뒤집기.js](Level0/120821_배열_뒤집기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/120821) |
+| 120844 | 배열 회전시키기 | [120844_배열_회전시키기.js](Level0/120844_배열_회전시키기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/120844) |
 | 120853 | 컨트롤 제트 | [120853_컨트롤_제트.js](Level0/120853_컨트롤_제트.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/120853) |
 | 120861 | 캐릭터의 좌표 | [120861_캐릭터의_좌표.js](Level0/120861_캐릭터의_좌표.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/120861) |
 | 121683 | 외톨이 알파벳.cpp | [121683_외톨이_알파벳.cpp](Unrated/121683_외톨이_알파벳.cpp) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/121683) |
