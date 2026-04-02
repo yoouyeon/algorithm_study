@@ -15,10 +15,10 @@ function solution(today, terms, privacies) {
   const termsMap = new Map();
   terms.forEach((t) => {
     const [name, month] = t.split(' ');
-    termsMap.set(name, month * 28);
+    termsMap.set(name, parseInt(month) * 28);
   });
 
-  var answer = [];
+  const answer = [];
   const todayDate = converter(today);
 
   privacies.forEach((privacy, idx) => {
