@@ -1,4 +1,4 @@
-/* 
+/*
 ⭐️ 문제 정보 ⭐️
 문제 : 12981 - 영어 끝말잇기
 레벨 : Level 2
@@ -18,6 +18,25 @@ function solution(n, words) {
     } else {
       wordSet.add(words[cur]);
     }
+  }
+
+  return [0, 0];
+}
+
+// ANCHOR 2026.04.02 풀이 (19분 소요)
+function solution(n, words) {
+  const wordSet = new Set();
+  const roundCount = new Array(n).fill(0);
+  wordSet.add(words[0]);
+  roundCount[0] = 1;
+
+  for (let idx = 1; idx < words.length; idx++) {
+    const player = idx % n;
+    const word = words[idx];
+    const lastWord = words[idx - 1];
+    roundCount[player]++;
+    if (wordSet.has(word) || lastWord[lastWord.length - 1] !== word[0]) return [player + 1, roundCount[player]];
+    wordSet.add(word);
   }
 
   return [0, 0];
