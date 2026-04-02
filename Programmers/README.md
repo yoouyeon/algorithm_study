@@ -26,6 +26,7 @@
 | 12973 | 짝지어 제거하기 | [12973_짝지어_제거하기.js](Level2/12973_짝지어_제거하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12973) |
 | 12977 | 소수 만들기 | [12977_소수_만들기.js](Level1/12977_소수_만들기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12977) |
 | 12981 | 영어 끝말잇기 | [12981_영어_끝말잇기.js](Level2/12981_영어_끝말잇기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12981) |
+| 12982 | 예산 | [12982_예산.js](Level1/12982_예산.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12982) |
 | 12985 | 예상 대진표 | [12985_예상_대진표.js](Level2/12985_예상_대진표.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12985) |
 | 12987 | 숫자 게임 | [12987_숫자_게임.js](Level3/12987_숫자_게임.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12987) |
 | 17677 | [1차] 뉴스 클러스터링 | [17677_[1차]_뉴스_클러스터링.js](Level2/17677_[1차]_뉴스_클러스터링.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17677) |
