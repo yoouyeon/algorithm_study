@@ -1,11 +1,38 @@
+/*
+⭐️ 문제 정보 ⭐️
+문제 : 150370 - 개인정보 수집 유효기간
+레벨 : Level 1
+링크 : https://school.programmers.co.kr/learn/courses/30/lessons/150370
+*/
+
+// ANCHOR 2026.04.02 풀이 (21분 소요)
+function solution(today, terms, privacies) {
+  // 일 단위로 모두 계산해서 변환해두는게 더 나을 것 같다.
+  const converter = (date) => {
+    const [y, m, d] = date.split('.').map((e) => parseInt(e));
+    return y * 12 * 28 + m * 28 + d;
+  };
+  const termsMap = new Map();
+  terms.forEach((t) => {
+    const [name, month] = t.split(' ');
+    termsMap.set(name, month * 28);
+  });
+
+  var answer = [];
+  const todayDate = converter(today);
+
+  privacies.forEach((privacy, idx) => {
+    const [date, name] = privacy.split(' ');
+    const expireDate = converter(date) + termsMap.get(name);
+    if (expireDate <= todayDate) answer.push(idx + 1);
+  });
+  return answer;
+}
+
 // dateToCompare 기준으로 date가 이후거나 같은지 확인 dateToCompare: 만료일자, date: 오늘
 function isAfter(dateToCompare, date) {
   const { year: dateYear, month: dateMonth, day: dateDay } = date;
-  const {
-    year: dateToCompareYear,
-    month: dateToCompareMonth,
-    day: dateToCompareDay,
-  } = dateToCompare;
+  const { year: dateToCompareYear, month: dateToCompareMonth, day: dateToCompareDay } = dateToCompare;
   // 년 비교
   if (dateToCompareYear < dateYear) return true;
   if (dateToCompareYear > dateYear) return false;
@@ -18,7 +45,7 @@ function isAfter(dateToCompare, date) {
 }
 
 function makeDate(today) {
-  const [year, month, day] = today.split(".").map((str) => parseInt(str));
+  const [year, month, day] = today.split('.').map((str) => parseInt(str));
   return { year, month, day };
 }
 
@@ -43,11 +70,11 @@ function solution(today, terms, privacies) {
   const todayDate = makeDate(today);
   const termsMap = new Map(); // key : 약관 종류, value : 유효기간
   terms.forEach((term) => {
-    const [type, period] = term.split(" ");
+    const [type, period] = term.split(' ');
     termsMap.set(type, parseInt(period));
   });
   privacies.forEach((privacy, idx) => {
-    const [date, type] = privacy.split(" ");
+    const [date, type] = privacy.split(' ');
     const expireDate = makeExpirationDate(makeDate(date), termsMap.get(type));
     // 만료일자 기준으로 오늘날짜가 이후거나 같으면
     if (isAfter(expireDate, todayDate)) answer.push(idx + 1);
