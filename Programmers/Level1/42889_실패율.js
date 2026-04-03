@@ -1,9 +1,24 @@
-/* 
+/*
 ⭐️ 문제 정보 ⭐️
 문제 : 42889 - 실패율
 레벨 : Level 1
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/42889
 */
+
+// ANCHOR 2026.04.03 풀이 (19분 소요)
+function solution(N, stages) {
+  // 과거 풀이보다 더 비효율적임 (N*M)
+  // 그냥 메서드 체이닝 하나로 끝나는 풀이를 해보고 싶었음
+  const answer = Array.from({ length: N }, (_, i) => i + 1)
+    .map((stage) => {
+      const reach = stages.filter((x) => x >= stage);
+      const curr = stages.filter((x) => x === stage);
+      return { stage, rate: curr.length / reach.length };
+    })
+    .sort((a, b) => b.rate - a.rate)
+    .map(({ stage }) => stage);
+  return answer;
+}
 
 // ANCHOR 2025.10.02 풀이
 function solution2(N, stages) {
