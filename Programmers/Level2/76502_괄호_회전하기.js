@@ -5,6 +5,32 @@
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/76502
 */
 
+// ANCHOR 2026.04.04 풀이 (14분 소요)
+function solution(s) {
+  // 회전...? 이어붙여
+  const rotateS = [...s, ...s];
+  let answer = 0;
+  for (let start = 0; start < s.length; start++) {
+    let isValid = true;
+    const stack = [];
+    for (let sublen = 0; sublen < s.length; sublen++) {
+      const c = rotateS[start + sublen];
+      // 여는 괄호 -> 스택에 넣는다.
+      if (c === '[' || c === '(' || c === '{') stack.push(c);
+      else {
+        const top = stack.pop();
+        if (top === '[' && c === ']') continue;
+        if (top === '{' && c === '}') continue;
+        if (top === '(' && c === ')') continue;
+        isValid = false;
+        break;
+      }
+    }
+    if (isValid && stack.length === 0) answer++;
+  }
+  return answer;
+}
+
 // ANCHOR 2025.12.01 풀이
 function solution3(s) {
   let answer = 0;
@@ -14,7 +40,7 @@ function solution3(s) {
     let isValid = true;
     for (let offset = 0; offset < s.length; offset++) {
       const c = sList[start + offset];
-      if (c === "(" || c === "[" || c === "{") {
+      if (c === '(' || c === '[' || c === '{') {
         stack.push(c);
       } else {
         const top = stack.pop();
@@ -22,9 +48,9 @@ function solution3(s) {
           isValid = false;
           break;
         }
-        if (top === "(" && c === ")") continue;
-        if (top === "[" && c === "]") continue;
-        if (top === "{" && c === "}") continue;
+        if (top === '(' && c === ')') continue;
+        if (top === '[' && c === ']') continue;
+        if (top === '{' && c === '}') continue;
         isValid = false;
         break;
       }
@@ -48,7 +74,7 @@ function solution2(s) {
       const c = rotated[start + offset];
 
       // 여는 괄호인 경우 push
-      if (c === "(" || c === "[" || c === "{") {
+      if (c === '(' || c === '[' || c === '{') {
         stack.push(c);
         continue;
       }
@@ -59,9 +85,9 @@ function solution2(s) {
       }
       // 닫는 괄호인 경우 top과 비교
       const top = stack.pop();
-      if (c === ")" && top === "(") continue;
-      if (c === "]" && top === "[") continue;
-      if (c === "}" && top === "{") continue;
+      if (c === ')' && top === '(') continue;
+      if (c === ']' && top === '[') continue;
+      if (c === '}' && top === '{') continue;
       isValid = false;
       break;
     }
@@ -74,16 +100,16 @@ function solution2(s) {
 // ANCHOR 2024.02.22 풀이
 
 const bracket = {
-  "{": "}",
-  "[": "]",
-  "(": ")",
+  '{': '}',
+  '[': ']',
+  '(': ')',
 };
 
 function isRightBracket(s) {
   const stack = [];
   for (let i = 0; i < s.length; i++) {
     const curr = s[i];
-    if (curr === "{" || curr === "[" || curr === "(") stack.push(curr);
+    if (curr === '{' || curr === '[' || curr === '(') stack.push(curr);
     else {
       const top = stack.pop();
       if (curr !== bracket[top]) return false;
@@ -94,7 +120,7 @@ function isRightBracket(s) {
 
 function solution1(s) {
   let answer = 0;
-  const stringArr = s.split("");
+  const stringArr = s.split('');
   for (let i = 0; i < stringArr.length; i++) {
     if (isRightBracket(stringArr)) answer++;
     // rotate
