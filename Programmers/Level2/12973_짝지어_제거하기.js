@@ -21,6 +21,13 @@
         if (top === c) stack.pop();
         else stack.push(c);
       }
+      /**
+       * NOTE : at을 써서 동일한 로직을 좀 더 깔끔하게 작성할수도 있다.
+       * at은 스택이 비어있으면 undefined를 반환하기 때문에, 굳이 스택이 비어있는지 체크할 필요가 없다.
+       * const top = stack.at(-1);
+       * if (top === c) stack.pop();
+       * else stack.push(c);
+       */
     }
 
     return stack.length === 0 ? 1 : 0;
