@@ -1,9 +1,41 @@
-/* 
+/*
 ⭐️ 문제 정보 ⭐️
 문제 : 64061 - 크레인 인형뽑기 게임
 레벨 : Level 1
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/64061
 */
+
+// ANCHOR 2026.04.06 풀이 (21분 소요)
+{
+  // 구현 문제는 재미 없다.
+  function solution(board, moves) {
+    let answer = 0;
+    const basket = [];
+    const gameBoard = Array.from({ length: board.length }, (_, i) =>
+      board
+        .map((row) => row[i])
+        .filter((el) => el !== 0)
+        .reverse(),
+    );
+
+    for (const move of moves) {
+      // 인형을 뽑음
+      const plush = gameBoard[move - 1].at(-1);
+      if (plush === undefined) continue;
+      gameBoard[move - 1].pop();
+
+      // 바구니를 확인
+      const top = basket.at(-1);
+      if (top !== plush) basket.push(plush);
+      else {
+        basket.pop();
+        answer += 2;
+      }
+    }
+
+    return answer;
+  }
+}
 
 // ANCHOR 2025.12.03 풀이
 function solution3(board, moves) {
