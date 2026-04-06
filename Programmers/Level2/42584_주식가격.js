@@ -1,9 +1,39 @@
-/* 
+/*
 ⭐️ 문제 정보 ⭐️
 문제 : 42584 - 주식가격
 레벨 : Level 2
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/42584
 */
+
+// ANCHOR 2026.04.06 풀이 (15분 소요)
+{
+  function solution(prices) {
+    // 이거 몇번 푼 문젠데 풀 때마다 헷갈리는듯
+    // 각 가격이 몇초간 가격이 떨어지지 않았는지를 구하는 문제다;;;
+    // 스택에다 각 가격이랑 현재 초를 저장해두고 풀면 되겠다.
+    const stack = [];
+    const answer = [];
+
+    for (let idx = 0; idx < prices.length; idx++) {
+      let price = prices[idx];
+      let top = stack.at(-1);
+      while (top !== undefined && top.price > price) {
+        answer[top.idx] = idx - top.idx;
+        stack.pop();
+        top = stack.at(-1);
+      }
+      stack.push({ price, idx });
+    }
+
+    // 남은 가격들 처리
+    for (let i = 0; i < stack.length; i++) {
+      const { price, idx } = stack[i];
+      answer[idx] = prices.length - idx - 1;
+    }
+
+    return answer;
+  }
+}
 
 // ANCHOR 2025.12.03 풀이
 function solution3(prices) {
