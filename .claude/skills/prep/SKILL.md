@@ -31,6 +31,8 @@ URL을 분석하여 플랫폼을 판단한다.
 ### 프로그래머스 (https://school.programmers.co.kr/learn/courses/30/lessons/{problemId})
 
 - url에서 `problemId` 추출
+- 데이터 페칭을 시도하지 않는다 (501 에러 발생)
+- 사용자에게 문제 제목을 질문한다: 문제 제목이 무엇인가요?
 - 사용자에게 난이도를 질문한다: 난이도가 몇 레벨인가요? (0~4 또는 Unrated)
 
 ## 3. 문제 파일 생성
