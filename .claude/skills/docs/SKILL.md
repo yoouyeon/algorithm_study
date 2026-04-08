@@ -1,16 +1,16 @@
 ---
 name: docs
 description: 풀이 문서를 docs/ 디렉토리에 생성한다
+argument-hint: "<filename>"
 context: fork
 agent: docs-writer
 ---
 
-현재 풀이한 문제의 코드를 읽어 풀이 문서를 생성한다.
+$ARGUMENTS에서 파일명(예: `54_spiral-matrix.ts`)을 추출한다.
+파일명이 주어지지 않은 경우 사용자에게 파일명을 질문한다.
+
+해당 파일명으로 저장소 내에서 풀이 코드 파일을 찾아 읽고, 풀이 문서를 생성한다.
 풀이 문서 템플릿과 태그 규칙은 [reference.md](reference.md)를 참고한다.
-
-## 풀이 파일 확인 방법
-
-`git log -1 --name-only`로 가장 최근 커밋에 포함된 파일을 확인하고, 풀이 코드 파일을 기준으로 한다.
 
 ## 제약
 
