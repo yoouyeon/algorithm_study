@@ -24,6 +24,7 @@
 | 39 | Combination Sum | [39_combination-sum.ts](Medium/39_combination-sum.ts) | [🔗](https://leetcode.com/problems/combination-sum/) |
 | 42 | Trapping Rain Water | [42_trapping-rain-water.ts](Hard/42_trapping-rain-water.ts) | [🔗](https://leetcode.com/problems/trapping-rain-water/) |
 | 45 | Jump Game II | [45_jump-game-ii.ts](Medium/45_jump-game-ii.ts) | [🔗](https://leetcode.com/problems/jump-game-ii/) |
+| 54 | Spiral Matrix | [54_spiral-matrix.ts](Medium/54_spiral-matrix.ts) | [🔗](https://leetcode.com/problems/spiral-matrix) |
 | 55 | Jump Game | [55_jump-game.ts](Medium/55_jump-game.ts) | [🔗](https://leetcode.com/problems/jump-game/) |
 | 58 | Length of Last Word | [58_length-of-last-word.ts](Easy/58_length-of-last-word.ts) | [🔗](https://leetcode.com/problems/length-of-last-word/) |
 | 70 | Climbing Stairs | [70_climbing-stairs.ts](Easy/70_climbing-stairs.ts) | [🔗](https://leetcode.com/problems/climbing-stairs/) |
