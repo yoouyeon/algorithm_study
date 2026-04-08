@@ -27,6 +27,7 @@
 | 54 | Spiral Matrix | [54_spiral-matrix.ts](Medium/54_spiral-matrix.ts) | [🔗](https://leetcode.com/problems/spiral-matrix) |
 | 55 | Jump Game | [55_jump-game.ts](Medium/55_jump-game.ts) | [🔗](https://leetcode.com/problems/jump-game/) |
 | 58 | Length of Last Word | [58_length-of-last-word.ts](Easy/58_length-of-last-word.ts) | [🔗](https://leetcode.com/problems/length-of-last-word/) |
+| 59 | Spiral Matrix II | [59_spiral-matrix-ii.ts](Medium/59_spiral-matrix-ii.ts) | [🔗](https://leetcode.com/problems/spiral-matrix-ii/) |
 | 70 | Climbing Stairs | [70_climbing-stairs.ts](Easy/70_climbing-stairs.ts) | [🔗](https://leetcode.com/problems/climbing-stairs/) |
 | 80 | Remove Duplicates from Sorted Array II | [80_remove-duplicates-from-sorted-array-ii.ts](Medium/80_remove-duplicates-from-sorted-array-ii.ts) | [🔗](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) |
 | 88 | Merge Sorted Array | [88_merge-sorted-array.ts](Easy/88_merge-sorted-array.ts) | [🔗](https://leetcode.com/problems/merge-sorted-array/) |
