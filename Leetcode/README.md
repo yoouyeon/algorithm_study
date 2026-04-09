@@ -82,6 +82,7 @@
 | 739 | Daily Temperatures | [739_daily-temperatures.ts](Medium/739_daily-temperatures.ts) | [🔗](https://leetcode.com/problems/daily-temperatures/) |
 | 766 | Toeplitz Matrix | [766_toeplitz-matrix.ts](Easy/766_toeplitz-matrix.ts) | [🔗](https://leetcode.com/problems/toeplitz-matrix/) |
 | 835 | Image Overlap | [835_image-overlap.ts](Medium/835_image-overlap.ts) | [🔗](https://leetcode.com/problems/image-overlap/) |
+| 867 | Transpose Matrix | [867_transpose-matrix.ts](Easy/867_transpose-matrix.ts) | [🔗](https://leetcode.com/problems/transpose-matrix/) |
 | 1071 | Greatest Common Divisor of Strings | [1071_greatest-common-divisor-of-strings.ts](Easy/1071_greatest-common-divisor-of-strings.ts) | [🔗](https://leetcode.com/problems/greatest-common-divisor-of-strings/) |
 | 1133 | Last Substring in Lexicographical Order | [1133_last-substring-in-lexicographical-order.ts](Hard/1133_last-substring-in-lexicographical-order.ts) | [🔗](https://leetcode.com/problems/last-substring-in-lexicographical-order/) |
 | 1431 | Kids With the Greatest Number of Candies | [1431_kids-with-the-greatest-number-of-candies.ts](Easy/1431_kids-with-the-greatest-number-of-candies.ts) | [🔗](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) |
