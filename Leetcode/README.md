@@ -92,6 +92,7 @@
 | 1768 | Merge Strings Alternately | [1768_merge-strings-alternately.ts](Easy/1768_merge-strings-alternately.ts) | [🔗](https://leetcode.com/problems/merge-strings-alternately/) |
 | 1918 | Maximum Score of a Good Subarray | [1918_maximum-score-of-a-good-subarray.ts](Hard/1918_maximum-score-of-a-good-subarray.ts) | [🔗](https://leetcode.com/problems/maximum-score-of-a-good-subarray) |
 | 1923 | Sentence Similarity III | [1923_sentence-similarity-iii.ts](Medium/1923_sentence-similarity-iii.ts) | [🔗](https://leetcode.com/problems/sentence-similarity-iii) |
+| 2131 | Longest Palindrome by Concatenating Two Letter Words | [2131_longest-palindrome-by-concatenating-two-letter-words.ts](Medium/2131_longest-palindrome-by-concatenating-two-letter-words.ts) | [🔗](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words) |
 | 2300 | Successful Pairs of Spells and Potions | [2300_successful-pairs-of-spells-and-potions.ts](Medium/2300_successful-pairs-of-spells-and-potions.ts) | [🔗](https://leetcode.com/problems/successful-pairs-of-spells-and-potions) |
 | 2373 | Largest Local Values in a Matrix | [2373_largest-local-values-in-a-matrix.ts](Easy/2373_largest-local-values-in-a-matrix.ts) | [🔗](https://leetcode.com/problems/largest-local-values-in-a-matrix/) |
 | 2406 | Divide Intervals Into Minimum Number of Groups | [2406_divide-intervals-into-minimum-number-of-groups.ts](Medium/2406_divide-intervals-into-minimum-number-of-groups.ts) | [🔗](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups) |
