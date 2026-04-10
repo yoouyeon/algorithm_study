@@ -5,6 +5,32 @@
 링크 : https://leetcode.com/problems/longest-consecutive-sequence/
 */
 
+// ANCHOR 2026.04.10 풀이 (14분 소요)
+// 며칠 전에 푼 문젠데도 이렇게 오래 걸릴 일인가....
+function longestConsecutive(nums: number[]): number {
+  // 시작점을 기준으로 갈 수 있는 최대 길이를 구해본다.
+  // 중복을 고려하지 않기 때문에 (Example 2 참고) set으로도 충분!
+  if (nums.length === 1) return 1;
+
+  const numSet = new Set(nums);
+  let answer = 0;
+  for (const num of numSet) {
+    // 시작점이면
+    if (!numSet.has(num - 1)) {
+      let cur = num;
+      let length = 0;
+      while (numSet.has(cur)) {
+        cur++;
+        length++;
+      }
+      // 답 업데이트해주기
+      answer = Math.max(answer, length);
+    }
+  }
+
+  return answer;
+}
+
 // ANCHOR 2026.03.23 풀이 (15분 소요)
 // 문제 파일 생성 전에 미리 풀엇습니다... 한 15분 걸린듯.
 function longestConsecutive2(nums: number[]): number {
