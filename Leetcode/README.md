@@ -84,6 +84,7 @@
 | 766 | Toeplitz Matrix | [766_toeplitz-matrix.ts](Easy/766_toeplitz-matrix.ts) | [🔗](https://leetcode.com/problems/toeplitz-matrix/) |
 | 835 | Image Overlap | [835_image-overlap.ts](Medium/835_image-overlap.ts) | [🔗](https://leetcode.com/problems/image-overlap/) |
 | 867 | Transpose Matrix | [867_transpose-matrix.ts](Easy/867_transpose-matrix.ts) | [🔗](https://leetcode.com/problems/transpose-matrix/) |
+| 923 | 3Sum With Multiplicity | [923_3sum-with-multiplicity.ts](Medium/923_3sum-with-multiplicity.ts) | [🔗](https://leetcode.com/problems/3sum-with-multiplicity) |
 | 954 | Array of Doubled Pairs | [954_array-of-doubled-pairs.ts](Medium/954_array-of-doubled-pairs.ts) | [🔗](https://leetcode.com/problems/array-of-doubled-pairs) |
 | 1010 | Pairs of Songs With Total Durations Divisible by 60 | [1010_pairs-of-songs-with-total-durations-divisible-by-60.ts](Medium/1010_pairs-of-songs-with-total-durations-divisible-by-60.ts) | [🔗](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60) |
 | 1071 | Greatest Common Divisor of Strings | [1071_greatest-common-divisor-of-strings.ts](Easy/1071_greatest-common-divisor-of-strings.ts) | [🔗](https://leetcode.com/problems/greatest-common-divisor-of-strings/) |
