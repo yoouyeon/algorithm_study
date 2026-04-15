@@ -19,10 +19,10 @@ function queryResults(limit: number, queries: number[][]): number[] {
   for (const query of queries) {
     const [x, y] = query;
     // 1. 공의 현재 색을 확인
-    const oldY = ballColor[x];
+    const oldY = ballColor.get(x);
     // 2. 만약에 색이 없다면 그대로 색칠해주면 된다.
     if (oldY === undefined) {
-      ballColor[x] = y;
+      ballColor.set(x, y);
       colorCount.set(y, (colorCount.get(y) ?? 0) + 1);
     }
     // 3. 만약에 색이 다르다면 바꿔준다. (색이 같으면 그냥 가면 됨)
@@ -33,7 +33,7 @@ function queryResults(limit: number, queries: number[][]): number[] {
       // b. 새로운 색깔 수 증가
       colorCount.set(y, (colorCount.get(y) ?? 0) + 1);
       // c. 공 배열 업데이트
-      ballColor[x] = y;
+      ballColor.set(x, y);
     }
     // 4. map의 key의 개수를 result에 저장해줌
     result.push(colorCount.size);
