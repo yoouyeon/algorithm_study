@@ -107,3 +107,4 @@
 | 3160 | Find the Number of Distinct Colors Among the Balls | [3160_find-the-number-of-distinct-colors-among-the-balls.ts](Medium/3160_find-the-number-of-distinct-colors-among-the-balls.ts) | [🔗](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls) |
 | 3406 | Find All Possible Stable Binary Arrays I | [3406_find-all-possible-stable-binary-arrays-i.ts](Medium/3406_find-all-possible-stable-binary-arrays-i.ts) | [🔗](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i) |
 | 3844 | Longest Almost-Palindromic Substring | [3844_longest-almost-palindromic-substring.ts](Medium/3844_longest-almost-palindromic-substring.ts) | [🔗](https://leetcode.com/problems/longest-almost-palindromic-substring) |
+| 3898 | Find the Degree of Each Vertex | [3898_find-the-degree-of-each-vertex.ts](Easy/3898_find-the-degree-of-each-vertex.ts) | [🔗](https://leetcode.com/problems/find-the-degree-of-each-vertex) |
