@@ -92,6 +92,7 @@
 | 1133 | Last Substring in Lexicographical Order | [1133_last-substring-in-lexicographical-order.ts](Hard/1133_last-substring-in-lexicographical-order.ts) | [🔗](https://leetcode.com/problems/last-substring-in-lexicographical-order/) |
 | 1248 | Count Number of Nice Subarrays | [1248_count-number-of-nice-subarrays.ts](Medium/1248_count-number-of-nice-subarrays.ts) | [🔗](https://leetcode.com/problems/count-number-of-nice-subarrays) |
 | 1277 | Count Square Submatrices with All Ones | [1277_count-square-submatrices-with-all-ones.ts](Medium/1277_count-square-submatrices-with-all-ones.ts) | [🔗](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) |
+| 1424 | Diagonal Traverse II | [1424_diagonal-traverse-ii.ts](Medium/1424_diagonal-traverse-ii.ts) | [🔗](https://leetcode.com/problems/diagonal-traverse-ii) |
 | 1431 | Kids With the Greatest Number of Candies | [1431_kids-with-the-greatest-number-of-candies.ts](Easy/1431_kids-with-the-greatest-number-of-candies.ts) | [🔗](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) |
 | 1768 | Merge Strings Alternately | [1768_merge-strings-alternately.ts](Easy/1768_merge-strings-alternately.ts) | [🔗](https://leetcode.com/problems/merge-strings-alternately/) |
 | 1918 | Maximum Score of a Good Subarray | [1918_maximum-score-of-a-good-subarray.ts](Hard/1918_maximum-score-of-a-good-subarray.ts) | [🔗](https://leetcode.com/problems/maximum-score-of-a-good-subarray) |
