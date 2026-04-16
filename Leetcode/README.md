@@ -108,3 +108,4 @@
 | 3406 | Find All Possible Stable Binary Arrays I | [3406_find-all-possible-stable-binary-arrays-i.ts](Medium/3406_find-all-possible-stable-binary-arrays-i.ts) | [🔗](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i) |
 | 3844 | Longest Almost-Palindromic Substring | [3844_longest-almost-palindromic-substring.ts](Medium/3844_longest-almost-palindromic-substring.ts) | [🔗](https://leetcode.com/problems/longest-almost-palindromic-substring) |
 | 3898 | Find the Degree of Each Vertex | [3898_find-the-degree-of-each-vertex.ts](Easy/3898_find-the-degree-of-each-vertex.ts) | [🔗](https://leetcode.com/problems/find-the-degree-of-each-vertex) |
+| 3899 | Angles of a Triangle | [3899_angles-of-a-triangle.ts](Medium/3899_angles-of-a-triangle.ts) | [🔗](https://leetcode.com/problems/angles-of-a-triangle) |
