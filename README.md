@@ -5,11 +5,11 @@
 
 [![Leetcode Stats](https://leetcard.jacoblin.cool/yoouyeon?theme=light,dark&ext=heatmap)](https://leetcode.com/yoouyeon)
 
-## 📚 문제 플랫폼
+## 📚 풀이 플랫폼
 
-- [백준](./Baekjoon) - https://www.acmicpc.net/
-- [프로그래머스](./Programmers) - https://programmers.co.kr/
-- [LeetCode](./Leetcode) - https://leetcode.com/
+- [백준](https://www.acmicpc.net/) — [풀이 모음](./Baekjoon)
+- [프로그래머스](https://school.programmers.co.kr/) — [풀이 모음](./Programmers)
+- [LeetCode](https://leetcode.com/) — [풀이 모음](./Leetcode)
 
 ## 🤖 문제 풀이 프로세스
 
@@ -26,10 +26,7 @@ Claude Code를 활용한 풀이 흐름입니다.
 ## 📂 폴더 구조
 
 ```
-┣ 📂.vscode
- ┃ ┣ 📜launch.json - 디버깅용 설정
- ┃ ┗ 📜majwaeteul.code-snippets - 백준 자바스크립트 입출력 스니펫
- ┣ 📂Baekjoon - 난이도별 백준 문제 풀이 코드 모음
+┣ 📂Baekjoon - 난이도별 백준 문제 풀이 코드 모음
  ┃ ┣ 📂Bronze1
  ┃ ┣ 📂Bronze2
  ┃ ┣ 📂...
