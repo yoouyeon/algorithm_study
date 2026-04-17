@@ -39,9 +39,9 @@ URL을 분석하여 플랫폼을 판단한다.
 
 파일명 규칙, 언어 설정, 파일 헤더 형식은 [reference.md](reference.md)를 참고한다. 예시는 [examples.md](examples.md)를 참고한다.
 
-이미 파일이 존재하는 경우 기존 파일 상단 헤더 아래에 새 풀이 날짜로 ANCHOR 주석을 추가한다.
+이미 파일이 존재하는 경우, 기존 파일의 8번째 줄(상단 헤더 아래)에 새 풀이 날짜로 ANCHOR 주석을 추가한다.
 
 ## 4. README 업데이트
 
-README 테이블 형식은 [reference.md](reference.md)를, 테이블 예시는 [examples.md](examples.md)를 참고한다.
-테이블은 문제 번호 오름차순으로 정렬한다.
+README 리스트 형식은 [reference.md](reference.md)를, 예시는 [examples.md](examples.md)를 참고한다.
+해당 난이도 섹션에 문제 번호 오름차순으로 추가한다.
