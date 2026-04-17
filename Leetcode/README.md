@@ -106,6 +106,7 @@
 | 3159 | Find Occurrences of an Element in an Array | [3159_find-occurrences-of-an-element-in-an-array.ts](Medium/3159_find-occurrences-of-an-element-in-an-array.ts) | [🔗](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array) |
 | 3160 | Find the Number of Distinct Colors Among the Balls | [3160_find-the-number-of-distinct-colors-among-the-balls.ts](Medium/3160_find-the-number-of-distinct-colors-among-the-balls.ts) | [🔗](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls) |
 | 3406 | Find All Possible Stable Binary Arrays I | [3406_find-all-possible-stable-binary-arrays-i.ts](Medium/3406_find-all-possible-stable-binary-arrays-i.ts) | [🔗](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i) |
+| 3488 | Closest Equal Element Queries | [3488_closest-equal-element-queries.ts](Medium/3488_closest-equal-element-queries.ts) | [🔗](https://leetcode.com/problems/closest-equal-element-queries) |
 | 3844 | Longest Almost-Palindromic Substring | [3844_longest-almost-palindromic-substring.ts](Medium/3844_longest-almost-palindromic-substring.ts) | [🔗](https://leetcode.com/problems/longest-almost-palindromic-substring) |
 | 3898 | Find the Degree of Each Vertex | [3898_find-the-degree-of-each-vertex.ts](Easy/3898_find-the-degree-of-each-vertex.ts) | [🔗](https://leetcode.com/problems/find-the-degree-of-each-vertex) |
 | 3899 | Angles of a Triangle | [3899_angles-of-a-triangle.ts](Medium/3899_angles-of-a-triangle.ts) | [🔗](https://leetcode.com/problems/angles-of-a-triangle) |
