@@ -2,98 +2,109 @@
 
 [프로그래머스](https://school.programmers.co.kr/)에서 푼 문제들의 모음
 
-[✏️ 문제 노트 링크 (노션)](https://yoouyeon.notion.site/285b05fd3a2380c2b353e722c6203bf3)
+## Level 0
 
-## 💡 문제 목록
+- [120817. 배열의 평균값](https://school.programmers.co.kr/learn/courses/30/lessons/120817) — [풀이](Level0/120817_배열의_평균값.js)
+- [120821. 배열 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/120821) — [풀이](Level0/120821_배열_뒤집기.js)
+- [120844. 배열 회전시키기](https://school.programmers.co.kr/learn/courses/30/lessons/120844) — [풀이](Level0/120844_배열_회전시키기.js)
+- [120853. 컨트롤 제트](https://school.programmers.co.kr/learn/courses/30/lessons/120853) — [풀이](Level0/120853_컨트롤_제트.js)
+- [120861. 캐릭터의 좌표](https://school.programmers.co.kr/learn/courses/30/lessons/120861) — [풀이](Level0/120861_캐릭터의_좌표.js)
 
-| 문제 번호 | 문제 이름 | 풀이 코드 | 문제 링크 |
-| --------- | --------- | --------- | --------- |
-| 1844 | 게임 맵 최단거리 | [1844_게임_맵_최단거리.js](Level2/1844_게임_맵_최단거리.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/1844) |
-| 1845 | 폰켓몬 | [1845_폰켓몬.js](Level1/1845_폰켓몬.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/1845) |
-| 12900 | 2 x n 타일링 | [12900_2_x_n_타일링.js](Level2/12900_2_x_n_타일링.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12900) |
-| 12906 | 같은 숫자는 싫어 | [12906_같은_숫자는_싫어.js](Level1/12906_같은_숫자는_싫어.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12906) |
-| 12909 | 올바른 괄호 | [12909_올바른_괄호.js](Level2/12909_올바른_괄호.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12909) |
-| 12910 | 나누어 떨어지는 숫자 배열 | [12910_나누어_떨어지는_숫자_배열.js](Level1/12910_나누어_떨어지는_숫자_배열.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12910) |
-| 12915 | 문자열 내 마음대로 정렬하기 | [12915_문자열_내_마음대로_정렬하기.js](Level1/12915_문자열_내_마음대로_정렬하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12915) |
-| 12921 | 소수 찾기 | [12921_소수_찾기.js](Level1/12921_소수_찾기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12921) |
-| 12924 | 숫자의 표현 | [12924_숫자의_표현.js](Level2/12924_숫자의_표현.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12924) |
-| 12928 | 약수의 합 | [12928_약수의_합.js](Level1/12928_약수의_합.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12928) |
-| 12939 | 최댓값과 최솟값 | [12939_최댓값과_최솟값.js](Level2/12939_최댓값과_최솟값.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12939) |
-| 12940 | 최대공약수와 최소공배수 | [12940_최대공약수와_최소공배수.js](Level1/12940_최대공약수와_최소공배수.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12940) |
-| 12941 | 최솟값 만들기 | [12941_최솟값_만들기.js](Level2/12941_최솟값_만들기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12941) |
-| 12945 | 피보나치 수 | [12945_피보나치_수.js](Level2/12945_피보나치_수.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12945) |
-| 12949 | 행렬의 곱셈 | [12949_행렬의_곱셈.js](Level2/12949_행렬의_곱셈.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12949) |
-| 12953 | N개의 최소공배수 | [12953_N개의_최소공배수.js](Level1/12953_N개의_최소공배수.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12953) |
-| 12973 | 짝지어 제거하기 | [12973_짝지어_제거하기.js](Level2/12973_짝지어_제거하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12973) |
-| 12977 | 소수 만들기 | [12977_소수_만들기.js](Level1/12977_소수_만들기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12977) |
-| 12980 | 점프와 순간 이동 | [12980_점프와_순간_이동.js](Level2/12980_점프와_순간_이동.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12980) |
-| 12981 | 영어 끝말잇기 | [12981_영어_끝말잇기.js](Level2/12981_영어_끝말잇기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12981) |
-| 12982 | 예산 | [12982_예산.js](Level1/12982_예산.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12982) |
-| 12985 | 예상 대진표 | [12985_예상_대진표.js](Level2/12985_예상_대진표.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12985) |
-| 12987 | 숫자 게임 | [12987_숫자_게임.js](Level3/12987_숫자_게임.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/12987) |
-| 17677 | [1차] 뉴스 클러스터링 | [17677_[1차]_뉴스_클러스터링.js](Level2/17677_[1차]_뉴스_클러스터링.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17677) |
-| 17678 | [1차] 셔틀버스 | [17678_[1차]_셔틀버스.js](Level3/17678_[1차]_셔틀버스.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17678) |
-| 17680 | [1차] 캐시 | [17680_[1차]_캐시.js](Level2/17680_[1차]_캐시.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17680) |
-| 17684 | [3차] 압축 | [17684_[3차]_압축.js](Level2/17684_[3차]_압축.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17684) |
-| 17686 | [3차] 파일명 정렬 | [17686_[3차]_파일명_정렬.js](Level2/17686_[3차]_파일명_정렬.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17686) |
-| 17687 | n진수 게임 | [17687_n진수_게임.js](Level2/17687_n진수_게임.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/17687) |
-| 42576 | 완주하지 못한 선수 | [42576_완주하지_못한_선수.js](Level1/42576_완주하지_못한_선수.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42576) |
-| 42577 | 전화번호 목록 | [42577_전화번호_목록.js](Level2/42577_전화번호_목록.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42577) |
-| 42578 | 의상 | [42578_의상.js](Level2/42578_의상.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42578) |
-| 42579 | 베스트앨범 | [42579_베스트앨범.js](Level3/42579_베스트앨범.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42579) |
-| 42583 | 다리를 지나는 트럭 | [42583_다리를_지나는_트럭.js](Level2/42583_다리를_지나는_트럭.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42583) |
-| 42584 | 주식가격 | [42584_주식가격.js](Level2/42584_주식가격.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42584) |
-| 42586 | 기능개발 | [42586_기능개발.js](Level2/42586_기능개발.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42586) |
-| 42628 | 이중우선순위큐 | [42628_이중우선순위큐.js](Level3/42628_이중우선순위큐.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42628) |
-| 42748 | K번째수 | [42748_K번째수.js](Level1/42748_K번째수.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42748) |
-| 42840 | 모의고사 | [42840_모의고사.js](Level1/42840_모의고사.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42840) |
-| 42888 | 오픈채팅방 | [42888_오픈채팅방.js](Level2/42888_오픈채팅방.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42888) |
-| 42889 | 실패율 | [42889_실패율.js](Level1/42889_실패율.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/42889) |
-| 43162 | 네트워크 | [43162_네트워크.js](Level3/43162_네트워크.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/43162) |
-| 49189 | 가장 먼 노드 | [49189_가장_먼_노드.js](Level3/49189_가장_먼_노드.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/49189) |
-| 49993 | 스킬트리 | [49993_스킬트리.js](Level2/49993_스킬트리.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/49993) |
-| 49994 | 방문 길이 | [49994_방문_길이.js](Level2/49994_방문_길이.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/49994) |
-| 60057 | 문자열 압축 | [60057_문자열_압축.js](Level2/60057_문자열_압축.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/60057) |
-| 60062 | 외벽 점검 | [60062_외벽_점검.js](60062_외벽_점검.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/60062) |
-| 64061 | 크레인 인형뽑기 게임 | [64061_크레인_인형뽑기_게임.js](Level1/64061_크레인_인형뽑기_게임.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/64061) |
-| 64062 | 징검다리 건너기 | [64062_징검다리_건너기.js](Level3/64062_징검다리_건너기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/64062) |
-| 64064 | 불량 사용자 | [64064_불량_사용자.js](Level3/64064_불량_사용자.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/64064) |
-| 64065 | 튜플 | [64065_튜플.js](Level2/64065_튜플.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/64065) |
-| 67256 | 키패드 누르기 | [67256_키패드_누르기.js](Level1/67256_키패드_누르기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/67256) |
-| 67257 | 수식 최대화 | [67257_수식_최대화.js](Level2/67257_수식_최대화.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/67257) |
-| 67258 | 보석 쇼핑 | [67258_보석_쇼핑.js](Level3/67258_보석_쇼핑.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/67258) |
-| 68644 | 두 개 뽑아서 더하기 | [68644_두_개_뽑아서_더하기.js](Level1/68644_두_개_뽑아서_더하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/68644) |
-| 68645 | 삼각 달팽이 | [68645_삼각_달팽이.js](Level2/68645_삼각_달팽이.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/68645) |
-| 68936 | 쿼드압축 후 개수 세기 | [68936_쿼드압축_후_개수_세기.js](Level2/68936_쿼드압축_후_개수_세기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/68936) |
-| 70129 | 이진 변환 반복하기 | [70129_이진_변환_반복하기.js](Level2/70129_이진_변환_반복하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/70129) |
-| 72411 | 메뉴 리뉴얼 | [72411_메뉴_리뉴얼.js](Level2/72411_메뉴_리뉴얼.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/72411) |
-| 72413 | 합승 택시 요금 | [72413_합승_택시_요금.js](Level3/72413_합승_택시_요금.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/72413) |
-| 72416 | 매출 하락 최소화 | [72416_매출_하락_최소화.js](Level4/72416_매출_하락_최소화.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/72416) |
-| 76502 | 괄호 회전하기 | [76502_괄호_회전하기.js](Level2/76502_괄호_회전하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/76502) |
-| 77484 | 로또의 최고 순위와 최저 순위 | [77484_로또의_최고_순위와_최저_순위.js](Level1/77484_로또의_최고_순위와_최저_순위.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/77484) |
-| 77486 | 다단계 칫솔 판매 | [77486_다단계_칫솔_판매.js](Level3/77486_다단계_칫솔_판매.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/77486) |
-| 77885 | 2개 이하로 다른 비트 | [77885_2개_이하로_다른_비트.js](Level2/77885_2개_이하로_다른_비트.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/77885) |
-| 81303 | 표 편집 | [81303_표_편집.js](Level3/81303_표_편집.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/81303) |
-| 86051 | 없는 숫자 더하기 | [86051_없는_숫자_더하기.js](Level1/86051_없는_숫자_더하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/86051) |
-| 86053 | 금과 은 운반하기 | [86053_금과_은_운반하기.js](Level3/86053_금과_은_운반하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/86053) |
-| 87390 | n^2 배열 자르기 | [87390_n^2_배열_자르기.js](Level2/87390_n^2_배열_자르기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/87390) |
-| 92334 | 신고 결과 받기 | [92334_신고_결과_받기.js](Level1/92334_신고_결과_받기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/92334) |
-| 92341 | 주차 요금 계산 | [92341_주차_요금_계산.js](Level2/92341_주차_요금_계산.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/92341) |
-| 92343 | 양과 늑대 | [92343_양과_늑대.js](Level3/92343_양과_늑대.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/92343) |
-| 118666 | 성격 유형 검사하기 | [118666_성격_유형_검사하기.js](Level1/118666_성격_유형_검사하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/118666) |
-| 118667 | 두 큐 합 같게 만들기 | [118667_두_큐_합_같게_만들기.js](Level2/118667_두_큐_합_같게_만들기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/118667) |
-| 118669 | 등산코스 정하기 | [118669_등산코스_정하기.js](118669_등산코스_정하기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/118669) |
-| 120817 | 배열의 평균값 | [120817_배열의_평균값.js](Level0/120817_배열의_평균값.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/120817) |
-| 120821 | 배열 뒤집기 | [120821_배열_뒤집기.js](Level0/120821_배열_뒤집기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/120821) |
-| 120844 | 배열 회전시키기 | [120844_배열_회전시키기.js](Level0/120844_배열_회전시키기.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/120844) |
-| 120853 | 컨트롤 제트 | [120853_컨트롤_제트.js](Level0/120853_컨트롤_제트.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/120853) |
-| 120861 | 캐릭터의 좌표 | [120861_캐릭터의_좌표.js](Level0/120861_캐릭터의_좌표.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/120861) |
-| 121683 | 외톨이 알파벳.cpp | [121683_외톨이_알파벳.cpp](Unrated/121683_외톨이_알파벳.cpp) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/121683) |
-| 121683 | 외톨이 알파벳 | [121683_외톨이_알파벳.js](Unrated/121683_외톨이_알파벳.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/121683) |
-| 131127 | 할인 행사 | [131127_할인_행사.js](Level2/131127_할인_행사.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/131127) |
-| 150365 | 미로 탈출 명령어 | [150365_미로_탈출_명령어.js](Level3/150365_미로_탈출_명령어.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/150365) |
-| 150370 | 개인정보 수집 유효기간 | [150370_개인정보_수집_유효기간.js](Level1/150370_개인정보_수집_유효기간.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/150370) |
-| 159993 | 미로 탈출 | [159993_미로_탈출.js](Level2/159993_미로_탈출.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/159993) |
-| 159994 | 카드 뭉치 | [159994_카드_뭉치.js](Level1/159994_카드_뭉치.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/159994) |
-| 258711 | 도넛과 막대 그래프 | [258711_도넛과_막대_그래프.js](Level2/258711_도넛과_막대_그래프.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/258711) |
-| 340212 | [PCCP 기출문제] 2번 퍼즐 게임 챌린지 | [340212_[PCCP_기출문제]_2번_퍼즐_게임_챌린지.js](Level2/340212_[PCCP_기출문제]_2번_퍼즐_게임_챌린지.js) | [🔗](https://school.programmers.co.kr/learn/courses/30/lessons/340212) |
+## Level 1
+
+- [1845. 폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845) — [풀이](Level1/1845_폰켓몬.js)
+- [12906. 같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906) — [풀이](Level1/12906_같은_숫자는_싫어.js)
+- [12910. 나누어 떨어지는 숫자 배열](https://school.programmers.co.kr/learn/courses/30/lessons/12910) — [풀이](Level1/12910_나누어_떨어지는_숫자_배열.js)
+- [12915. 문자열 내 마음대로 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/12915) — [풀이](Level1/12915_문자열_내_마음대로_정렬하기.js)
+- [12921. 소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12921) — [풀이](Level1/12921_소수_찾기.js)
+- [12928. 약수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12928) — [풀이](Level1/12928_약수의_합.js)
+- [12940. 최대공약수와 최소공배수](https://school.programmers.co.kr/learn/courses/30/lessons/12940) — [풀이](Level1/12940_최대공약수와_최소공배수.js)
+- [12953. N개의 최소공배수](https://school.programmers.co.kr/learn/courses/30/lessons/12953) — [풀이](Level1/12953_N개의_최소공배수.js)
+- [12977. 소수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12977) — [풀이](Level1/12977_소수_만들기.js)
+- [12982. 예산](https://school.programmers.co.kr/learn/courses/30/lessons/12982) — [풀이](Level1/12982_예산.js)
+- [42576. 완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) — [풀이](Level1/42576_완주하지_못한_선수.js)
+- [42748. K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) — [풀이](Level1/42748_K번째수.js)
+- [42840. 모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840) — [풀이](Level1/42840_모의고사.js)
+- [42889. 실패율](https://school.programmers.co.kr/learn/courses/30/lessons/42889) — [풀이](Level1/42889_실패율.js)
+- [64061. 크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061) — [풀이](Level1/64061_크레인_인형뽑기_게임.js)
+- [67256. 키패드 누르기](https://school.programmers.co.kr/learn/courses/30/lessons/67256) — [풀이](Level1/67256_키패드_누르기.js)
+- [68644. 두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644) — [풀이](Level1/68644_두_개_뽑아서_더하기.js)
+- [77484. 로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484) — [풀이](Level1/77484_로또의_최고_순위와_최저_순위.js)
+- [86051. 없는 숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051) — [풀이](Level1/86051_없는_숫자_더하기.js)
+- [92334. 신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334) — [풀이](Level1/92334_신고_결과_받기.js)
+- [118666. 성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666) — [풀이](Level1/118666_성격_유형_검사하기.js)
+- [150370. 개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) — [풀이](Level1/150370_개인정보_수집_유효기간.js)
+- [159994. 카드 뭉치](https://school.programmers.co.kr/learn/courses/30/lessons/159994) — [풀이](Level1/159994_카드_뭉치.js)
+
+## Level 2
+
+- [1844. 게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) — [풀이](Level2/1844_게임_맵_최단거리.js)
+- [12900. 2 x n 타일링](https://school.programmers.co.kr/learn/courses/30/lessons/12900) — [풀이](Level2/12900_2_x_n_타일링.js)
+- [12909. 올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909) — [풀이](Level2/12909_올바른_괄호.js)
+- [12924. 숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924) — [풀이](Level2/12924_숫자의_표현.js)
+- [12939. 최댓값과 최솟값](https://school.programmers.co.kr/learn/courses/30/lessons/12939) — [풀이](Level2/12939_최댓값과_최솟값.js)
+- [12941. 최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941) — [풀이](Level2/12941_최솟값_만들기.js)
+- [12945. 피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945) — [풀이](Level2/12945_피보나치_수.js)
+- [12949. 행렬의 곱셈](https://school.programmers.co.kr/learn/courses/30/lessons/12949) — [풀이](Level2/12949_행렬의_곱셈.js)
+- [12973. 짝지어 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973) — [풀이](Level2/12973_짝지어_제거하기.js)
+- [12980. 점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980) — [풀이](Level2/12980_점프와_순간_이동.js)
+- [12981. 영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981) — [풀이](Level2/12981_영어_끝말잇기.js)
+- [12985. 예상 대진표](https://school.programmers.co.kr/learn/courses/30/lessons/12985) — [풀이](Level2/12985_예상_대진표.js)
+- [17677. [1차] 뉴스 클러스터링](https://school.programmers.co.kr/learn/courses/30/lessons/17677) — [풀이](Level2/17677_[1차]_뉴스_클러스터링.js)
+- [17680. [1차] 캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680) — [풀이](Level2/17680_[1차]_캐시.js)
+- [17684. [3차] 압축](https://school.programmers.co.kr/learn/courses/30/lessons/17684) — [풀이](Level2/17684_[3차]_압축.js)
+- [17686. [3차] 파일명 정렬](https://school.programmers.co.kr/learn/courses/30/lessons/17686) — [풀이](Level2/17686_[3차]_파일명_정렬.js)
+- [17687. n진수 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17687) — [풀이](Level2/17687_n진수_게임.js)
+- [42577. 전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577) — [풀이](Level2/42577_전화번호_목록.js)
+- [42578. 의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) — [풀이](Level2/42578_의상.js)
+- [42583. 다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583) — [풀이](Level2/42583_다리를_지나는_트럭.js)
+- [42584. 주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584) — [풀이](Level2/42584_주식가격.js)
+- [42586. 기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) — [풀이](Level2/42586_기능개발.js)
+- [42888. 오픈채팅방](https://school.programmers.co.kr/learn/courses/30/lessons/42888) — [풀이](Level2/42888_오픈채팅방.js)
+- [49993. 스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993) — [풀이](Level2/49993_스킬트리.js)
+- [49994. 방문 길이](https://school.programmers.co.kr/learn/courses/30/lessons/49994) — [풀이](Level2/49994_방문_길이.js)
+- [60057. 문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057) — [풀이](Level2/60057_문자열_압축.js)
+- [64065. 튜플](https://school.programmers.co.kr/learn/courses/30/lessons/64065) — [풀이](Level2/64065_튜플.js)
+- [67257. 수식 최대화](https://school.programmers.co.kr/learn/courses/30/lessons/67257) — [풀이](Level2/67257_수식_최대화.js)
+- [68645. 삼각 달팽이](https://school.programmers.co.kr/learn/courses/30/lessons/68645) — [풀이](Level2/68645_삼각_달팽이.js)
+- [68936. 쿼드압축 후 개수 세기](https://school.programmers.co.kr/learn/courses/30/lessons/68936) — [풀이](Level2/68936_쿼드압축_후_개수_세기.js)
+- [70129. 이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129) — [풀이](Level2/70129_이진_변환_반복하기.js)
+- [72411. 메뉴 리뉴얼](https://school.programmers.co.kr/learn/courses/30/lessons/72411) — [풀이](Level2/72411_메뉴_리뉴얼.js)
+- [76502. 괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502) — [풀이](Level2/76502_괄호_회전하기.js)
+- [77885. 2개 이하로 다른 비트](https://school.programmers.co.kr/learn/courses/30/lessons/77885) — [풀이](Level2/77885_2개_이하로_다른_비트.js)
+- [87390. n^2 배열 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/87390) — [풀이](Level2/87390_n^2_배열_자르기.js)
+- [92341. 주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341) — [풀이](Level2/92341_주차_요금_계산.js)
+- [118667. 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667) — [풀이](Level2/118667_두_큐_합_같게_만들기.js)
+- [131127. 할인 행사](https://school.programmers.co.kr/learn/courses/30/lessons/131127) — [풀이](Level2/131127_할인_행사.js)
+- [159993. 미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993) — [풀이](Level2/159993_미로_탈출.js)
+- [258711. 도넛과 막대 그래프](https://school.programmers.co.kr/learn/courses/30/lessons/258711) — [풀이](Level2/258711_도넛과_막대_그래프.js)
+- [340212. [PCCP 기출문제] 2번 퍼즐 게임 챌린지](https://school.programmers.co.kr/learn/courses/30/lessons/340212) — [풀이](Level2/340212_[PCCP_기출문제]_2번_퍼즐_게임_챌린지.js)
+
+## Level 3
+
+- [12987. 숫자 게임](https://school.programmers.co.kr/learn/courses/30/lessons/12987) — [풀이](Level3/12987_숫자_게임.js)
+- [17678. [1차] 셔틀버스](https://school.programmers.co.kr/learn/courses/30/lessons/17678) — [풀이](Level3/17678_[1차]_셔틀버스.js)
+- [42579. 베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579) — [풀이](Level3/42579_베스트앨범.js)
+- [42628. 이중우선순위큐](https://school.programmers.co.kr/learn/courses/30/lessons/42628) — [풀이](Level3/42628_이중우선순위큐.js)
+- [43162. 네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) — [풀이](Level3/43162_네트워크.js)
+- [49189. 가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189) — [풀이](Level3/49189_가장_먼_노드.js)
+- [60062. 외벽 점검](https://school.programmers.co.kr/learn/courses/30/lessons/60062) — [풀이](60062_외벽_점검.js)
+- [64062. 징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062) — [풀이](Level3/64062_징검다리_건너기.js)
+- [64064. 불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064) — [풀이](Level3/64064_불량_사용자.js)
+- [67258. 보석 쇼핑](https://school.programmers.co.kr/learn/courses/30/lessons/67258) — [풀이](Level3/67258_보석_쇼핑.js)
+- [72413. 합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413) — [풀이](Level3/72413_합승_택시_요금.js)
+- [77486. 다단계 칫솔 판매](https://school.programmers.co.kr/learn/courses/30/lessons/77486) — [풀이](Level3/77486_다단계_칫솔_판매.js)
+- [81303. 표 편집](https://school.programmers.co.kr/learn/courses/30/lessons/81303) — [풀이](Level3/81303_표_편집.js)
+- [86053. 금과 은 운반하기](https://school.programmers.co.kr/learn/courses/30/lessons/86053) — [풀이](Level3/86053_금과_은_운반하기.js)
+- [92343. 양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343) — [풀이](Level3/92343_양과_늑대.js)
+- [118669. 등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669) — [풀이](118669_등산코스_정하기.js)
+- [150365. 미로 탈출 명령어](https://school.programmers.co.kr/learn/courses/30/lessons/150365) — [풀이](Level3/150365_미로_탈출_명령어.js)
+
+## Level 4
+
+- [72416. 매출 하락 최소화](https://school.programmers.co.kr/learn/courses/30/lessons/72416) — [풀이](Level4/72416_매출_하락_최소화.js)
+
+## Unrated
+
+- [121683. 외톨이 알파벳](https://school.programmers.co.kr/learn/courses/30/lessons/121683) — [풀이 (cpp)](Unrated/121683_외톨이_알파벳.cpp)
+- [121683. 외톨이 알파벳](https://school.programmers.co.kr/learn/courses/30/lessons/121683) — [풀이 (js)](Unrated/121683_외톨이_알파벳.js)
