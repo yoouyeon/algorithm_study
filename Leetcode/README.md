@@ -76,7 +76,7 @@
 - [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) — [풀이](Medium/122_best-time-to-buy-and-sell-stock-ii.ts)
 - [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) — [풀이](Medium/128_longest-consecutive-sequence.ts)
 - [134. Gas Station](https://leetcode.com/problems/gas-station/) — [풀이](Medium/134_gas-station.ts)
-- [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) — [풀이](Medium/151_reverse-words-in-a-string.py)
+- [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) — [풀이(py)](Medium/151_reverse-words-in-a-string.py) [풀이(ts)](Medium/151_reverse-words-in-a-string.ts)
 - [189. Rotate Array](https://leetcode.com/problems/rotate-array/) — [풀이](Medium/189_rotate-array.ts)
 - [198. House Robber](https://leetcode.com/problems/house-robber/) — [풀이](Medium/198_house-robber.ts)
 - [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) — [풀이](Medium/209_minimum-size-subarray-sum.ts)
