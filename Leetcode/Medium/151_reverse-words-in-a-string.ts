@@ -18,4 +18,8 @@ function reverseWords(s: string): string {
     .reverse()
     .filter((x) => x !== '')
     .join(' ');
+  /**
+   * split(' ') + filter보다 split(/\s+/) 한 번으로 연속 공백을 처리하는 게 더 간결합니다.
+   * return s.trim().split(/\s+/).reverse().join(' ');
+   */
 }
