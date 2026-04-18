@@ -26,7 +26,7 @@ URL을 분석하여 플랫폼을 판단한다.
 ### 리트코드 (https://leetcode.com/problems/{slug}/)
 
 - `get_leetcode_problem(slug)` tool 호출
-- 반환값: `{ title, difficulty }` (difficulty 예: Easy, Medium, Hard)
+- 반환값: `{ problemId, title, difficulty }` (difficulty 예: Easy, Medium, Hard)
 
 ### 프로그래머스 (https://school.programmers.co.kr/learn/courses/30/lessons/{problemId})
 
