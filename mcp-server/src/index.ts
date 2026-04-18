@@ -87,10 +87,11 @@ server.registerTool(
     const query = `
     query getQuestionDetail($titleSlug: String!) {
       question(titleSlug: $titleSlug) {
+        questionFrontendId
         title
         difficulty
       }
-    } 
+    }
   `;
 
     const res = await fetch('https://leetcode.com/graphql', {
@@ -137,6 +138,7 @@ server.registerTool(
         {
           type: 'text' as const,
           text: JSON.stringify({
+            problemId: question.questionFrontendId,
             title: question.title,
             difficulty: question.difficulty,
           }),

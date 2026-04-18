@@ -1,6 +1,6 @@
-import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
-import { z } from "zod";
+import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
+import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
+import { z } from 'zod';
 const server = new McpServer({
     name: 'algorithm-mcp-server',
     version: '0.1.0',
@@ -27,56 +27,63 @@ function tierNumberToString(level) {
  * 백준 문제 정보 조회 (solved.ac API 사용)
  * @see https://solvedac.github.io/unofficial-documentation/#/operations/getProblemById
  */
-server.registerTool("get_backjoon_problem", {
-    description: "백준 문제 번호로 문제 제목과 난이도를 조회합니다.",
+server.registerTool('get_backjoon_problem', {
+    description: '백준 문제 번호로 문제 제목과 난이도를 조회합니다.',
     inputSchema: {
-        problemId: z.number().int().positive().describe("백준 문제 번호 (예: 1000)"),
-    }
+        problemId: z.number().int().positive().describe('백준 문제 번호 (예: 1000)'),
+    },
 }, async ({ problemId }) => {
-    const res = await fetch(`https://solved.ac/api/v3/problem/show?problemId=${problemId}`, { headers: { Accept: "application/json" } });
+    const res = await fetch(`https://solved.ac/api/v3/problem/show?problemId=${problemId}`, {
+        headers: { Accept: 'application/json' },
+    });
     if (!res.ok) {
         return {
-            content: [{
-                    type: "text",
+            content: [
+                {
+                    type: 'text',
                     text: `문제 조회 실패: ${res.status} ${res.statusText}`,
-                }],
+                },
+            ],
             isError: true,
         };
     }
     const data = await res.json();
     return {
-        content: [{
-                type: "text",
+        content: [
+            {
+                type: 'text',
                 text: JSON.stringify({
                     title: data.titleKo,
                     tier: tierNumberToString(data.level),
-                })
-            }]
+                }),
+            },
+        ],
     };
 });
 /**
  * 리트코드 문제 정보 조회 (LeetCode API 사용)
  * @see https://leetcode.com/discuss/post/1297705/is-there-public-api-endpoints-available-h0661/comments/1078937/
  */
-server.registerTool("get_leetcode_problem", {
-    description: "리트코드 문제 slug로 문제 제목과 난이도를 조회합니다.",
+server.registerTool('get_leetcode_problem', {
+    description: '리트코드 문제 slug로 문제 제목과 난이도를 조회합니다.',
     inputSchema: {
-        problemSlug: z.string().describe("리트코드 문제 slug (예: two-sum)"),
-    }
+        problemSlug: z.string().describe('리트코드 문제 slug (예: two-sum)'),
+    },
 }, async ({ problemSlug }) => {
     const query = `
     query getQuestionDetail($titleSlug: String!) {
       question(titleSlug: $titleSlug) {
+        questionFrontendId
         title
         difficulty
       }
     }
   `;
-    const res = await fetch("https://leetcode.com/graphql", {
-        method: "POST",
+    const res = await fetch('https://leetcode.com/graphql', {
+        method: 'POST',
         headers: {
-            "Content-Type": "application/json",
-            "Referer": "https://leetcode.com",
+            'Content-Type': 'application/json',
+            Referer: 'https://leetcode.com',
         },
         body: JSON.stringify({
             query,
@@ -85,10 +92,12 @@ server.registerTool("get_leetcode_problem", {
     });
     if (!res.ok) {
         return {
-            content: [{
-                    type: "text",
+            content: [
+                {
+                    type: 'text',
                     text: `문제 조회 실패: ${res.status} ${res.statusText}`,
-                }],
+                },
+            ],
             isError: true,
         };
     }
@@ -96,30 +105,35 @@ server.registerTool("get_leetcode_problem", {
     const question = data.data.question;
     if (!question) {
         return {
-            content: [{
-                    type: "text",
+            content: [
+                {
+                    type: 'text',
                     text: `문제를 찾을 수 없습니다: ${problemSlug}`,
-                }],
+                },
+            ],
             isError: true,
         };
     }
     return {
-        content: [{
-                type: "text",
+        content: [
+            {
+                type: 'text',
                 text: JSON.stringify({
+                    problemId: question.questionFrontendId,
                     title: question.title,
                     difficulty: question.difficulty,
-                })
-            }]
+                }),
+            },
+        ],
     };
 });
 // 서버 시작
 async function main() {
     const transport = new StdioServerTransport();
     await server.connect(transport);
-    console.log("MCP Server is running...");
+    console.log('MCP Server is running...');
 }
 main().catch((error) => {
-    console.error("Fatal error in main():", error);
+    console.error('Fatal error in main():', error);
     process.exit(1);
 });
