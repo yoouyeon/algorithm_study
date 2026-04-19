@@ -12,18 +12,18 @@
     // suffix-prefix 방식을 좀 더 간결하게 풀어봐야겠음 (사실 기존 풀이를 살짝 봤다)
     const answer = new Array(nums.length).fill(1);
 
-    // 1. suffix 곱 구해서 추가해주기
-    let suffix = 1;
+    // 1. prefix 곱 구해서 추가해주기
+    let prefix = 1;
     for (let idx = 1; idx < nums.length; idx++) {
-      suffix *= nums[idx - 1];
-      answer[idx] *= suffix;
+      prefix *= nums[idx - 1];
+      answer[idx] *= prefix;
     }
 
-    // 2. prefix 곱 구해서 추가해주기
-    let prefix = 1;
+    // 2. suffix 곱 구해서 추가해주기
+    let suffix = 1;
     for (let idx = nums.length - 2; idx >= 0; idx--) {
-      prefix *= nums[idx + 1];
-      answer[idx] *= prefix;
+      suffix *= nums[idx + 1];
+      answer[idx] *= suffix;
     }
 
     return answer;
