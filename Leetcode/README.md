@@ -97,6 +97,7 @@
 - [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays) — [풀이](Medium/1248_count-number-of-nice-subarrays.ts)
 - [1277. Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) — [풀이](Medium/1277_count-square-submatrices-with-all-ones.ts)
 - [1424. Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii) — [풀이](Medium/1424_diagonal-traverse-ii.ts)
+- [1855. Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values) — [풀이](Medium/1855_maximum-distance-between-a-pair-of-values.ts)
 - [1923. Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii) — [풀이](Medium/1923_sentence-similarity-iii.ts)
 - [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words) — [풀이](Medium/2131_longest-palindrome-by-concatenating-two-letter-words.ts)
 - [2300. Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions) — [풀이](Medium/2300_successful-pairs-of-spells-and-potions.ts)
