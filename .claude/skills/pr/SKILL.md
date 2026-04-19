@@ -4,6 +4,12 @@ description: 오늘 푼 문제들로 PR을 생성한다
 allowed-tools: Bash(git log:*)
 ---
 
+## 0. 커밋을 원격 저장소에 푸시한다.
+
+```bash
+git push --set-upstream origin $(git branch --show-current)
+```
+
 ## 1. 문제 목록 수집
 
 `git log main..HEAD --oneline`으로 커밋 목록을 조회한 뒤, `💡`로 시작하는 커밋 메시지만 추출한다.
