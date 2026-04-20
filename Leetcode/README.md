@@ -51,6 +51,7 @@
 - [1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) — [풀이](Easy/1071_greatest-common-divisor-of-strings.ts)
 - [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) — [풀이](Easy/1431_kids-with-the-greatest-number-of-candies.ts)
 - [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) — [풀이](Easy/1768_merge-strings-alternately.ts)
+- [2078. Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors) — [풀이](Easy/2078_two-furthest-houses-with-different-colors.ts)
 - [2373. Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/) — [풀이](Easy/2373_largest-local-values-in-a-matrix.ts)
 - [2515. Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array) — [풀이](Easy/2515_shortest-distance-to-target-string-in-a-circular-array.ts)
 - [3783. Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer) — [풀이](Easy/3783_mirror-distance-of-an-integer.ts)
