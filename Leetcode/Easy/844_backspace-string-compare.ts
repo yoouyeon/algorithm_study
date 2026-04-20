@@ -23,4 +23,44 @@
 
     return sArr.join('') === tArr.join('');
   }
+
+  function backspaceCompare2(s: string, t: string): boolean {
+    // 2. 투포인터의 향기 (추가 공간을 사용하지 말라 했으므로)
+    // 그런데 #을 처리하면서 해야 하기 때문에 앞에서부터 처리하면 복잡해질듯
+    // ... 그래서 뒤에서부터 보기로 했습니다.
+
+    let sPos = s.length - 1;
+    let tPos = t.length - 1;
+    let sBackspace = 0; // 현재 시점에 얼마나 지워야 하는지
+    let tBackspace = 0;
+
+    while (sPos >= 0 || tPos >= 0) {
+      while (sPos >= 0) {
+        if (s[sPos] === '#') {
+          sPos--;
+          sBackspace++; // 뒤에서 지워줄것임
+        } else if (sBackspace > 0) {
+          sPos--; // 지워주고
+          sBackspace--; // 지워줘야 할 개수를 감소시킴
+        } else break; // 유효문자 발견
+      }
+      while (tPos >= 0) {
+        if (t[tPos] === '#') {
+          tPos--;
+          tBackspace++; // 뒤에서 지워줄것임
+        } else if (tBackspace > 0) {
+          tPos--; // 지워주고
+          tBackspace--; // 지워줘야 할 개수를 감소시킴
+        } else break; // 유효문자 발견
+      }
+
+      // 유효문자가 같지 않다면 false
+      if (s[sPos] !== t[tPos]) return false;
+      // 다음 문자로 넘어가기
+      sPos--;
+      tPos--;
+    }
+    // 무사히 반복을 빠져나왔으면 같은 문자열인 것
+    return true;
+  }
 }
