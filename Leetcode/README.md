@@ -45,6 +45,7 @@
 - [594. Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence) — [풀이](Easy/594_longest-harmonious-subsequence.ts)
 - [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) — [풀이](Easy/605_can-place-flowers.ts)
 - [766. Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) — [풀이](Easy/766_toeplitz-matrix.ts)
+- [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) — [풀이](Easy/844_backspace-string-compare.ts)
 - [867. Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) — [풀이](Easy/867_transpose-matrix.ts)
 - [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) — [풀이](Easy/977_squares-of-a-sorted-array.ts)
 - [1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) — [풀이](Easy/1071_greatest-common-divisor-of-strings.ts)
