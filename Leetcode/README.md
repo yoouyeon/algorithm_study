@@ -23,6 +23,7 @@
 - [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) — [풀이](Easy/191_number-of-1-bits.ts)
 - [202. Happy Number](https://leetcode.com/problems/happy-number) — [풀이](Easy/202_happy-number.ts)
 - [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) — [풀이](Easy/205_isomorphic-strings.ts)
+- [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) — [풀이](Easy/206_reverse-linked-list.ts)
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) — [풀이](Easy/217_contains-duplicate.ts)
 - [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) — [풀이](Easy/219_contains-duplicate-ii.ts)
 - [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) — [풀이](Easy/234_palindrome-linked-list.ts)
