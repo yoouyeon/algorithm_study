@@ -106,6 +106,7 @@
 - [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words) — [풀이](Medium/2131_longest-palindrome-by-concatenating-two-letter-words.ts)
 - [2300. Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions) — [풀이](Medium/2300_successful-pairs-of-spells-and-potions.ts)
 - [2406. Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups) — [풀이](Medium/2406_divide-intervals-into-minimum-number-of-groups.ts)
+- [2452. Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary) — [풀이](Medium/2452_words-within-two-edits-of-dictionary.ts)
 - [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings) — [풀이](Medium/2466_count-ways-to-build-good-strings.ts)
 - [3159. Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array) — [풀이](Medium/3159_find-occurrences-of-an-element-in-an-array.ts)
 - [3160. Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls) — [풀이](Medium/3160_find-the-number-of-distinct-colors-among-the-balls.ts)
