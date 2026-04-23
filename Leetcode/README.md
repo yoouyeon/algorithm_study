@@ -109,6 +109,7 @@
 - [2406. Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups) — [풀이](Medium/2406_divide-intervals-into-minimum-number-of-groups.ts)
 - [2452. Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary) — [풀이](Medium/2452_words-within-two-edits-of-dictionary.ts)
 - [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings) — [풀이](Medium/2466_count-ways-to-build-good-strings.ts)
+- [2615. Sum of Distances](https://leetcode.com/problems/sum-of-distances) — [풀이](Medium/2615_sum-of-distances.ts)
 - [3159. Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array) — [풀이](Medium/3159_find-occurrences-of-an-element-in-an-array.ts)
 - [3160. Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls) — [풀이](Medium/3160_find-the-number-of-distinct-colors-among-the-balls.ts)
 - [3406. Find All Possible Stable Binary Arrays I](https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i) — [풀이](Medium/3406_find-all-possible-stable-binary-arrays-i.ts)
