@@ -87,6 +87,7 @@
 - [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) — [풀이](Medium/209_minimum-size-subarray-sum.ts)
 - [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) — [풀이](Medium/238_product-of-array-except-self.ts)
 - [274. H-Index](https://leetcode.com/problems/h-index/) — [풀이](Medium/274_h-index.ts)
+- [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence) — [풀이](Medium/334_increasing-triplet-subsequence.ts)
 - [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) — [풀이](Medium/347_top-k-frequent-elements.ts)
 - [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) — [풀이](Medium/380_insert-delete-get-random-o-1.ts)
 - [454. 4Sum II](https://leetcode.com/problems/4sum-ii/) — [풀이](Medium/454_4sum-ii.ts)
