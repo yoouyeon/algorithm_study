@@ -19,6 +19,7 @@ function furthestDistanceFromOrigin(moves: string): number {
     else pending++;
   }
 
-  if (left > right) return left - right + pending;
-  return right - left + pending;
+  // if (left > right) return left - right + pending;
+  // return right - left + pending;
+  return Math.abs(left - right) + pending;
 }
