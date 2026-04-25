@@ -5,6 +5,14 @@
 링크 : https://leetcode.com/problems/length-of-last-word/
 */
 
+// ANCHOR 2026.04.25 풀이 (3분 소요)
+{
+  function lengthOfLastWord(s: string): number {
+    const a = s.split(' ').filter((w) => w != '');
+    return a[a.length - 1].length;
+  }
+}
+
 /*
  * [58] Length of Last Word
  */
