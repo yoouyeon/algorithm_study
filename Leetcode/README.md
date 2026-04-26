@@ -12,6 +12,7 @@
 - [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) — [풀이](Easy/28_find-the-index-of-the-first-occurrence-in-a-string.ts)
 - [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) — [풀이](Easy/35_search-insert-position.ts)
 - [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/) — [풀이](Easy/58_length-of-last-word.ts)
+- [66. Plus One](https://leetcode.com/problems/plus-one) — [풀이](Easy/66_plus-one.ts)
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) — [풀이](Easy/70_climbing-stairs.ts)
 - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) — [풀이](Easy/88_merge-sorted-array.ts)
 - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) — [풀이](Easy/118_pascals-triangle.ts)
