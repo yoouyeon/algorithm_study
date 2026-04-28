@@ -2,14 +2,15 @@
 name: prep
 description: 알고리즘 문제 풀이를 준비한다. 브랜치 확인 → 문제 정보 수집 → 파일 생성 → README 업데이트
 argument-hint: "<url> [language]"
-allowed-tools: Bash(bash .claude/skills/prep/scripts/*), mcp__algorithm__get_leetcode_problem, mcp__algorithm__get_backjoon_problem
+allowed-tools: Bash(bash .claude/skills/prep/scripts/*), mcp__algorithm__get_leetcode_problem, mcp__algorithm__get_backjoon_problem, Bash(date +"%H:%M")
 ---
 
 $ARGUMENTS를 파싱하여 url과 풀이 언어를 추출한다.
 
-## 1. 브랜치 확인
+- 현재 시간: !`date +"%H:%M"`
+- 브랜치 상태: !`bash .claude/skills/prep/scripts/branch-check.sh`
 
-브랜치 상태: !`bash .claude/skills/prep/scripts/branch-check.sh`
+## 1. 브랜치 확인
 
 - `last != today`인 경우: `git switch -c $today`로 날짜 브랜치를 만든다.
 - `last == today`인 경우: `git switch $today`로 오늘 날짜 브랜치로 이동한다.
