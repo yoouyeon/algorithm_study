@@ -5,6 +5,26 @@
  * 링크 : https://leetcode.com/problems/container-with-most-water/
  */
 
+// ANCHOR 2026.04.29 풀이 (28분 소요)
+{
+  function maxArea(height: number[]): number {
+    const n = height.length;
+    let left = 0;
+    let right = n - 1;
+    let max = Math.min(height[left], height[right]) * (right - left);
+
+    while (left < right) {
+      // 둘 중 작은 것을 "안쪽으로" 옮김
+      if (height[left] < height[right]) left++;
+      else right--;
+      max = Math.max(Math.min(height[left], height[right]) * (right - left), max);
+    }
+
+    return max;
+  }
+}
+
+// 2025.05.06 풀이
 function maxArea(height: number[]): number {
   const n = height.length;
   let answer = 0;
