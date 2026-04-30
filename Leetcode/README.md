@@ -13,6 +13,7 @@
 - [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) — [풀이](Easy/35_search-insert-position.ts)
 - [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/) — [풀이](Easy/58_length-of-last-word.ts)
 - [66. Plus One](https://leetcode.com/problems/plus-one) — [풀이](Easy/66_plus-one.ts)
+- [67. Add Binary](https://leetcode.com/problems/add-binary/) — [풀이](Easy/67_add-binary.ts)
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) — [풀이](Easy/70_climbing-stairs.ts)
 - [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) — [풀이](Easy/83_remove-duplicates-from-sorted-list.ts)
 - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) — [풀이](Easy/88_merge-sorted-array.ts)
