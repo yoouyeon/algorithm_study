@@ -49,6 +49,7 @@
 - [594. Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence) — [풀이](Easy/594_longest-harmonious-subsequence.ts)
 - [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) — [풀이](Easy/605_can-place-flowers.ts)
 - [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) — [풀이](Easy/643_maximum-average-subarray-i.ts)
+- [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index) — [풀이](Easy/724_find-pivot-index.ts)
 - [766. Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) — [풀이](Easy/766_toeplitz-matrix.ts)
 - [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) — [풀이](Easy/844_backspace-string-compare.ts)
 - [867. Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) — [풀이](Easy/867_transpose-matrix.ts)
