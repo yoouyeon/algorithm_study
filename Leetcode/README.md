@@ -110,6 +110,7 @@
 - [1277. Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) — [풀이](Medium/1277_count-square-submatrices-with-all-ones.ts)
 - [1424. Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii) — [풀이](Medium/1424_diagonal-traverse-ii.ts)
 - [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) — [풀이](Medium/1456_maximum-number-of-vowels-in-a-substring-of-given-length.ts)
+- [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element) — [풀이](Medium/1493_longest-subarray-of-1s-after-deleting-one-element.ts)
 - [1679. Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs) — [풀이](Medium/1679_max-number-of-k-sum-pairs.ts)
 - [1722. Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations) — [풀이](Medium/1722_minimize-hamming-distance-after-swap-operations.ts)
 - [1855. Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values) — [풀이](Medium/1855_maximum-distance-between-a-pair-of-values.ts)
