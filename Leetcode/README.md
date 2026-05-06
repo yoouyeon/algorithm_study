@@ -59,6 +59,7 @@
 - [1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude) — [풀이](Easy/1732_find-the-highest-altitude.ts)
 - [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) — [풀이](Easy/1768_merge-strings-alternately.ts)
 - [2078. Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors) — [풀이](Easy/2078_two-furthest-houses-with-different-colors.ts)
+- [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays) — [풀이](Easy/2215_find-the-difference-of-two-arrays.ts)
 - [2373. Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/) — [풀이](Easy/2373_largest-local-values-in-a-matrix.ts)
 - [2515. Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array) — [풀이](Easy/2515_shortest-distance-to-target-string-in-a-circular-array.ts)
 - [2833. Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin) — [풀이](Easy/2833_furthest-point-from-origin.ts)
