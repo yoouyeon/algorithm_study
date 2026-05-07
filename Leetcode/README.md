@@ -122,6 +122,7 @@
 - [1923. Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii) — [풀이](Medium/1923_sentence-similarity-iii.ts)
 - [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words) — [풀이](Medium/2131_longest-palindrome-by-concatenating-two-letter-words.ts)
 - [2300. Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions) — [풀이](Medium/2300_successful-pairs-of-spells-and-potions.ts)
+- [2352. Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs) — [풀이](Medium/2352_equal-row-and-column-pairs.ts)
 - [2406. Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups) — [풀이](Medium/2406_divide-intervals-into-minimum-number-of-groups.ts)
 - [2452. Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary) — [풀이](Medium/2452_words-within-two-edits-of-dictionary.ts)
 - [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings) — [풀이](Medium/2466_count-ways-to-build-good-strings.ts)
