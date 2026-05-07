@@ -14,5 +14,6 @@ function uniqueOccurrences(arr: number[]): boolean {
   }
 
   const occurrences = [...counterMap.values()];
-  return [...new Set(occurrences)].length === occurrences.length;
+  // 처음엔 Set을 배열로 변환해서 길이를 비교했었음.. 생각해보니 set에도 size 프로퍼티가 있었음
+  return new Set(occurrences).size === occurrences.length;
 }
