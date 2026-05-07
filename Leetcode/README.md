@@ -55,6 +55,7 @@
 - [867. Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) — [풀이](Easy/867_transpose-matrix.ts)
 - [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) — [풀이](Easy/977_squares-of-a-sorted-array.ts)
 - [1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) — [풀이](Easy/1071_greatest-common-divisor-of-strings.ts)
+- [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) — [풀이](Easy/1207_unique-number-of-occurrences.ts)
 - [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) — [풀이](Easy/1431_kids-with-the-greatest-number-of-candies.ts)
 - [1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude) — [풀이](Easy/1732_find-the-highest-altitude.ts)
 - [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) — [풀이](Easy/1768_merge-strings-alternately.ts)
