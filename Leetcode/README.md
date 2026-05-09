@@ -53,6 +53,7 @@
 - [766. Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) — [풀이](Easy/766_toeplitz-matrix.ts)
 - [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) — [풀이](Easy/844_backspace-string-compare.ts)
 - [867. Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) — [풀이](Easy/867_transpose-matrix.ts)
+- [933. Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls) — [풀이](Easy/933_number-of-recent-calls.ts)
 - [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) — [풀이](Easy/977_squares-of-a-sorted-array.ts)
 - [1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) — [풀이](Easy/1071_greatest-common-divisor-of-strings.ts)
 - [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) — [풀이](Easy/1207_unique-number-of-occurrences.ts)
