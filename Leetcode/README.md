@@ -98,6 +98,7 @@
 - [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence) — [풀이](Medium/334_increasing-triplet-subsequence.ts)
 - [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) — [풀이](Medium/347_top-k-frequent-elements.ts)
 - [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) — [풀이](Medium/380_insert-delete-get-random-o-1.ts)
+- [394. Decode String](https://leetcode.com/problems/decode-string) — [풀이](Medium/394_decode-string.ts)
 - [443. String Compression](https://leetcode.com/problems/string-compression) — [풀이](Medium/443_string-compression.ts)
 - [454. 4Sum II](https://leetcode.com/problems/4sum-ii/) — [풀이](Medium/454_4sum-ii.ts)
 - [498. Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) — [풀이](Medium/498_diagonal-traverse.ts)
