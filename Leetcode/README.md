@@ -105,6 +105,7 @@
 - [498. Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) — [풀이](Medium/498_diagonal-traverse.ts)
 - [532. K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array) — [풀이](Medium/532_k-diff-pairs-in-an-array.ts)
 - [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) — [풀이](Medium/567_permutation-in-string.ts)
+- [649. Dota2 Senate](https://leetcode.com/problems/dota2-senate/description) — [풀이](Medium/649_dota2-senate.ts)
 - [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) — [풀이](Medium/713_subarray-product-less-than-k.ts)
 - [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision) — [풀이](Medium/735_asteroid-collision.ts)
 - [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) — [풀이](Medium/739_daily-temperatures.ts)
