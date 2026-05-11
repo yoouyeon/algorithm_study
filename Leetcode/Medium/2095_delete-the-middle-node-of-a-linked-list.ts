@@ -41,4 +41,28 @@ class ListNode {
 
     return head;
   }
+
+  function deleteMiddle2(head: ListNode | null): ListNode | null {
+    // 와 대박 투포인터로 푸는 방법이 있었다.
+    // (어쩐지 두배로 뛰게 하고 싶더라)
+    // 하나는 두칸씩 뛰고, 하나는 한칸씩 뛰고
+    // 빠르게 뛰는 포인터가 끝에 다다르거나 그 이상으로 가면 느리게 뛰는 포인터는 중간 지점 이전 위치에 있게 된다.
+    // 두배로 뛰었으니깐.
+    // -----
+
+    // 길이 1또는 0 예외처리
+    if (!head?.next) return null;
+
+    let slow = head;
+    let fast = head.next.next;
+
+    while (fast?.next) {
+      slow = slow.next;
+      fast = fast.next.next;
+    }
+
+    // 제거.
+    slow.next = slow.next.next;
+    return head;
+  }
 }
