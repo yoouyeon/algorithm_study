@@ -17,6 +17,7 @@
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) — [풀이](Easy/70_climbing-stairs.ts)
 - [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) — [풀이](Easy/83_remove-duplicates-from-sorted-list.ts)
 - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) — [풀이](Easy/88_merge-sorted-array.ts)
+- [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) — [풀이](Easy/104_maximum-depth-of-binary-tree.ts)
 - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) — [풀이](Easy/118_pascals-triangle.ts)
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) — [풀이](Easy/121_best-time-to-buy-and-sell-stock.ts)
 - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) — [풀이](Easy/125_valid-palindrome.ts)
