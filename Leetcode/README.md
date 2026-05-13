@@ -120,6 +120,7 @@
 - [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays) — [풀이](Medium/1248_count-number-of-nice-subarrays.ts)
 - [1277. Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) — [풀이](Medium/1277_count-square-submatrices-with-all-ones.ts)
 - [1424. Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii) — [풀이](Medium/1424_diagonal-traverse-ii.ts)
+- [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree) — [풀이](Medium/1448_count-good-nodes-in-binary-tree.ts)
 - [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) — [풀이](Medium/1456_maximum-number-of-vowels-in-a-substring-of-given-length.ts)
 - [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element) — [풀이](Medium/1493_longest-subarray-of-1s-after-deleting-one-element.ts)
 - [1657. Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close) — [풀이](Medium/1657_determine-if-two-strings-are-close.ts)
