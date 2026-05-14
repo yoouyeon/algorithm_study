@@ -12,8 +12,8 @@ function longestZigZag(root: TreeNode | null): number {
   function zigzag(node: TreeNode | null, leftLength: number, rightLength: number) {
     if (!node) return;
     answer = Math.max(answer, leftLength, rightLength);
-    zigzag(node.right, 0, leftLength + 1); // 왼쪽으로 꺾음: 직전이 right(r)이면 이어지고, left는 리셋
-    zigzag(node.left, rightLength + 1, 0); // 오른쪽으로 꺾음: 직전이 left(l)이면 이어지고, right는 리셋
+    zigzag(node.right, 0, leftLength + 1); // 오른쪽으로 꺾음
+    zigzag(node.left, rightLength + 1, 0); // 왼쪽으로 꺾음
   }
 
   zigzag(root, 0, 0);
