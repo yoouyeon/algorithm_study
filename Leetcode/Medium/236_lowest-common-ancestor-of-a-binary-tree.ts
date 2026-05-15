@@ -6,6 +6,7 @@
 */
 
 // ANCHOR 2026.05.15 풀이 (15분 소요)
+// lowestCommonAncestor를 그대로 재귀호출하는 형태로 풀어도 괜찮다.
 function lowestCommonAncestor(root: TreeNode | null, p: TreeNode | null, q: TreeNode | null): TreeNode | null {
   // p와 q의 가장 가까운 공통 조상 찾기
   // 위로 갈수는 없으니... root를 계속 업데이트해주는 방법이 ... 시간이 너무 많이 걸림
