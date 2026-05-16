@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    // ES2022 문법 사용 (Array.at, Object.hasOwn 등 지원)
+    "target": "ES2022",
+    // import/export 없는 파일도 모듈로 취급 → 파일 간 선언 충돌 방지
+    "moduleDetection": "force",
+    // 엄격한 타입 검사 활성화
+    "strict": true,
+    // DOM 타입 제외, ES2022 표준 타입만 포함 (알고리즘 풀이에 불필요한 타입 제거)
+    "lib": ["ES2022"]
+  },
+  // 풀이 파일이 있는 디렉토리만 포함
+  "include": ["Leetcode/**/*", "Baekjoon/**/*", "Programmers/**/*"],
+  // 자체 tsconfig를 가진 서브프로젝트 제외
+  "exclude": ["mcp-server", "docs", "node_modules"]
+}
