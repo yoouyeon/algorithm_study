@@ -16,7 +16,11 @@ function canVisitAllRooms(rooms: number[][]): boolean {
     if (visited.has(curr)) continue;
     visited.add(curr);
     const keys = rooms[curr];
-    for (const key of keys) stack.push(key);
+    for (const key of keys) {
+      // 방문하지 않은 방의 키만 스택에 추가
+      if (!visited.has(key)) stack.push(key);
+      // stack.push(key);
+    }
   }
 
   return visited.size === rooms.length;
