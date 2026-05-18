@@ -21,6 +21,7 @@
 - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) — [풀이](Easy/118_pascals-triangle.ts)
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) — [풀이](Easy/121_best-time-to-buy-and-sell-stock.ts)
 - [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) — [풀이](Easy/125_valid-palindrome.ts)
+- [136. Single Number](https://leetcode.com/problems/single-number) — [풀이](Easy/136_single-number.ts)
 - [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) — [풀이](Easy/141_linked-list-cycle.ts)
 - [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) — [풀이](Easy/160_intersection-of-two-linked-lists.ts)
 - [169. Majority Element](https://leetcode.com/problems/majority-element/) — [풀이](Easy/169_majority-element.ts)
