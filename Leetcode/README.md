@@ -113,6 +113,7 @@
 - [454. 4Sum II](https://leetcode.com/problems/4sum-ii/) — [풀이](Medium/454_4sum-ii.ts)
 - [498. Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) — [풀이](Medium/498_diagonal-traverse.ts)
 - [532. K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array) — [풀이](Medium/532_k-diff-pairs-in-an-array.ts)
+- [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces) — [풀이](Medium/547_number-of-provinces.ts)
 - [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) — [풀이](Medium/567_permutation-in-string.ts)
 - [649. Dota2 Senate](https://leetcode.com/problems/dota2-senate/description) — [풀이](Medium/649_dota2-senate.ts)
 - [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) — [풀이](Medium/713_subarray-product-less-than-k.ts)
