@@ -18,14 +18,16 @@ function findCircleNum(isConnected: number[][]): number {
     if (visited.has(idx)) continue;
     // 해당 도시를 기준으로 BFS를 돌림
     const queue = [idx];
+    visited.add(idx);
     let front = 0;
     answer++; // BFS의 시작 -> province 하나가 만들어진다는 것
     while (front < queue.length) {
       const curr = queue[front++];
-      if (visited.has(curr)) continue;
-      visited.add(curr);
       for (let j = 0; j < n; j++) {
-        if (idx !== j && isConnected[curr][j]) queue.push(j);
+        if (!visited.has(j) && isConnected[curr][j]) {
+          queue.push(j);
+          visited.add(j);
+        }
       }
     }
   }
