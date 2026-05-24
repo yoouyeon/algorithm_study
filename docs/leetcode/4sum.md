@@ -2,16 +2,8 @@
 title: 18. 4Sum
 description: 리트코드 18번 풀이
 date: 2026-03-01
-tags:
-  - medium
-  - two-pointer
-  - sorting
+category: ["leetcode", "medium", "two-pointer", "sorting"]
 ---
-
-# {{ $frontmatter.title }}
-
-> {{ $frontmatter.description }}
-
 ## 문제
 
 [4Sum](https://leetcode.com/problems/4sum)
