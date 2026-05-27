@@ -132,6 +132,7 @@
 - [1424. Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii) — [풀이](Medium/1424_diagonal-traverse-ii.ts)
 - [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree) — [풀이](Medium/1448_count-good-nodes-in-binary-tree.ts)
 - [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) — [풀이](Medium/1456_maximum-number-of-vowels-in-a-substring-of-given-length.ts)
+- [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero) — [풀이](Medium/1466_reorder-routes-to-make-all-paths-lead-to-the-city-zero.ts)
 - [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element) — [풀이](Medium/1493_longest-subarray-of-1s-after-deleting-one-element.ts)
 - [1657. Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close) — [풀이](Medium/1657_determine-if-two-strings-are-close.ts)
 - [1679. Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs) — [풀이](Medium/1679_max-number-of-k-sum-pairs.ts)
