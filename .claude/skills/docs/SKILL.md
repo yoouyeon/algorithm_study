@@ -2,9 +2,12 @@
 name: docs
 description: 풀이 문서를 docs/ 디렉토리에 생성한다
 argument-hint: "<filename>"
+allowed-tools: Bash(date +"%Y-%m-%dT%H:%M:%S+09:00")
 context: fork
 agent: docs-writer
 ---
+
+현재 날짜와 시간 : !`date +"%Y-%m-%dT%H:%M:%S+09:00"`
 
 $ARGUMENTS에서 파일명(예: `54_spiral-matrix.ts`)을 추출한다.
 파일명이 주어지지 않은 경우 사용자에게 파일명을 질문한다.
