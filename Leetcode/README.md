@@ -140,6 +140,7 @@
 - [1722. Minimize Hamming Distance After Swap Operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations) — [풀이](Medium/1722_minimize-hamming-distance-after-swap-operations.ts)
 - [1855. Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values) — [풀이](Medium/1855_maximum-distance-between-a-pair-of-values.ts)
 - [1923. Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii) — [풀이](Medium/1923_sentence-similarity-iii.ts)
+- [1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze) — [풀이](Medium/1926_nearest-exit-from-entrance-in-maze.ts)
 - [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) — [풀이](Medium/2095_delete-the-middle-node-of-a-linked-list.ts)
 - [2130. Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list) — [풀이](Medium/2130_maximum-twin-sum-of-a-linked-list.ts)
 - [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words) — [풀이](Medium/2131_longest-palindrome-by-concatenating-two-letter-words.ts)
