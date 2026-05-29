@@ -18,7 +18,6 @@ function nearestExit(maze: string[][], entrance: number[]): number {
   const queue = [];
   let front = 0;
   const visited = new Set();
-  let answer = Infinity;
 
   queue.push([entrance[0], entrance[1], 0]); // row, col, dist
   visited.add(`${entrance[0]}, ${entrance[1]}`);
@@ -27,8 +26,9 @@ function nearestExit(maze: string[][], entrance: number[]): number {
     const [row, col, dist] = queue[front++];
     // 탈출 확인
     if (!(row === entrance[0] && col === entrance[1]) && (row === 0 || row === m - 1 || col === 0 || col === n - 1)) {
-      answer = Math.min(answer, dist);
-      continue;
+      // 첫번째 시도 : answer를 계속 업데이트 해줬었음
+      // BFS 특성상 가장 처음 만나는 답이 최단거리임. 따라서 그냥 여기서 반환해주는게 불필요한 방복을 줄인다.
+      return dist;
     }
 
     for (let d = 0; d < 4; d++) {
@@ -43,5 +43,5 @@ function nearestExit(maze: string[][], entrance: number[]): number {
     }
   }
 
-  return answer === Infinity ? -1 : answer;
+  return -1;
 }
