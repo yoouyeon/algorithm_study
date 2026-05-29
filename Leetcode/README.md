@@ -124,6 +124,7 @@
 - [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) — [풀이](Medium/841_keys-and-rooms.ts)
 - [923. 3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity) — [풀이](Medium/923_3sum-with-multiplicity.ts)
 - [954. Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs) — [풀이](Medium/954_array-of-doubled-pairs.ts)
+- [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges) — [풀이](Medium/994_rotting-oranges.ts)
 - [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) — [풀이](Medium/1004_max-consecutive-ones-iii.ts)
 - [1010. Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60) — [풀이](Medium/1010_pairs-of-songs-with-total-durations-divisible-by-60.ts)
 - [1161. Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) — [풀이](Medium/1161_maximum-level-sum-of-a-binary-tree.ts)
