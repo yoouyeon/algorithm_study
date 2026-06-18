@@ -68,6 +68,7 @@
 - [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays) — [풀이](Easy/2215_find-the-difference-of-two-arrays.ts)
 - [2373. Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/) — [풀이](Easy/2373_largest-local-values-in-a-matrix.ts)
 - [2515. Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array) — [풀이](Easy/2515_shortest-distance-to-target-string-in-a-circular-array.ts)
+- [2667. Create Hello World Function](https://leetcode.com/problems/create-hello-world-function) — [풀이](Easy/2667_create-hello-world-function.ts)
 - [2833. Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin) — [풀이](Easy/2833_furthest-point-from-origin.ts)
 - [3783. Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer) — [풀이](Easy/3783_mirror-distance-of-an-integer.ts)
 - [3898. Find the Degree of Each Vertex](https://leetcode.com/problems/find-the-degree-of-each-vertex) — [풀이](Easy/3898_find-the-degree-of-each-vertex.ts)
