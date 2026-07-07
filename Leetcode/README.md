@@ -149,6 +149,7 @@
 - [2130. Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list) — [풀이](Medium/2130_maximum-twin-sum-of-a-linked-list.ts)
 - [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words) — [풀이](Medium/2131_longest-palindrome-by-concatenating-two-letter-words.ts)
 - [2300. Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions) — [풀이](Medium/2300_successful-pairs-of-spells-and-potions.ts)
+- [2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set) — [풀이](Medium/2336_smallest-number-in-infinite-set.ts)
 - [2352. Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs) — [풀이](Medium/2352_equal-row-and-column-pairs.ts)
 - [2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) — [풀이](Medium/2390_removing-stars-from-a-string.ts)
 - [2406. Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups) — [풀이](Medium/2406_divide-intervals-into-minimum-number-of-groups.ts)
