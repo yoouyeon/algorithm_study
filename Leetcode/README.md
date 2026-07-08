@@ -39,6 +39,7 @@
 - [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string) — [풀이](Easy/345_reverse-vowels-of-a-string.ts)
 - [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) — [풀이](Easy/349_intersection-of-two-arrays.ts)
 - [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii) — [풀이](Easy/350_intersection-of-two-arrays-ii.ts)
+- [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower) — [풀이](Easy/374_guess-number-higher-or-lower.ts)
 - [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) — [풀이](Easy/387_first-unique-character-in-a-string.ts)
 - [389. Find the Difference](https://leetcode.com/problems/find-the-difference) — [풀이](Easy/389_find-the-difference.ts)
 - [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) — [풀이](Easy/392_is-subsequence.ts)
