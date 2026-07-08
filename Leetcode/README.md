@@ -155,6 +155,7 @@
 - [2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) — [풀이](Medium/2390_removing-stars-from-a-string.ts)
 - [2406. Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups) — [풀이](Medium/2406_divide-intervals-into-minimum-number-of-groups.ts)
 - [2452. Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary) — [풀이](Medium/2452_words-within-two-edits-of-dictionary.ts)
+- [2462. Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers) — [풀이](Medium/2462_total-cost-to-hire-k-workers.ts)
 - [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings) — [풀이](Medium/2466_count-ways-to-build-good-strings.ts)
 - [2542. Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score) — [풀이](Medium/2542_maximum-subsequence-score.ts)
 - [2615. Sum of Distances](https://leetcode.com/problems/sum-of-distances) — [풀이](Medium/2615_sum-of-distances.ts)
