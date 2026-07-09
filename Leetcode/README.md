@@ -98,6 +98,7 @@
 - [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) — [풀이](Medium/128_longest-consecutive-sequence.ts)
 - [134. Gas Station](https://leetcode.com/problems/gas-station/) — [풀이](Medium/134_gas-station.ts)
 - [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) — [풀이(py)](Medium/151_reverse-words-in-a-string.py) [풀이(ts)](Medium/151_reverse-words-in-a-string.ts)
+- [162. Find Peak Element](https://leetcode.com/problems/find-peak-element) — [풀이](Medium/162_find-peak-element.ts)
 - [189. Rotate Array](https://leetcode.com/problems/rotate-array/) — [풀이](Medium/189_rotate-array.ts)
 - [198. House Robber](https://leetcode.com/problems/house-robber/) — [풀이](Medium/198_house-robber.ts)
 - [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) — [풀이](Medium/199_binary-tree-right-side-view.ts)
