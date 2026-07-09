@@ -5,6 +5,33 @@
 링크 : https://leetcode.com/problems/successful-pairs-of-spells-and-potions
 */
 
+// ANCHOR 2026.07.09 풀이 (11분 소요)
+{
+  function successfulPairs(spells: number[], potions: number[], success: number): number[] {
+    // 모든 조합을 일일이 찾아 볼 수 없다;;
+    // spells를 일일이 돌면서 potion 범위를 이진탐색으로 구해줄 것.
+    // 범위를 찾는 것이기 때문에 mid, mid+1 요런 식으로 left, right를 업데이트해줘야 한다.
+
+    const ret = [];
+    potions.sort((a, b) => a - b);
+
+    for (const spell of spells) {
+      // potions를 이분탐색 해줄것임
+      let left = 0;
+      let right = potions.length;
+      while (left < right) {
+        const mid = Math.floor((right + left) / 2);
+        const potion = potions[mid];
+        if (spell * potion >= success) right = mid;
+        else left = mid + 1;
+      }
+      ret.push(potions.length - left);
+    }
+
+    return ret;
+  }
+}
+
 // ANCHOR 2026.03.02 풀이
 // FEEDBACK
 // 이진탐색 종료 후 left가 유효한지 별도로 체크하는 부분을 right 초기값 조정으로 깔끔하게 없앨 수 있다.
