@@ -127,6 +127,7 @@
 - [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) — [풀이](Medium/739_daily-temperatures.ts)
 - [835. Image Overlap](https://leetcode.com/problems/image-overlap/) — [풀이](Medium/835_image-overlap.ts)
 - [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) — [풀이](Medium/841_keys-and-rooms.ts)
+- [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas) — [풀이](Medium/875_koko-eating-bananas.ts)
 - [923. 3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity) — [풀이](Medium/923_3sum-with-multiplicity.ts)
 - [954. Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs) — [풀이](Medium/954_array-of-doubled-pairs.ts)
 - [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges) — [풀이](Medium/994_rotting-oranges.ts)
