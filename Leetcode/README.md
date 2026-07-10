@@ -84,6 +84,7 @@
 - [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) — [풀이](Medium/12_integer-to-roman.ts)
 - [15. 3Sum](https://leetcode.com/problems/3sum/) — [풀이](Medium/15_3-sum.ts)
 - [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest) — [풀이](Medium/16_3sum-closest.ts)
+- [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) — [풀이](Medium/17_letter-combinations-of-a-phone-number.ts)
 - [18. 4Sum](https://leetcode.com/problems/4sum) — [풀이](Medium/18_4sum.ts)
 - [39. Combination Sum](https://leetcode.com/problems/combination-sum/) — [풀이](Medium/39_combination-sum.ts)
 - [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) — [풀이](Medium/45_jump-game-ii.ts)
