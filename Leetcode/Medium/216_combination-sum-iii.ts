@@ -17,6 +17,7 @@ function combinationSum3(k: number, n: number): number[][] {
         }
 
         for (let idx = start; idx <= 9; idx++) {
+          if (remain - idx < 0) break; // FEEDBACK: 가지치기 하나 추가. (이 문제는 범위가 작아서 성능상 이점이 미미하긴 함)
             path.push(idx);
             backtrack(idx + 1, remain - idx);
             path.pop();
@@ -25,4 +26,4 @@ function combinationSum3(k: number, n: number): number[][] {
 
     backtrack(1, n);
     return result;
-};
+}
