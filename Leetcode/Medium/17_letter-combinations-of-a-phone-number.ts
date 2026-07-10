@@ -21,6 +21,8 @@ function letterCombinations(digits: string): string[] {
         ['w', 'x', 'y', 'z']
     ]
 
+    if (!digits) return []; // FEEDBACK : 실제 문제 조건에서는 들어오지 않을 값이긴 하지만, 코드의 완성도를 높이기
+
     function backtrack(curr: string, idx: number) {
         if (idx === digits.length) {
             answer.push(curr);
