@@ -5,8 +5,27 @@
 링크 : https://leetcode.com/problems/house-robber/
 */
 
-// [198] House Robber
+// ANCHOR 2026.07.13 풀이 (6분 소요)
+{
+  function rob(nums: number[]): number {
+      const n = nums.length;
+      if (n === 1) {
+          return nums[0];
+      }
 
+      let prev2 = nums[0];
+      let prev1 = Math.max(nums[0], nums[1]);
+
+      for (let idx = 2; idx < n; idx++) {
+          const curr = Math.max(prev2 + nums[idx], prev1);
+          [prev2, prev1] = [prev1, curr];
+      }
+
+      return prev1;
+  };
+}
+
+// ANCHOR 2025.04.04 풀이
 /**
  * [Idea]
  * 어떤 집을 턴다고 했을 때 최대 금액을 구하는 식은 아래와 같이 세울 수 있다.:
