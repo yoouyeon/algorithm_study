@@ -19,5 +19,5 @@ function numTilings(n: number): number {
         dp[i] = (dp[i - 1] * 2 + dp[i - 3]) % MOD;
     }
 
-    return dp[n] % MOD;
+    return dp[n];
 };
