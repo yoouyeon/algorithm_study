@@ -129,6 +129,7 @@
 - [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) — [풀이](Medium/713_subarray-product-less-than-k.ts)
 - [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision) — [풀이](Medium/735_asteroid-collision.ts)
 - [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) — [풀이](Medium/739_daily-temperatures.ts)
+- [790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling) — [풀이](Medium/790_domino-and-tromino-tiling.ts)
 - [835. Image Overlap](https://leetcode.com/problems/image-overlap/) — [풀이](Medium/835_image-overlap.ts)
 - [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) — [풀이](Medium/841_keys-and-rooms.ts)
 - [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas) — [풀이](Medium/875_koko-eating-bananas.ts)
