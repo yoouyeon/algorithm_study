@@ -94,6 +94,7 @@
 - [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix) — [풀이](Medium/54_spiral-matrix.ts)
 - [55. Jump Game](https://leetcode.com/problems/jump-game/) — [풀이](Medium/55_jump-game.ts)
 - [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) — [풀이](Medium/59_spiral-matrix-ii.ts)
+- [62. Unique Paths](https://leetcode.com/problems/unique-paths) — [풀이](Medium/62_unique-paths.ts)
 - [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) — [풀이](Medium/80_remove-duplicates-from-sorted-array-ii.ts)
 - [91. Decode Ways](https://leetcode.com/problems/decode-ways/) — [풀이](Medium/91_decode-ways.ts)
 - [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) — [풀이](Medium/98_validate-binary-search-tree.ts)
