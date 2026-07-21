@@ -139,6 +139,7 @@
 - [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges) — [풀이](Medium/994_rotting-oranges.ts)
 - [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) — [풀이](Medium/1004_max-consecutive-ones-iii.ts)
 - [1010. Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60) — [풀이](Medium/1010_pairs-of-songs-with-total-durations-divisible-by-60.ts)
+- [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) — [풀이](Medium/1143_longest-common-subsequence.ts)
 - [1161. Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) — [풀이](Medium/1161_maximum-level-sum-of-a-binary-tree.ts)
 - [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays) — [풀이](Medium/1248_count-number-of-nice-subarrays.ts)
 - [1277. Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) — [풀이](Medium/1277_count-square-submatrices-with-all-ones.ts)
