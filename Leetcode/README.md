@@ -36,6 +36,7 @@
 - [268. Missing Number](https://leetcode.com/problems/missing-number) — [풀이](Easy/268_missing-number.ts)
 - [283. Move Zeroes](https://leetcode.com/problems/move-zeroes) — [풀이](Easy/283_move-zeroes.ts)
 - [290. Word Pattern](https://leetcode.com/problems/word-pattern) — [풀이](Easy/290_word-pattern.ts)
+- [338. Counting Bits](https://leetcode.com/problems/counting-bits) — [풀이](Easy/338_counting-bits.ts)
 - [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string) — [풀이](Easy/345_reverse-vowels-of-a-string.ts)
 - [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) — [풀이](Easy/349_intersection-of-two-arrays.ts)
 - [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii) — [풀이](Easy/350_intersection-of-two-arrays-ii.ts)
