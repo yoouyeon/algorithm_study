@@ -41,7 +41,7 @@ Claude Code를 활용한 풀이 흐름입니다.
  ┃ ┣ 📂Medium
  ┃ ┣ 📂Hard
  ┃ ┗ 📜README.md
- ┣ 📂docs - VitePress 풀이 위키
+ ┣ 📂docs - 풀이 문서
  ┣ 📂mcp-server - Claude Code MCP 서버
  ┣ 📂.claude - Claude Code skills
  ┣ 📜README.md

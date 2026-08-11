@@ -6,7 +6,7 @@
 ├── Baekjoon/{tier}/          # 예: Bronze1, Silver3, Gold5
 ├── Programmers/{level}/      # 예: Level0, Level1, Level2, Level3, Level4, Unrated
 ├── Leetcode/{difficulty}/    # 예: Easy, Medium, Hard
-├── docs/                     # VitePress 풀이 위키
+├── docs/                     # 풀이 문서
 └── mcp-server/               # MCP 서버
 ```
 
