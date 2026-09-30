@@ -12,8 +12,8 @@ git push --set-upstream origin $(git branch --show-current)
 
 ## 1. 문제 목록 수집
 
-`git log main..HEAD --oneline`으로 커밋 목록을 조회한 뒤, `💡`로 시작하는 커밋 메시지만 추출한다.
-중복된 제목은 제거하고 목록을 만든다.
+`git log main..HEAD --oneline`으로 커밋 목록을 조회한 뒤, `solve: `로 시작하는 커밋 메시지만 추출한다.
+`solve: ` 접두사를 뗀 나머지(`{번호}. {제목}`)가 문제 제목이다. 중복된 제목은 제거하고 목록을 만든다.
 
 ## 2. PR 생성
 
@@ -36,8 +36,8 @@ gh pr create \
 
 사용 가능한 라벨 목록:
 
-| 라벨 | 플랫폼 |
-|------|------|
-| `Baekjoon` | 백준 |
-| `Leetcode` | 리트코드 |
-| `Programmers` | 프로그래머스 |
+| 라벨 | 플랫폼 | 디렉토리 |
+|------|------|------|
+| `Baekjoon` | 백준 | `Baekjoon/` |
+| `Leetcode` | 리트코드 | `Leetcode/` |
+| `Programmers` | 프로그래머스 | `Programmers/` |

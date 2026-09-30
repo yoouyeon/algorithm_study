@@ -13,15 +13,17 @@
 
 ## 🤖 문제 풀이 프로세스
 
-Claude Code를 활용한 풀이 흐름입니다.
+Claude Code와 [leetlog](https://github.com/yoouyeon/claude-plugin/tree/main/plugins/leetlog) 플러그인을 활용한 풀이 흐름입니다.
 
 | 단계 | 커맨드 | 설명 |
 |------|--------|------|
-| 1 | `/prep <url>` | 브랜치 생성, 파일 준비 |
-| 2 | _(풀이)_ | 직접 코드 작성 |
-| 3 | `/done` | 커밋 + 피드백 |
-| 4 | `/docs` | 풀이 문서 생성 |
-| 5 | `/pr` / `/merge` | PR 생성 및 머지 |
+| 1 | `/branch` | 오늘 날짜 브랜치 생성 |
+| 2 | `/leetlog:prep <url>` | 풀이 파일 준비 |
+| 3 | _(풀이)_ | 직접 코드 작성 (막히면 `/leetlog:hint`) |
+| 4 | `/leetlog:done` | 소요 시간 기록 + 피드백 |
+| 5 | `/leetlog:docs` | 풀이 문서 생성 |
+| 6 | `/leetlog:commit` | 풀이·문서 커밋 |
+| 7 | `/pr` / `/merge` | PR 생성 및 머지 |
 
 ## 📂 폴더 구조
 
