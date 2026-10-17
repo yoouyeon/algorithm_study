@@ -5,6 +5,14 @@
 링크 : https://leetcode.com/problems/counter
 */
 
+// ANCHOR 2026.10.17 풀이 (1분 소요)
+function createCounter2(n: number): () => number {
+  let counter = n;
+  return function() {
+      return counter++;
+  }
+}
+
 // ANCHOR 2026.06.18 풀이 (1분 소요)
 function createCounter(n: number): () => number {
   let count = n;
